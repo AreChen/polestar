@@ -10,43 +10,43 @@ return {
 	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "飛往{object:3202}",
 	-- {area:75} Stonard
-	["{area:75} flight master"] = "",
+	["{area:75} flight master"] = "{area:75}飛行管理員",
 
 	-- Step 3: To Grom'gol
 	-- {object:3202} Grom'gol
 	["To {object:3202}"] = "前往{object:3202}",
 	-- {area:75} Stonard · {area:117} Grom'gol Base Camp
-	["The flight from {area:75} lands at {area:117}."] = "",
+	["The flight from {area:75} lands at {area:117}."] = "從{area:75}起飛的航班在{area:117}降落。",
 
 	-- Step 5: Fly to Booty Bay
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "飛往{area:35}",
 	-- {object:3202} Grom'gol
-	["{object:3202} flight master"] = "",
+	["{object:3202} flight master"] = "{object:3202}飛行管理員",
 
 	-- Step 6: Booty Bay
 	-- {area:35} Booty Bay · {npc:7406} Oglethorpe Obnoticus
 	["Continue south to {area:35}. {npc:7406} has his workshop on the upper ring of the bay."] = "繼續向南前往{area:35}。{npc:7406}的工作室在海灣的上層環道。",
 	-- {npc:7406} Oglethorpe Obnoticus
-	["{npc:7406}, inside"] = "",
+	["{npc:7406}, inside"] = "{npc:7406}，在屋裡",
 	-- {npc:2491} Whiskey Slim
-	["{npc:2491}, in the inn"] = "",
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
+	["{npc:2491}, in the inn"] = "{npc:2491}，在旅店裡",
+	["\"Sea Wolf\" MacKinley, on the top floor"] = "“海狼”麥金利，在頂樓",
 	-- {npc:2487} Fleet Master Seahorn
-	["{npc:2487}, on the balcony of the same building"] = "",
+	["{npc:2487}, on the balcony of the same building"] = "{npc:2487}，在同一棟樓的陽臺上",
 
 	-- Step 7: The Bloodsail ships
 	["The Bloodsail ships"] = "血帆海盜船",
 	-- {area:43} Wild Shore · {npc:2550} Captain Stillwater · {npc:2548} Captain Keelhaul · {npc:2546} Fleet Master Firallon
-	["South of Booty Bay, three Bloodsail ships lie off the {area:43}: {npc:2550}, {npc:2548} and {npc:2546} each stand on a deck with their crews. Swim out and work from ship to ship."] = "",
+	["South of Booty Bay, three Bloodsail ships lie off the {area:43}: {npc:2550}, {npc:2548} and {npc:2546} each stand on a deck with their crews. Swim out and work from ship to ship."] = "在藏寶海灣以南，三艘血帆海盜船停在{area:43}外的海面上：{npc:2550}、{npc:2548}和{npc:2546}各帶船員站在一層甲板上。游過去，一艘一艘清。",
 
 	-- Step 9: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "這些是精英怪：建議組隊，找人一起做。{quest:8552}需要2人小隊。單人可以跳過：本路線會安排你把經驗刷回來。",
 
 	-- Step 14: Fly to Grom'gol
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35}的飛行管理員",
 
 	-- Step 15: Back to Grom'gol
 	-- {object:3202} Grom'gol
@@ -54,7 +54,7 @@ return {
 
 	-- Step 16: The Mind's Eye
 	-- {npc:818} Mai'Zoth
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:818} (level 47 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back.\nCareful: Two elite caster guards, around level 45, stand with {npc:818} and join the fight together with him."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:818} (level 47 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back.\nCareful: Two elite caster guards, around level 45, stand with {npc:818} and join the fight together with him."] = "這些是精英怪：建議組隊，找人一起做。{npc:818}（47級精英）需要2人小隊。單人可以跳過：本路線會安排你把經驗刷回來。\n注意：兩名約45級的精英法系護衛與{npc:818}站在一起，會隨他一起加入戰鬥。",
 	["Below ground"] = "地下",
 
 	-- Step 20: Zeppelin to Orgrimmar
@@ -81,17 +81,17 @@ return {
 
 	-- Step 25: Haldarr Encampment: kill these as you meet them
 	-- {area:1236} Haldarr Encampment
-	["{area:1236}: kill these as you meet them"] = "",
+	["{area:1236}: kill these as you meet them"] = "{area:1236}：遇到就殺",
 	["The Highborne ghosts haunt the ruins just north of the shrine; the Haldarr satyrs camp a little further north."] = "精靈貴族的鬼魂在神殿北邊的遺跡中出沒；哈達爾薩特在更北邊一點紮營。",
 	-- {npc:6117} Highborne Lichling · {area:1235} Shadowsong Shrine
-	["{npc:6117} walks around {area:1235}: look inside the circle on the map"] = "",
+	["{npc:6117} walks around {area:1235}: look inside the circle on the map"] = "{npc:6117}在{area:1235}一帶走動：檢視地圖上的圓圈範圍",
 
 	-- Step 26: Level 50
-	["Level 50"] = "",
+	["Level 50"] = "50級",
 	-- {quest:4493} March of the Silithid · {npc:7010} Zilzibin Drumlore · {zone:1454} Orgrimmar · {zone:1447} Azshara · {area:2100} Maraudon · {area:1417} Sunken Temple
-	["Top up here to level 50: {quest:4493}, from {npc:7010} in {zone:1454} at the end of {zone:1447}, needs it. Or, with a group, run the {area:2100} dungeon or the {area:1417} dungeon instead."] = "",
+	["Top up here to level 50: {quest:4493}, from {npc:7010} in {zone:1454} at the end of {zone:1447}, needs it. Or, with a group, run the {area:2100} dungeon or the {area:1417} dungeon instead."] = "在這裡補到50級：{zone:1447}結束後，{zone:1454}的{npc:7010}提供的{quest:4493}需要達到這個等級。也可以組隊刷{area:2100}或{area:1417}地下城。",
 	-- {npc:6125} Haldarr Satyr
-	["grind on {npc:6125}"] = "",
+	["grind on {npc:6125}"] = "刷{npc:6125}",
 
 	-- Step 27: Loh'atu
 	-- {npc:11548} Loh'atu · {area:3137} Talrendis Point
@@ -120,7 +120,7 @@ return {
 
 	-- Step 35: Ruins of Eldarath: kill these as you meet them
 	-- {area:1221} Ruins of Eldarath
-	["{area:1221}: kill these as you meet them"] = "",
+	["{area:1221}: kill these as you meet them"] = "{area:1221}：遇到就殺",
 	-- {npc:8420} Kim'jael
 	["Ride south-west to the ruins. The four tablets lie among the ruins, guarded by Spitelash naga; any Siren or Myrmidon can carry {npc:8420}'s rune."] = "向西南騎往遺跡。四塊石板在遺跡之間，由惡鞭納迦看守；任何惡鞭海妖或惡鞭侍從都可能帶著{npc:8420}的符文。",
 
@@ -143,7 +143,7 @@ return {
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "飛往{area:1637}",
 	-- {area:1237} Valormok
-	["{area:1237} flight master"] = "",
+	["{area:1237} flight master"] = "{area:1237}飛行管理員",
 
 	-- Step 41: Orgrimmar
 	-- {npc:7010} Zilzibin Drumlore
@@ -156,9 +156,9 @@ return {
 	["Keep {npc:8659}'s payment and Ag'tor's {quest:3504}: they go back to {area:1237} on a later visit."] = "保留{npc:8659}的報酬和阿格圖的{quest:3504}：下次造訪時帶回{area:1237}。",
 
 	-- Step 43: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "聖騎士訓練師",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}在{zone:1456}；{zone:1454}沒有聖騎士訓練師",
 
 	-- Step 44: Fly to Thunder Bluff
 	-- {area:1638} Thunder Bluff
@@ -181,7 +181,7 @@ return {
 	-- {area:1099} Camp Mojache
 	["Fly to {area:1099}"] = "飛往{area:1099}",
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456}飛行管理員",
 
 	-- Step 49: Camp Mojache
 	-- {npc:7776} Talo Thornhoof · {zone:1448} Felwood
@@ -210,10 +210,10 @@ return {
 
 	-- Step 58: The Forgotten Coast: kill these as you meet them
 	-- {area:1108} The Forgotten Coast
-	["{area:1108}: kill these as you meet them"] = "",
+	["{area:1108}: kill these as you meet them"] = "{area:1108}：遇到就殺",
 	-- {item:18904} Zorbin's Ultra-Shrinker
 	-- plural, as words: Sea Elementals = {npc:5461} Sea Elemental · Sea Sprays = {npc:5462} Sea Spray · Land Walkers = {npc:5357} Land Walker · Cliff Giants = {npc:5358} Cliff Giant
-	["The Sea Elementals and Sea Sprays wash along the shore around the dock.\nThe Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too."] = "",
+	["The Sea Elementals and Sea Sprays wash along the shore around the dock.\nThe Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too."] = "海元素和海之飛濺在碼頭周圍的岸邊遊蕩。\n陸地行者和峭壁巨人在碼頭北邊的山丘上徘徊。先用{item:18904}把每一隻電一下：縮小後它們就不再是精英。每個被電的巨人都會掉落殘渣；別忘了對它的屍體使用繆塞克容器。",
 
 	-- Step 60: Back to Camp Mojache
 	-- {area:1099} Camp Mojache
@@ -223,11 +223,11 @@ return {
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "飛往{area:976}",
 	-- {area:1099} Camp Mojache
-	["{area:1099} flight master"] = "",
+	["{area:1099} flight master"] = "{area:1099}飛行管理員",
 
 	-- Step 62: Gadgetzan
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}，在屋裡",
 
 	-- Step 64: Gadgetzan
 	-- {npc:7876} Tran'rek

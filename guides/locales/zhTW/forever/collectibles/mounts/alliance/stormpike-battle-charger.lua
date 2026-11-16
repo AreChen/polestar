@@ -8,11 +8,11 @@
 return {
 	-- Step 1: Stormpike Guard
 	-- {area:2839} Alterac Valley · {faction:730} Stormpike Guard · {npc:13217} Thanthaldis Snowgleam · {zone:1416} Alterac Mountains · {area:287} Hillsbrad · {npc:13216} Gaelden Hammersmith
-	["{area:2839} (level 51+) raises {faction:730}: win, capture towers and graveyards, and hand in the battleground's turn-ins; the Alterac Valley Reputation guide shows the fastest way. {npc:13217} waits outside the battleground on the {zone:1416} border above {area:287}; {npc:13216} inside {area:2839} sells the same mount."] = "",
+	["{area:2839} (level 51+) raises {faction:730}: win, capture towers and graveyards, and hand in the battleground's turn-ins; the Alterac Valley Reputation guide shows the fastest way. {npc:13217} waits outside the battleground on the {zone:1416} border above {area:287}; {npc:13216} inside {area:2839} sells the same mount."] = "{area:2839}（51級以上）提升{faction:730}：獲勝、佔領塔和墓地、交戰場任務物品；奧特蘭克山谷聲望指南有最快路線。{npc:13217}在戰場外{zone:1416}邊界、{area:287}上方等候；{area:2839}內的{npc:13216}出售同樣的坐騎。",
 
 	-- Step 2: Stormpike Battle Charger
 	-- {skill:762} Riding
-	["The Forever client lists it at 200g and level 60. It runs at full speed, so riding it needs Journeyman {skill:762}; any Alliance race can ride it."] = "",
+	["The Forever client lists it at 200g and level 60. It runs at full speed, so riding it needs Journeyman {skill:762}; any Alliance race can ride it."] = "Forever客戶端標價200金、60級。它以全速奔跑，因此騎乘需要中級{skill:762}；任何聯盟種族都可騎乘。",
 	-- {npc:13217} Thanthaldis Snowgleam
 	["{npc:13217}, 200g"] = "{npc:13217}，200金",
 

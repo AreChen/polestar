@@ -7,20 +7,20 @@
 -- The comments are rewritten by sync.
 return {
 	-- Guide
-	["Poisons (Horde)"] = "",
+	["Poisons (Horde)"] = "毒藥（部落）",
 	-- {item:7676} Thistle Tea
-	["Forever teaches Poisons through this chain, not the trainer; the {item:7676} recipe comes with it."] = "",
+	["Forever teaches Poisons through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever透過這條任務線而不是訓練師來傳授毒藥；同時附帶{item:7676}配方。",
 
 	-- Step 1: Lockpicking practice
-	["Lockpicking practice"] = "",
+	["Lockpicking practice"] = "開鎖練習",
 	-- {object:129127} Gallywix's Lockbox · {spell:1804} Pick Lock · {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {item:5060} Thieves' Tools · {area:392} Ratchet
-	["{object:129127} at the end of the tower job needs Lockpicking of about 70-75. Train {spell:1804} from Gest or {npc:3401} in the {object:172960} if you lack it, carry {item:5060}, and pick the Buccaneer's Strongboxes on the middle deck of the Tide Razor, the beached pirate ship south of {area:392}: they come back fast. Your cap rises 5 per level."] = "",
-	["Tide Razor"] = "",
-	["Lockpicking about 75: pick the Buccaneer's Strongboxes on the Tide Razor"] = "",
+	["{object:129127} at the end of the tower job needs Lockpicking of about 70-75. Train {spell:1804} from Gest or {npc:3401} in the {object:172960} if you lack it, carry {item:5060}, and pick the Buccaneer's Strongboxes on the middle deck of the Tide Razor, the beached pirate ship south of {area:392}: they come back fast. Your cap rises 5 per level."] = "塔樓任務最後的{object:129127}需要約70-75點開鎖。如果不會，就找{object:172960}裡的蓋斯特或{npc:3401}學習{spell:1804}，帶上{item:5060}，去撬潮汐剃刀號中層甲板上的海盜保險箱——那是{area:392}以南一艘擱淺的海盜船：重新整理很快。你的開鎖上限每級提高5點。",
+	["Tide Razor"] = "潮汐剃刀號",
+	["Lockpicking about 75: pick the Buccaneer's Strongboxes on the Tide Razor"] = "開鎖技能約75：撬開潮汐剃刀號上的海盜保險箱",
 
 	-- Step 2: The Shattered Salute
 	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
-	["{npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Take the quest and wait: he speaks three lines and salutes you. After his third line, target him and type /salute. If it does not count, abandon the quest and take it again. The tower job ahead is built around Ambush, which needs a dagger: if you have none, Kareth, the blade merchant in the {object:172960}, sells a Jambiya."] = "",
+	["{npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Take the quest and wait: he speaks three lines and salutes you. After his third line, target him and type /salute. If it does not count, abandon the quest and take it again. The tower job ahead is built around Ambush, which needs a dagger: if you have none, Kareth, the blade merchant in the {object:172960}, sells a Jambiya."] = "{npc:3401}站在{object:172960}裡，也就是{object:172982}下方的峽谷。接取任務後等著：他會說三句話，然後向你敬禮。等他說完第三句，選中他並輸入 /敬禮。如果沒算數，就放棄任務重新接取。前面的塔樓任務圍繞伏擊展開，需要匕首：如果沒有匕首，{object:172960}裡的武器商人卡雷斯出售一把詹比亞彎刀。",
 	-- {npc:3401} Shenthul
 	["/salute {npc:3401}"] = "對{npc:3401}輸入 /salute",
 	-- {quest:2458} Deep Cover · {item:8051} Flare Gun
@@ -28,18 +28,18 @@ return {
 
 	-- Step 3: Taskmaster Fizzule
 	-- {area:382} Sludge Fen · {item:8051} Flare Gun · {npc:3401} Shenthul
-	["Fly to the Crossroads and head north to the Venture Co. tower above the {area:382}. Fizzule stands under a tree east of the tower, outside it, and is hostile until signalled. Target him from about 50 yards and fire the {item:8051} twice, then walk up in front of him and /salute. In any other order he attacks. Lost the {item:8051}? Abandon and retake from {npc:3401}."] = "",
+	["Fly to the Crossroads and head north to the Venture Co. tower above the {area:382}. Fizzule stands under a tree east of the tower, outside it, and is hostile until signalled. Target him from about 50 yards and fire the {item:8051} twice, then walk up in front of him and /salute. In any other order he attacks. Lost the {item:8051}? Abandon and retake from {npc:3401}."] = "飛到十字路口，向北前往{area:382}上方風險投資公司的塔樓。菲祖爾站在塔樓東側的一棵樹下、塔外，在收到訊號前是敵對的。在約50碼外選中他，發射{item:8051}兩次，然後走到他面前 /敬禮。順序不對他就會攻擊。弄丟了{item:8051}？放棄任務，再找{npc:3401}重新接取。",
 	-- {item:8051} Flare Gun
-	["{item:8051}, twice, at Fizzule"] = "",
+	["{item:8051}, twice, at Fizzule"] = "{item:8051}，對菲祖爾使用兩次",
 
 	-- Step 4: Silixiz's Tower Key
 	-- {item:8066} Fizzule's Whistle · {npc:7287} Foreman Silixiz · {spell:921} Pick Pocket
 	["Keep {item:8066} in your bags and use it on him every time you come near, or he turns hostile. {npc:7287} (level 22) walks by the tower: hug the wall, stealth up behind him and {spell:921} the key. Killing him does not give it; if his pockets are empty, kill him and wait 4 1/2 minutes for him to come back."] = "",
 	-- {item:8072} Silixiz's Tower Key
-	["Pick Pocket Foreman Silixiz for {item:8072}"] = "",
+	["Pick Pocket Foreman Silixiz for {item:8072}"] = "對工頭希利克斯使用搜尋，獲得{item:8072}",
 
 	-- Step 5: The Venture Co. tower
-	["The Venture Co. tower"] = "",
+	["The Venture Co. tower"] = "風險投資公司的塔樓",
 	-- {spell:1943} Rupture · {spell:2098} Eviscerate · {npc:7288} Grand Foreman Puzik Gallywix · {spell:1776} Gouge · {spell:5277} Evasion · {item:7676} Thistle Tea · {object:129127} Gallywix's Lockbox · {spell:9810} Touch of Zanzil · {npc:2391} Serge Hinott
 	-- plural, as words: Mutated Venture Co. Drones = {npc:7310} Mutated Venture Co. Drone
 	["Inside, floor by floor (everything comes back after 4 1/2 minutes): the Mutated Venture Co. Drones (level 25) on the ground floor die to one Ambush with a dagger; the Patrollers on the second floor take half their health from a one-point {spell:1943}; the Lookouts on the open third floor from a one-point {spell:2098}. {npc:7288} waits on the top floor: a level 23 elite, back 10 minutes after a kill. Open with Ambush (about half his health), then {spell:1776}, {spell:5277}, a healing potion and {item:7676}; a friend makes it easy. One head per kill. Then pick {object:129127} beside him for the cache: it poisons you with the {spell:9810}, which weakens your stealth and agility until {npc:2391} cures it."] = "",
@@ -60,7 +60,7 @@ return {
 	-- {npc:2391} Serge Hinott
 	["{npc:2391}: Poisons"] = "{npc:2391}：毒藥",
 	-- {item:8095} Hinott's Oil · {spell:9810} Touch of Zanzil
-	["{item:8095}: clears the {spell:9810}"] = "",
+	["{item:8095}: clears the {spell:9810}"] = "{item:8095}：解除{spell:9810}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["At 20 {npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Target him and type /salute."] = "20級時，{npc:3401}站在{object:172960}，也就是{object:172982}下方的峽谷。選取他並輸入 /salute。",

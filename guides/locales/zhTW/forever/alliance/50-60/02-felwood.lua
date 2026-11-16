@@ -8,9 +8,9 @@
 return {
 	-- Step 1: Fly to Astranaar
 	-- {area:415} Astranaar
-	["Fly to {area:415}"] = "",
+	["Fly to {area:415}"] = "飛往{area:415}",
 	-- {area:702} Rut'theran Village
-	["{area:702} flight master"] = "",
+	["{area:702} flight master"] = "{area:702}飛行管理員",
 
 	-- Step 2: Felwood
 	-- {area:2479} Emerald Sanctuary
@@ -18,15 +18,15 @@ return {
 
 	-- Step 3: The Emerald Sanctuary
 	-- {area:415} Astranaar · {zone:1448} Felwood · {area:2479} Emerald Sanctuary
-	["Ride north out of {area:415} into {zone:1448} to the {area:2479}, the druids' camp by the road."] = "",
+	["Ride north out of {area:415} into {zone:1448} to the {area:2479}, the druids' camp by the road."] = "從{area:415}騎馬向北進入{zone:1448}，前往路旁的德魯伊營地{area:2479}。",
 	-- {npc:9528} Arathandris Silversky · {npc:11554} Grazle
 	["{npc:9528}, in the ruins just east of {npc:11554}"] = "{npc:9528}，在{npc:11554}東邊的廢墟裡",
 	-- {npc:9116} Eridan Bluewind
-	["{npc:9116}, inside"] = "",
+	["{npc:9116}, inside"] = "{npc:9116}，在裡面",
 
 	-- Step 4: Grazle
 	-- {npc:11554} Grazle · {area:2479} Emerald Sanctuary
-	["{npc:11554} the furbolg stands by the road just south of the {area:2479}."] = "",
+	["{npc:11554} the furbolg stands by the road just south of the {area:2479}."] = "熊怪{npc:11554}站在路邊，就在{area:2479}以南。",
 
 	-- Step 5: Deadwood Village
 	-- {npc:11554} Grazle
@@ -34,43 +34,43 @@ return {
 	["The Deadwood furbolgs live in the village just south-west of {npc:11554}; keep the Deadwood Headdress Feathers they drop."] = "死木熊怪住在{npc:11554}西南方的村莊裡；保留牠們掉落的死木頭飾羽毛。",
 
 	-- Step 6: Level 52.58
-	["Level 52.58"] = "",
+	["Level 52.58"] = "52.58級",
 	-- {item:9328} Super Snapper FX · {area:1417} Sunken Temple · {area:2100} Maraudon
-	["If you skipped The Horn of the Beast or The {item:9328}, grind here to level 52.58 to stay on the route's plan. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "",
+	["If you skipped The Horn of the Beast or The {item:9328}, grind here to level 52.58 to stay on the route's plan. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "如果跳過了“野獸的號角”或“{item:9328}”，就在這裡刷到52.58級，以保持攻略的節奏。或者組隊去打{area:1417}或{area:2100}副本代替。",
 	-- {npc:7153} Deadwood Warrior
-	["grind on {npc:7153}"] = "",
+	["grind on {npc:7153}"] = "刷{npc:7153}",
 
 	-- Step 7: Grazle
 	-- {npc:15395} Nafien · {zone:1448} Felwood
 	["{npc:15395} waits at the north end of {zone:1448}"] = "{npc:15395}在{zone:1448}北端等候",
 
 	-- Step 8: Level 52.69
-	["Level 52.69"] = "",
+	["Level 52.69"] = "52.69級",
 	-- {area:1763} Jaedenar · {area:1417} Sunken Temple · {area:2100} Maraudon
-	["Top up here to level 52.69 before the hand-ins at {area:1763}: they take you to level 53. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "",
+	["Top up here to level 52.69 before the hand-ins at {area:1763}: they take you to level 53. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "先在這裡補到52.69級，再去{area:1763}交任務：這些任務會把你升到53級。或者組隊去打{area:1417}或{area:2100}副本代替。",
 	-- {npc:7155} Deadwood Pathfinder
-	["grind on {npc:7155}"] = "",
+	["grind on {npc:7155}"] = "刷{npc:7155}",
 
 	-- Step 9: Jadefire Glen
 	-- {npc:9454} Xavathras · {spell:7992} Slowing Poison
 	-- plural, as words: Jadefire Shadowstalkers = {npc:7110} Jadefire Shadowstalker · Cursed Oozes = {npc:7086} Cursed Ooze
-	["The Jadefire satyrs hold the glen west of the road, with {npc:9454} at its back.\nCareful: Jadefire Shadowstalkers (level 51-52) use Sneak and {spell:7992} and are stealthed, so they often join fights uninvited.\nCursed Oozes slide about the glen's streams: kill them and use Laris's Empty Ooze Jar on their remains."] = "",
+	["The Jadefire satyrs hold the glen west of the road, with {npc:9454} at its back.\nCareful: Jadefire Shadowstalkers (level 51-52) use Sneak and {spell:7992} and are stealthed, so they often join fights uninvited.\nCursed Oozes slide about the glen's streams: kill them and use Laris's Empty Ooze Jar on their remains."] = "碧火薩特佔據道路以西的山谷，{npc:9454}在最深處。\n小心：碧火暗影潛伏者（51-52級）會潛行並使用{spell:7992}，常常不請自來地加入戰鬥。\n詛咒軟泥怪在山谷的溪流裡四處遊蕩：殺死它們，再對殘骸使用拉里斯的空軟泥怪罐。",
 	-- {npc:7109} Jadefire Felsworn
-	["grind on {npc:7109}"] = "",
+	["grind on {npc:7109}"] = "刷{npc:7109}",
 
 	-- Step 11: Jaedenar
 	-- {area:1763} Jaedenar
-	["{area:1763} is the ruined temple north of the glen."] = "",
+	["{area:1763} is the ruined temple north of the glen."] = "{area:1763}是林地以北的廢棄神殿。",
 	-- {item:11949} Filled Tainted Ooze Jar · {area:1763} Jaedenar
 	-- plural, as words: Tainted Oozes = {npc:7092} Tainted Ooze
-	["{item:11949}: Tainted Oozes slide about {area:1763}'s fel pools"] = "",
+	["{item:11949}: Tainted Oozes slide about {area:1763}'s fel pools"] = "{item:11949}：汙染軟泥怪在{area:1763}的邪能水池裡四處遊蕩",
 	-- {npc:7125} Jaedenar Hound
-	["grind on {npc:7125}"] = "",
+	["grind on {npc:7125}"] = "刷{npc:7125}",
 
 	-- Step 12: Level 52.9
-	["Level 52.9"] = "",
+	["Level 52.9"] = "52.9級",
 	-- {area:2479} Emerald Sanctuary · {area:1417} Sunken Temple · {area:2100} Maraudon
-	["Top up here to level 52.9 before the hand-ins at {area:2479}: they take you to level 53. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "",
+	["Top up here to level 52.9 before the hand-ins at {area:2479}: they take you to level 53. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "在{area:2479}交任務前，先在這裡刷到52.9級：交完後能到53級。或者組隊去打{area:1417}或{area:2100}副本代替。",
 
 	-- Step 14: Shatter Scar Vale
 	-- plural, as words: Entropic Beasts = {npc:9878} Entropic Beast
@@ -90,7 +90,7 @@ return {
 
 	-- Step 17: Felpaw Village
 	-- {area:1762} Felpaw Village · {quest:8470} Deadwood Ritual Totem · {npc:11558} Kernda · {area:1769} Timbermaw Hold
-	["The Deadwood furbolgs of {area:1762} fill the hills west of the cave. Keep killing them until one drops a {quest:8470}, about one kill in thirty, then right-click it: {npc:11558} in {area:1769} takes it once the Timbermaw are Neutral to you, now if they already are, or when the last guide passes the cave again at 58.\nCareful: Den Watchers are level 53-54; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "",
+	["The Deadwood furbolgs of {area:1762} fill the hills west of the cave. Keep killing them until one drops a {quest:8470}, about one kill in thirty, then right-click it: {npc:11558} in {area:1769} takes it once the Timbermaw are Neutral to you, now if they already are, or when the last guide passes the cave again at 58.\nCareful: Den Watchers are level 53-54; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "{area:1762}的死木熊怪佔滿了洞穴以西的丘陵。一直殺，直到有一隻掉{quest:8470}，大約三十隻裡有一個，然後右鍵點它：只要木喉對你的聲望達到中立，{area:1769}的{npc:11558}就會收，現在就收（如果已經是中立），或者等最後一篇指南58級再經過洞穴時。\n注意：巢穴守望者是53-54級；血量降到50%以下會呼叫25碼內的同伴，低於15%會逃跑求援。",
 
 	-- Step 18: Nafien
 	-- {zone:1452} Winterspring
@@ -98,13 +98,13 @@ return {
 
 	-- Step 20: Timbermaw Hold
 	-- {npc:11558} Kernda
-	["Step into the cave: {npc:11558} stands just inside."] = "",
+	["Step into the cave: {npc:11558} stands just inside."] = "走進洞穴：{npc:11558}就站在洞口裡側。",
 	-- {npc:11558} Kernda
-	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "",
+	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "{npc:11558}：木喉只有在你達到中立後才會與你交談；他在這一帶走動：看地圖圓圈內",
 
 	-- Step 21: Jadefire Run: kill these as you meet them
 	-- {area:2618} Jadefire Run
-	["{area:2618}: kill these as you meet them"] = "",
+	["{area:2618}: kill these as you meet them"] = "{area:2618}：遇到就殺",
 	-- {area:2618} Jadefire Run · {npc:10648} Xavaric · {quest:939} Flute of Xavaric · {item:11674} Jadefire Felbind
 	["{area:2618} is the satyr valley in the north-west, with {npc:10648} at its far end. He drops the {quest:939}; every Jadefire satyr can drop {item:11674}."] = "{area:2618}是西北方的薩特山谷，{npc:10648}在山谷盡頭。他會掉落{quest:939}；每個碧火薩特都可能掉落{item:11674}。",
 
@@ -112,15 +112,15 @@ return {
 	-- {area:1763} Jaedenar
 	["{area:1763} again"] = "再次前往{area:1763}",
 	-- {item:12922} Empty Canteen · {area:1763} Jaedenar
-	["Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}."] = "",
+	["Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}."] = "在{area:1763}中央被腐化的月井處使用{item:12922}。",
 
 	-- Step 23: The Emerald Sanctuary
 	-- {area:1763} Jaedenar · {area:2479} Emerald Sanctuary · {zone:1448} Felwood
-	["Ride south-east from {area:1763} to the {area:2479}, the druids' camp by the road in southern {zone:1448}."] = "",
+	["Ride south-east from {area:1763} to the {area:2479}, the druids' camp by the road in southern {zone:1448}."] = "從{area:1763}向東南騎行到{area:2479}，即{zone:1448}南部路旁的德魯伊營地。",
 
 	-- Step 24: The Emerald Sanctuary
 	-- {zone:1457} Darnassus
-	["The vial is filled in {zone:1457}: keep it; inside"] = "",
+	["The vial is filled in {zone:1457}: keep it; inside"] = "藥瓶在{zone:1457}裝滿：留著；在裡面",
 	-- {zone:1413} Barrens
 	["Ends in the {zone:1413}: keep it"] = "在{zone:1413}完成：保留此任務",
 

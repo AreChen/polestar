@@ -15,16 +15,16 @@ return {
 
 	-- Step 2: Fishing: Elwynn Forest (1-50)
 	-- {skill:356} Fishing · {skill:185} Cooking
-	["Fish here until skill 50, about 50 catches: below 75 every catch raises the skill. Cast {skill:356} from your spellbook, click the bobber when it splashes. Keep the fish: they are your first {skill:185} ingredients. Fish get away here below skill 25; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "",
+	["Fish here until skill 50, about 50 catches: below 75 every catch raises the skill. Cast {skill:356} from your spellbook, click the bobber when it splashes. Keep the fish: they are your first {skill:185} ingredients. Fish get away here below skill 25; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "在此釣到技能50，約50竿：75以下每竿都漲技能。從法術書施放{skill:356}，浮標下沉時點選它。留著魚：它們是你最早的{skill:185}材料。技能25以下這裡會跑魚；給魚竿裝魚餌可在十分鐘內提高技能，彌補差距。",
 
 	-- Step 5: Fishing: Zephras Isle (1-50)
 	-- {skill:356} Fishing · {skill:185} Cooking
-	["Fish here until skill 50, about 50 catches: below 75 every catch raises the skill. Cast {skill:356} from your spellbook, click the bobber when it splashes. Keep the fish: they are your first {skill:185} ingredients."] = "",
+	["Fish here until skill 50, about 50 catches: below 75 every catch raises the skill. Cast {skill:356} from your spellbook, click the bobber when it splashes. Keep the fish: they are your first {skill:185} ingredients."] = "在此釣到技能50，約50竿：75以下每竿都漲技能。從法術書施放{skill:356}，浮標下沉時點選它。留著魚：它們是你最早的{skill:185}材料。",
 	-- {area:16638} Valanaar
-	["{area:16638} shore"] = "",
+	["{area:16638} shore"] = "{area:16638}岸邊",
 
 	-- Step 6: Fishing: Durotar (1-50)
-	["Sen'jin coast"] = "",
+	["Sen'jin coast"] = "森金海岸",
 
 	-- Step 10: Journeyman Fishing
 	-- {skill:356} Fishing
@@ -34,7 +34,7 @@ return {
 
 	-- Step 11: Fishing: Westfall (50-125)
 	-- {item:6530} Nightcrawlers · {item:6529} Shiny Bauble · {item:6365} Strong Fishing Pole
-	["Fish the pools and open water here until skill 125, about 120 catches: from 75 a catch raises the skill less often (about one in two by 100, one in three by 125). Pools (floating wreckage, schools of fish) also give extra loot. {item:6530} (+50 from skill 50, 1s each) are twice as strong as a {item:6529}. The {item:6365} (+5 from skill 10, 9s 1c) is in limited stock at fishing vendors: buy it when you see it. Fish get away here below skill 75; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "",
+	["Fish the pools and open water here until skill 125, about 120 catches: from 75 a catch raises the skill less often (about one in two by 100, one in three by 125). Pools (floating wreckage, schools of fish) also give extra loot. {item:6530} (+50 from skill 50, 1s each) are twice as strong as a {item:6529}. The {item:6365} (+5 from skill 10, 9s 1c) is in limited stock at fishing vendors: buy it when you see it. Fish get away here below skill 75; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "在此的魚群和開闊水域釣魚，直到技能125，約120竿：從75起漲點變慢（100時約兩竿一點，125時約三竿一點）。魚群（漂浮殘骸、魚群）還會給額外戰利品。{item:6530}（技能50起可用，+50，每個1銀）效果是{item:6529}的兩倍。{item:6365}（技能10起可用，+5，9銀1銅）在釣魚供應商處限量出售：看到就買。技能75以下這裡會跑魚；給魚竿裝魚餌可在十分鐘內提高技能，彌補差距。",
 	-- {zone:1436} Westfall
 	["{zone:1436} coast"] = "{zone:1436}海岸",
 
@@ -50,13 +50,13 @@ return {
 	-- {skill:356} Fishing
 	["Expert {skill:356}"] = "高級{skill:356}",
 	-- {skill:356} Fishing · {npc:2626} Old Man Heming · {item:16083} Expert Fishing - The Bass and You · {area:35} Booty Bay · {zone:1434} Stranglethorn Vale · {area:392} Ratchet · {zone:1413} The Barrens · {item:6532} Bright Baubles
-	["Expert {skill:356} (cap 225) is a book, not a trainer rank: {npc:2626} sells {item:16083} (1g) on the lowest dock of {area:35}, at the south tip of {zone:1434}, to both factions. Buy it and read it; it needs skill 125 and level 20. At level 20 the safe way in is the boat from {area:392} in {zone:1413}, not the road through Stranglethorn. He also sells {item:6532} (+75 from skill 100, 2s 50c each), the lure for the rest of the way."] = "",
+	["Expert {skill:356} (cap 225) is a book, not a trainer rank: {npc:2626} sells {item:16083} (1g) on the lowest dock of {area:35}, at the south tip of {zone:1434}, to both factions. Buy it and read it; it needs skill 125 and level 20. At level 20 the safe way in is the boat from {area:392} in {zone:1413}, not the road through Stranglethorn. He also sells {item:6532} (+75 from skill 100, 2s 50c each), the lure for the rest of the way."] = "高階{skill:356}（上限225）是一本書，而非訓練師等級：{npc:2626}在{zone:1434}南端{area:35}最下面的碼頭向雙方陣營出售{item:16083}（1金）。買下並閱讀；它需要技能125和角色20級。20級時安全的進入方式是乘{zone:1413}中{area:392}的船，而不是走荊棘谷的道路。他還出售{item:6532}（技能100起可用，+75，每個2銀50銅），是後續升級用的魚餌。",
 	-- {item:16083} Expert Fishing - The Bass and You · {skill:356} Fishing
 	["Buy and read {item:16083} (Expert {skill:356})"] = "購買並閱讀{item:16083}（高級{skill:356}）",
 
 	-- Step 17: Fishing: Wetlands (125-225)
 	-- {item:279965} Fishing Rack · {area:2797} Blackfathom Deeps
-	["Fish the pools here until skill 225, about 500 catches: one in three raises the skill at 125, one in seven by 225, so this is the long stretch. Forever's second camping item, the {item:279965} (from skill 140), is a blueprint that drops from Gelihast in {area:2797}. Fish get away here below skill 150; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "",
+	["Fish the pools here until skill 225, about 500 catches: one in three raises the skill at 125, one in seven by 225, so this is the long stretch. Forever's second camping item, the {item:279965} (from skill 140), is a blueprint that drops from Gelihast in {area:2797}. Fish get away here below skill 150; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "在此的魚群釣魚，直到技能225，約500竿：125時約三竿一點，225時約七竿一點，所以這是最漫長的一段。Forever 的第二個露營物品{item:279965}（技能140起）是圖紙，由{area:2797}的格里哈斯特掉落。技能150以下這裡會跑魚；給魚竿裝魚餌可在十分鐘內提高技能，彌補差距。",
 	-- {zone:1437} Wetlands
 	["{zone:1437} coast"] = "{zone:1437}海岸",
 
@@ -78,23 +78,23 @@ return {
 
 	-- Step 23: Nat Pagle
 	-- {npc:12919} Nat Pagle
-	["{npc:12919} fishes from the shore of a small island off the east coast, south of Theramore; swim over from the coast."] = "",
+	["{npc:12919} fishes from the shore of a small island off the east coast, south of Theramore; swim over from the coast."] = "{npc:12919}在東海岸外一座小島的岸邊釣魚，位於塞拉摩以南；從海岸游過去。",
 
 	-- Step 24: Sar'theris Striker
 	-- {zone:1443} Desolace · {area:598} Sar'theris Strand · {area:2408} Shadowprey Village · {item:16968} Sar'theris Striker
-	["Fish along the coast of {zone:1443} ({area:598} in the north-west, or the shore west of {area:2408}) until you catch a {item:16968}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "",
+	["Fish along the coast of {zone:1443} ({area:598} in the north-west, or the shore west of {area:2408}) until you catch a {item:16968}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "在{zone:1443}海岸（西北的{area:598}，或{area:2408}以西的岸邊）釣魚，直到釣上{item:16968}：那裡約每五竿出一竿，別處不會咬鉤。技能225時這裡不會跑魚。",
 
 	-- Step 26: Feralas Ahi
 	-- {area:2521} Verdantis River · {zone:1444} Feralas · {area:2577} Dire Maul · {item:16967} Feralas Ahi · {item:6532} Bright Baubles
-	["Fish along the {area:2521} in {zone:1444} (south-east of {area:2577}) until you catch a {item:16967}: about one catch in five there brings it up, and it bites nowhere else. This water loses fish below skill 300: at 225 most get away, so put {item:6532} (+75) on the pole first."] = "",
+	["Fish along the {area:2521} in {zone:1444} (south-east of {area:2577}) until you catch a {item:16967}: about one catch in five there brings it up, and it bites nowhere else. This water loses fish below skill 300: at 225 most get away, so put {item:6532} (+75) on the pole first."] = "在{zone:1444}的{area:2521}（{area:2577}東南）釣魚，直到釣上{item:16967}：那裡約每五竿出一竿，別處不會咬鉤。這片水域在技能300以下會跑魚：225時大部分會跑掉，所以先給魚竿裝上{item:6532}（+75）。",
 
 	-- Step 27: Savage Coast Blue Sailfin
 	-- {zone:1434} Stranglethorn Vale · {area:301} Savage Coast · {item:16969} Savage Coast Blue Sailfin
-	["Fish along {zone:1434}'s {area:301} (the west shore) until you catch a {item:16969}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "",
+	["Fish along {zone:1434}'s {area:301} (the west shore) until you catch a {item:16969}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "在{zone:1434}的{area:301}（西岸）釣魚，直到釣上{item:16969}：那裡約每五竿出一竿，別處不會咬鉤。技能225時這裡不會跑魚。",
 
 	-- Step 29: Misty Reed Mahi Mahi
 	-- {area:300} Misty Reed Strand · {zone:1435} Swamp of Sorrows · {item:16970} Misty Reed Mahi Mahi
-	["Fish along the {area:300} (the east shore of {zone:1435}) until you catch a {item:16970}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "",
+	["Fish along the {area:300} (the east shore of {zone:1435}) until you catch a {item:16970}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "在{area:300}（{zone:1435}東岸）釣魚，直到釣上{item:16970}：那裡約每五竿出一竿，別處不會咬鉤。技能225時這裡不會跑魚。",
 
 	-- Step 30: Nat Pagle
 	-- {skill:356} Fishing
@@ -102,7 +102,7 @@ return {
 
 	-- Step 31: Fishing: Stranglethorn Vale (225-300)
 	-- {item:6533} Aquadynamic Fish Attractor · {item:6532} Bright Baubles
-	["Fish the pools along the coast here (eels, snappers, wreckage) until skill 300, about 650 catches (one in seven raises the skill at 225, one in ten by 300). Harder water levels no faster: a catch counts the same anywhere. From skill 225 this water loses no fish, so no lure is needed. The {item:6533} (+100 from skill 100, 2s 50c) and {item:6532} are for harder water and rare fish, not for skill."] = "",
+	["Fish the pools along the coast here (eels, snappers, wreckage) until skill 300, about 650 catches (one in seven raises the skill at 225, one in ten by 300). Harder water levels no faster: a catch counts the same anywhere. From skill 225 this water loses no fish, so no lure is needed. The {item:6533} (+100 from skill 100, 2s 50c) and {item:6532} are for harder water and rare fish, not for skill."] = "在此沿岸的魚群（鰻魚、鯛魚、殘骸）中釣魚，直到技能300，約650竿（225時約七竿漲一點，300時約十竿一點）。更高階的水域並不會更快：任何地方一竿的收益都一樣。技能225起這片水域不會跑魚，所以不需要魚餌。{item:6533}（技能100起可用，+100，2銀50銅）和{item:6532}是用於更高階水域和稀有魚的，不是用來練技能的。",
 	-- {area:35} Booty Bay
 	["{area:35} coast"] = "{area:35}海岸",
 

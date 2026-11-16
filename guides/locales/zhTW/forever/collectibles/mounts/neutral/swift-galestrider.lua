@@ -13,7 +13,7 @@ return {
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "中級{skill:762}",
 	-- {skill:762} Riding
-	["Swift Galestriders need level 60 and Journeyman {skill:762}. Train it at your own race's riding trainer; see the Level 60 mount guides for where."] = "",
+	["Swift Galestriders need level 60 and Journeyman {skill:762}. Train it at your own race's riding trainer; see the Level 60 mount guides for where."] = "迅捷風行者需要60級和中級{skill:762}。到自己種族的騎術訓練師處學習；具體位置見60級坐騎指南。",
 
 	-- Step 2: Skyboat from Dalaran
 	-- {area:279} Dalaran
@@ -31,21 +31,21 @@ return {
 
 	-- Step 4: Journeyman Riding with Genn Fairweather
 	-- {skill:762} Riding · {npc:265756} Genn Fairweather
-	["Journeyman {skill:762} with {npc:265756}"] = "",
+	["Journeyman {skill:762} with {npc:265756}"] = "向{npc:265756}學習中級{skill:762}",
 	-- {skill:762} Riding · {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
-	["Skyborne train Journeyman {skill:762} with {npc:265756} himself for 1,000g; Blizzard says it comes with a mount. He stands at the {area:17684} in {area:16638}, near the skyboat docks."] = "",
+	["Skyborne train Journeyman {skill:762} with {npc:265756} himself for 1,000g; Blizzard says it comes with a mount. He stands at the {area:17684} in {area:16638}, near the skyboat docks."] = "天裔在{npc:265756}本人那裡花1,000金訓練中級{skill:762}；暴雪說會附贈一匹坐騎。他站在{area:16638}的{area:17684}，靠近飛船碼頭。",
 	-- {npc:265756} Genn Fairweather
-	["{npc:265756}, riding trainer"] = "",
+	["{npc:265756}, riding trainer"] = "{npc:265756}，騎術訓練師",
 
 	-- Step 5: Galestrider Riding for other races
 	-- {spell:1285849} Galestrider Riding
-	["{spell:1285849} for other races"] = "",
+	["{spell:1285849} for other races"] = "其他種族學{spell:1285849}",
 	-- {spell:1285849} Galestrider Riding · {skill:762} Riding · {npc:265756} Genn Fairweather
-	["Any race can buy Galestriders, but riding one also takes {spell:1285849}, which only the Skyborne get with {skill:762}. Other races can learn it too, but how is not known yet: in Classic another race's riding needed Exalted with its home faction, here the High Order (Alliance) or the Windshapers (Horde). Ask {npc:265756} before you buy."] = "",
+	["Any race can buy Galestriders, but riding one also takes {spell:1285849}, which only the Skyborne get with {skill:762}. Other races can learn it too, but how is not known yet: in Classic another race's riding needed Exalted with its home faction, here the High Order (Alliance) or the Windshapers (Horde). Ask {npc:265756} before you buy."] = "任何種族都能買風行者，但騎乘還需要{spell:1285849}，只有天裔在{skill:762}中才能獲得。其他種族也能學，但方法尚不清楚：經典舊世中，其他種族騎乘需要與所屬陣營達到崇拜，這裡則是高等議會（聯盟）或風塑者（部落）。購買前先問問{npc:265756}。",
 
 	-- Step 6: Genn Fairweather
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
-	["{npc:265756} is at the {area:17684} in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Swift Galestrider at 200g; choose one."] = "",
+	["{npc:265756} is at the {area:17684} in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Swift Galestrider at 200g; choose one."] = "{npc:265756}在{area:16638}的{area:17684}，那是島上的港口鎮，靠近飛船碼頭。Forever客戶端標價每匹迅捷風行者200金；挑一匹吧。",
 	["200g"] = "200金",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

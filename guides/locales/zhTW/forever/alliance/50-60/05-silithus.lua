@@ -8,9 +8,9 @@
 return {
 	-- Step 1: Ratchet
 	-- {area:541} Marshal's Refuge · {area:392} Ratchet
-	["Fly from {area:541} to {area:392}."] = "",
+	["Fly from {area:541} to {area:392}."] = "從{area:541}飛到{area:392}。",
 	-- {npc:8496} Liv Rizzlefix
-	["{npc:8496}, inside"] = "",
+	["{npc:8496}, inside"] = "{npc:8496}，室內",
 
 	-- Step 2: Boat to Booty Bay
 	-- {area:35} Booty Bay
@@ -20,7 +20,7 @@ return {
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "飛往{zone:1453}",
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35}飛行管理員",
 
 	-- Step 4: Stormwind
 	-- {area:392} Ratchet · {area:35} Booty Bay · {zone:1453} Stormwind
@@ -38,7 +38,7 @@ return {
 
 	-- Step 6: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "乘地鐵前往{zone:1455}",
 
 	-- Step 7: Ironforge
 	["Its jars are filled on the next Un'Goro visit"] = "它的罐子會在下次造訪安戈洛時裝滿",
@@ -47,11 +47,11 @@ return {
 	-- {area:2268} Light's Hope Chapel
 	["Fly to {area:2268}"] = "飛往{area:2268}",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455}飛行管理員",
 
 	-- Step 9: Light's Hope Chapel
 	-- {npc:11038} Caretaker Alen · {area:2627} Terrordale
-	["{npc:11038}, by the graves south of the chapel: Egan is in {area:2627}, keep it"] = "",
+	["{npc:11038}, by the graves south of the chapel: Egan is in {area:2627}, keep it"] = "{npc:11038}，在教堂南邊的墳墓旁：伊根在{area:2627}，留著",
 
 	-- Step 10: Scourge Champions
 	-- plural, as words: Scourge Champions = {npc:8529} Scourge Champion
@@ -68,11 +68,11 @@ return {
 
 	-- Step 12: Infiltrator Hameya
 	-- {area:2277} Plaguewood · {area:2273} Zul'Mashar
-	["Ride north to the {area:2277}'s north-eastern edge.\nCareful: The trolls along the path to {area:2273} are level 57-59. They run away at low health and call for help, so they often bring adds with them."] = "",
+	["Ride north to the {area:2277}'s north-eastern edge.\nCareful: The trolls along the path to {area:2273} are level 57-59. They run away at low health and call for help, so they often bring adds with them."] = "向北騎到{area:2277}的東北邊緣。\n注意：通往{area:2273}路徑上的巨魔為57-59級。他們會在血量低時逃跑並呼救，所以常會帶來援兵。",
 
 	-- Step 13: The Undercroft
 	-- {area:2261} The Undercroft · {npc:11886} Mercutio Filthgorger
-	["Ride south-west to the {area:2261}. The mound of dirt lies inside. {npc:11886} is elite: grouping up is advised.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot."] = "",
+	["Ride south-west to the {area:2261}. The mound of dirt lies inside. {npc:11886} is elite: grouping up is advised.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot."] = "向西南騎到{area:2261}。土堆就在裡面。{npc:11886}是精英：建議組隊。\n注意：默庫提奧身邊約有四名非精英隨從。他們要走到墓地，不會原地出現。",
 	-- {item:14613} Taelan's Hammer · {npc:11886} Mercutio Filthgorger
 	["{item:14613}, from {npc:11886}"] = "{item:14613}，來自{npc:11886}",
 

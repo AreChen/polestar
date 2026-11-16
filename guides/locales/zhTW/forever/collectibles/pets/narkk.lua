@@ -12,7 +12,7 @@ return {
 
 	-- Step 1: Narkk
 	-- {npc:2663} Narkk · {area:35} Booty Bay · {npc:2664} Kelsey Yance · {area:392} Ratchet
-	["{npc:2663}, the pirate supplier in {area:35}, sells two parrots (40s each), with no stock limit. He stands next to {npc:2664}, the cook. {area:35} is neutral: the boat from {area:392} and the Stranglethorn road both arrive there. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "",
+	["{npc:2663}, the pirate supplier in {area:35}, sells two parrots (40s each), with no stock limit. He stands next to {npc:2664}, the cook. {area:35} is neutral: the boat from {area:392} and the Stranglethorn road both arrive there. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{area:35}的海盜供應商{npc:2663}出售兩隻鸚鵡（每隻40銀），不限量。他站在廚師{npc:2664}旁邊。{area:35}是中立城鎮：從{area:392}來的船和荊棘谷的道路都能到達。每個寵物物品使用時都會教會對應的小夥伴；之後目標仍保持勾選。",
 	-- {item:8495} Parrot Cage (Senegal)
 	["{item:8495}, 40s"] = "{item:8495}，40銀",
 	-- {item:8496} Parrot Cage (Cockatiel)

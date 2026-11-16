@@ -12,7 +12,7 @@ return {
 
 	-- Step 1: The Hinterlands (1/2)
 	-- {zone:1425} The Hinterlands · {zone:1424} Hillsbrad Foothills · {zone:1415} Eastern Kingdoms
-	["Starts in the {zone:1425}, north-east of {zone:1424}. The last area of this guide completes the {zone:1415} map. 14 areas to discover here, levels 41-49."] = "",
+	["Starts in the {zone:1425}, north-east of {zone:1424}. The last area of this guide completes the {zone:1415} map. 14 areas to discover here, levels 41-49."] = "從{zone:1424}東北的{zone:1425}開始。本指南的最後一個區域會補全{zone:1415}地圖。本段有14個區域可探索，等級41-49。",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "用一個角色探索整個世界地圖是Forever的傳承挑戰（1點全帳號傳承點數）。",
 	-- {area:348} Aerie Peak · {area:271} Southshore · {zone:1424} Hillsbrad Foothills · {zone:1425} The Hinterlands
 	["Fly to {area:348} if you have it; otherwise fly to {area:271} and walk north-east from {zone:1424} into the {zone:1425}."] = "如果你有{area:348}的飛行路線就飛過去；否則飛往{area:271}，從{zone:1424}向東北步行進入{zone:1425}。",
@@ -30,11 +30,11 @@ return {
 	-- Step 3: Searing Gorge
 	["7 areas to discover here, levels 43-56."] = "這裡有7個區域要發現，等級43-56。",
 	-- {zone:1418} Badlands · {area:340} Kargath · {zone:1427} Searing Gorge
-	["The way in on foot is from the western {zone:1418}: the path by {area:340} climbs west into the {zone:1427}."] = "",
+	["The way in on foot is from the western {zone:1418}: the path by {area:340} climbs west into the {zone:1427}."] = "步行進入的路線在{zone:1418}西部：{area:340}旁的小徑向西爬升，進入{zone:1427}。",
 	-- {area:144} Thelsamar · {zone:1432} Loch Modan · {zone:1418} Badlands · {area:340} Kargath
-	["Fly to {area:144} and ride south through {zone:1432} into the {zone:1418}, then west to {area:340} (Horde guards)."] = "",
+	["Fly to {area:144} and ride south through {zone:1432} into the {zone:1418}, then west to {area:340} (Horde guards)."] = "飛到{area:144}，向南騎過{zone:1432}進入{zone:1418}，然後向西到{area:340}（部落守衛）。",
 	-- {area:340} Kargath · {zone:1418} Badlands
-	["Fly to {area:340} in the {zone:1418}."] = "",
+	["Fly to {area:340} in the {zone:1418}."] = "飛到{zone:1418}的{area:340}。",
 	-- {area:1446} Thorium Point · {npc:2941} Lanie Reed
 	["Flight path here: {area:1446} ({npc:2941})."] = "這裡的飛行路線：{area:1446}（{npc:2941}）。",
 	-- {area:1446} Thorium Point
@@ -43,7 +43,7 @@ return {
 	-- Step 4: Burning Steppes (1/2)
 	["10 areas to discover here, levels 50-59."] = "這裡有10個區域要發現，等級50-59。",
 	-- {area:254} Blackrock Mountain · {zone:1427} Searing Gorge · {zone:1428} Burning Steppes · {area:2418} Morgan's Vigil
-	["Cross {area:254} from the south of the {zone:1427} into the {zone:1428}: stay on the chain path inside, past the dungeon entrances. {area:2418} (Alliance) is in the east."] = "",
+	["Cross {area:254} from the south of the {zone:1427} into the {zone:1428}: stay on the chain path inside, past the dungeon entrances. {area:2418} (Alliance) is in the east."] = "從{zone:1427}南部穿過{area:254}進入{zone:1428}：進去後沿鎖鏈通道走，經過各副本入口。{area:2418}（聯盟）在東部。",
 	-- {area:2418} Morgan's Vigil · {npc:2299} Borgus Stoutarm
 	["Flight path here: {area:2418} ({npc:2299})."] = "這裡的飛行路線：{area:2418}（{npc:2299}）。",
 	-- {area:251} Flame Crest
@@ -53,13 +53,13 @@ return {
 	-- Step 6: Deadwind Pass
 	["3 areas to discover here, levels 50-60."] = "這裡有3個區域要發現，等級50-60。",
 	-- {zone:1428} Burning Steppes · {zone:1433} Redridge Mountains · {area:1002} Three Corners · {zone:1431} Duskwood · {area:42} Darkshire · {zone:1430} Deadwind Pass
-	["Take the pass south from the {zone:1428} into the {zone:1433}, follow the road south-west through {area:1002} into {zone:1431} and east past {area:42} into {zone:1430}."] = "",
+	["Take the pass south from the {zone:1428} into the {zone:1433}, follow the road south-west through {area:1002} into {zone:1431} and east past {area:42} into {zone:1430}."] = "從{zone:1428}沿隘口向南進入{zone:1433}，沿路向西南穿過{area:1002}進入{zone:1431}，再向東經過{area:42}進入{zone:1430}。",
 	["high-level undead around the tower: discover it from the road"] = "塔周圍有高等級亡靈：從道路上發現它",
 
 	-- Step 7: Blasted Lands (1/2)
-	["9 areas to discover here, levels 46-63."] = "",
+	["9 areas to discover here, levels 46-63."] = "本段有9個區域可探索，等級46-63。",
 	-- {zone:1430} Deadwind Pass · {zone:1435} Swamp of Sorrows · {zone:1419} Blasted Lands · {area:1438} Nethergarde Keep
-	["Ride east out of {zone:1430} into the {zone:1435} and take the road south into the {zone:1419}; {area:1438} (Alliance) stands just inside."] = "",
+	["Ride east out of {zone:1430} into the {zone:1435} and take the road south into the {zone:1419}; {area:1438} (Alliance) stands just inside."] = "從{zone:1430}向東騎出，進入{zone:1435}，再沿路向南進入{zone:1419}；{area:1438}（聯盟）就在入口內側。",
 	-- {area:1438} Nethergarde Keep · {npc:8609} Alexandra Constantine
 	["Flight path here: {area:1438} ({npc:8609})."] = "這裡的飛行路線：{area:1438}（{npc:8609}）。",
 	["level 63 area, well above this guide's range"] = "63級區域，遠高於本指南的等級範圍",
@@ -67,9 +67,9 @@ return {
 	-- Step 9: Western Plaguelands (1/2)
 	["13 areas to discover here, levels 46-57."] = "這裡有13個區域要發現，等級46-57。",
 	-- {area:3197} Chillwind Camp · {area:271} Southshore · {zone:1416} Alterac Mountains · {zone:1422} Western Plaguelands
-	["Fly to {area:3197} if you have it; otherwise fly to {area:271} and ride north through the {zone:1416} to {area:3197} in southern {zone:1422}."] = "",
+	["Fly to {area:3197} if you have it; otherwise fly to {area:271} and ride north through the {zone:1416} to {area:3197} in southern {zone:1422}."] = "如果你已開通{area:3197}的飛行點就直飛；否則飛到{area:271}，向北騎過{zone:1416}到{zone:1422}南部的{area:3197}。",
 	-- {area:272} Tarren Mill · {zone:1416} Alterac Mountains · {zone:1422} Western Plaguelands · {zone:1420} Tirisfal Glades · {area:813} The Bulwark
-	["Fly to {area:272} and ride north through the {zone:1416} into southern {zone:1422}, or go east from {zone:1420} past {area:813}."] = "",
+	["Fly to {area:272} and ride north through the {zone:1416} into southern {zone:1422}, or go east from {zone:1420} past {area:813}."] = "飛到{area:272}，向北騎過{zone:1416}進入{zone:1422}南部；或從{zone:1420}向東經過{area:813}。",
 	-- {area:3197} Chillwind Camp · {npc:12596} Bibilfaz Featherwhistle
 	["Flight path here: {area:3197} ({npc:12596})."] = "這裡的飛行路線：{area:3197}（{npc:12596}）。",
 

@@ -8,11 +8,11 @@
 return {
 	-- Step 1: Cenarion Hold
 	-- {npc:15189} Beetix Ficklespragg
-	["Ride west to the walled hold in the middle of the desert. {npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "",
+	["Ride west to the walled hold in the middle of the desert. {npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "向西騎往沙漠中央有城牆環繞的要塞。{npc:15189}站在他那座建築的樓上：從裡面上樓，箭頭分不清樓層。",
 
 	-- Step 2: Silithus: kill these as you meet them
 	-- {zone:1451} Silithus
-	["{zone:1451}: kill these as you meet them"] = "",
+	["{zone:1451}: kill these as you meet them"] = "{zone:1451}：遇到這些就殺",
 	-- plural, as words: Dredge Strikers = {npc:11740} Dredge Striker · Stonelash Scorpids = {npc:11735} Stonelash Scorpid · Sand Skitterers = {npc:11738} Sand Skitterer
 	["Dredge Strikers, Stonelash Scorpids and Sand Skitterers share the sands just north of the hold."] = "掘泥打擊者、石鞭蠍和掠沙蜘蛛都在城堡北邊不遠的沙地上。",
 
@@ -22,7 +22,7 @@ return {
 
 	-- Step 4: Cenarion Hold
 	-- {npc:15189} Beetix Ficklespragg
-	["{npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "",
+	["{npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{npc:15189}站在他那座建築的樓上：從裡面上樓，箭頭分不清樓層。",
 
 	-- Step 5: Hive in the Tower
 	-- {item:17346} Encrusted Silithid Object
@@ -30,15 +30,15 @@ return {
 	["Back to Southwind and climb the tower. Stirring the hive at the top brings out Hive'Ashi Ambushers; one carries the {item:17346}."] = "回到南風村並爬上塔。攪動塔頂的蟲巢會引出亞什伏擊者；其中一隻帶著{item:17346}。",
 
 	-- Step 6: The Spirits of Southwind
-	["The Spirits of Southwind"] = "",
-	["Inside"] = "",
+	["The Spirits of Southwind"] = "南風之靈",
+	["Inside"] = "在裡面",
 
 	-- Step 7: Hermit Ortell
 	-- {area:3447} Ortell's Hideout
 	["Ride south-east to {area:3447} under the Un'Goro cliffs."] = "往東南騎到安戈洛懸崖下的{area:3447}。",
 	["Below ground"] = "地下",
 	-- {item:20377} Rock Stalker Fang · {npc:11739} Rock Stalker
-	["{item:20377} from {npc:11739}, 130 yd south-west"] = "",
+	["{item:20377} from {npc:11739}, 130 yd south-west"] = "從{npc:11739}身上獲取{item:20377}，在西南130碼處",
 
 	-- Step 8: Dredge Crushers and Pincers
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher
@@ -46,7 +46,7 @@ return {
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher · Stonelash Pincers = {npc:11736} Stonelash Pincer
 	["Head north along the western dunes; Dredge Crushers and Stonelash Pincers range from here back toward the hold."] = "沿著西側沙丘往北走；從這裡到城堡一帶都有掘泥摧毀者和石鞭巨鉗蠍。",
 	-- {npc:11741} Dredge Crusher · {area:2738} Southwind Village
-	["{npc:11741} walks around {area:2738}: look inside the circle on the map"] = "",
+	["{npc:11741} walks around {area:2738}: look inside the circle on the map"] = "{npc:11741}在{area:2738}一帶走動：看地圖圓圈內",
 
 	-- Step 9: General Kirika
 	-- {area:2744} Hive'Regal
@@ -64,7 +64,7 @@ return {
 	-- Step 12: Twilight Vanguard
 	["Twilight Vanguard"] = "暮光先鋒",
 	-- {npc:11803} Twilight Keeper Exeter · {item:20404} Encrypted Twilight Text · {npc:15306} Bor Wildmane
-	["{npc:11803} walks the Vanguard camp in the far south-west. Keep every {item:20404} the cultists drop: {npc:15306} and Ortell want ten each later."] = "",
+	["{npc:11803} walks the Vanguard camp in the far south-west. Keep every {item:20404} the cultists drop: {npc:15306} and Ortell want ten each later."] = "{npc:11803}在最西南的先遣軍營地一帶走動。教徒掉的{item:20404}全部留著：{npc:15306}和奧泰爾以後各要十個。",
 
 	-- Step 14: Twilight Post
 	-- {npc:15200} Twilight Keeper Mayna
@@ -73,19 +73,19 @@ return {
 	-- Step 15: Twilight Outpost
 	-- {npc:11804} Twilight Keeper Havunth · {area:3425} Cenarion Hold
 	-- plural, as words: Encrypted Twilight Texts = {item:20404} Encrypted Twilight Text
-	["{npc:11804} stands in the outpost west of {area:3425}. Keep any Encrypted Twilight Texts that drop here too."] = "",
+	["{npc:11804} stands in the outpost west of {area:3425}. Keep any Encrypted Twilight Texts that drop here too."] = "{npc:11804}在{area:3425}以西的前哨站。這裡掉的加密的上古之神文卷也都留著。",
 
 	-- Step 16: Level 58
-	["Level 58"] = "",
+	["Level 58"] = "58級",
 	-- {npc:15181} Commander Mar'alith · {quest:8304} Dearest Natalia · {area:3425} Cenarion Hold · {area:1583} Blackrock Spire · {quest:838} Scholomance
 	-- plural, as words: Twilight Avengers = {npc:11880} Twilight Avenger
-	["{npc:15181}'s {quest:8304}, at {area:3425}, needs level 58: top up on the Twilight Avengers, Geolords and Stonecallers west of the outpost. Or, with a group, run the {area:1583} dungeon (Lower) or the {quest:838} dungeon instead."] = "",
+	["{npc:15181}'s {quest:8304}, at {area:3425}, needs level 58: top up on the Twilight Avengers, Geolords and Stonecallers west of the outpost. Or, with a group, run the {area:1583} dungeon (Lower) or the {quest:838} dungeon instead."] = "{npc:15181}在{area:3425}的{quest:8304}需要58級：靠據點以西的暮光復仇者、大地領主和喚石者補足等級。或者組隊改打{area:1583}地下城（下層）或{quest:838}地下城。",
 	-- {npc:11880} Twilight Avenger
-	["grind on {npc:11880}"] = "",
+	["grind on {npc:11880}"] = "刷{npc:11880}",
 
 	-- Step 17: Cenarion Hold
 	-- {npc:15189} Beetix Ficklespragg · {npc:15190} Noggle Ficklespragg
-	["{npc:15189} and {npc:15190} stand upstairs in their building: go up inside, the arrow cannot tell the floors apart."] = "",
+	["{npc:15189} and {npc:15190} stand upstairs in their building: go up inside, the arrow cannot tell the floors apart."] = "{npc:15189}和{npc:15190}站在他們那座建築的樓上：從裡面上樓，箭頭分不清樓層。",
 	-- {npc:15306} Bor Wildmane
 	["{npc:15306}, on the west side of the Hold"] = "{npc:15306}，在城堡西側",
 
@@ -98,14 +98,14 @@ return {
 
 	-- Step 20: Dearest Natalia
 	-- {npc:15171} Frankal Stonebridge · {npc:15170} Rutgar Glyphshaper
-	["{npc:15171} and {npc:15170} camp at Bronzebeard's Encampment, just north of the satchel's mountains. Question them: go through each one's whole conversation; there is no need to fight them."] = "",
+	["{npc:15171} and {npc:15170} camp at Bronzebeard's Encampment, just north of the satchel's mountains. Question them: go through each one's whole conversation; there is no need to fight them."] = "{npc:15171}和{npc:15170}在銅鬚營地紮營，就在挎包山以北不遠處。盤問他們：逐一走完每個人的整段對話；不必與他們戰鬥。",
 
 	-- Step 21: Twilight Base Camp
 	-- {npc:15306} Bor Wildmane
 	-- plural, as words: Encrypted Twilight Texts = {item:20404} Encrypted Twilight Text
-	["Collect twenty Encrypted Twilight Texts from the cultists here, ten for {npc:15306} and ten for Ortell."] = "",
+	["Collect twenty Encrypted Twilight Texts from the cultists here, ten for {npc:15306} and ten for Ortell."] = "從這裡的教徒身上收集二十份加密的上古之神文卷，十個給{npc:15306}，十個給奧泰爾。",
 	-- {npc:15306} Bor Wildmane
-	["ten for each quest: {npc:15306} takes his ten before Ortell"] = "",
+	["ten for each quest: {npc:15306} takes his ten before Ortell"] = "每個任務十個：{npc:15306}的那十個先於奧泰爾交",
 
 	-- Step 22: Twilight Base Camp
 	["The spare texts from the cultists"] = "從信徒身上多拿的文件",
@@ -114,9 +114,9 @@ return {
 	-- {area:3425} Cenarion Hold
 	["Back to {area:3425}"] = "回到{area:3425}",
 	-- {npc:15190} Noggle Ficklespragg
-	["{npc:15190} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "",
+	["{npc:15190} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{npc:15190}站在他那座建築的樓上：從裡面上樓，箭頭分不清樓層。",
 	-- {area:2744} Hive'Regal
-	["Mar'alith's next errand, Into the Maw of Madness, leads into {area:2744} among elites. Skip it."] = "",
+	["Mar'alith's next errand, Into the Maw of Madness, leads into {area:2744} among elites. Skip it."] = "瑪拉利斯的下一個差事「深入瘋狂之喉」會帶你進入精英遍佈的{area:2744}。跳過它。",
 
 	-- Step 25: Layo Starstrike
 	-- {area:3077} Valor's Rest · {zone:1451} Silithus
@@ -124,7 +124,7 @@ return {
 
 	-- Step 27: Marshal's Refuge
 	-- {area:541} Marshal's Refuge · {npc:9997} Spraggle Frock
-	["Through the pass and east along the northern cliffs to {area:541}. {npc:9997} stands beside the flight master."] = "",
+	["Through the pass and east along the northern cliffs to {area:541}. {npc:9997} stands beside the flight master."] = "穿過山口，沿北邊懸崖向東到{area:541}。{npc:9997}站在飛行管理員旁。",
 
 	-- Step 28: Krakle
 	-- {npc:10302} Krakle · {area:543} Golakka Hot Springs
@@ -140,7 +140,7 @@ return {
 
 	-- Step 31: Pawn Captures Queen
 	-- {item:11833} Gorishi Queen Lure · {area:540} Slithering Scar · {npc:10041} Gorishi Hive Queen
-	["Use the {item:11833} where the arrow points, inside the Gorishi hive of the {area:540}, to call the {npc:10041} (level 56)."] = "",
+	["Use the {item:11833} where the arrow points, inside the Gorishi hive of the {area:540}, to call the {npc:10041} (level 56)."] = "在箭頭所指處，也就是{area:540}的格里什蟲巢內使用{item:11833}，召喚{npc:10041}（56級）。",
 
 	-- Step 32: Torwa Pathfinder
 	-- {npc:9684} Lar'korwi
@@ -152,21 +152,21 @@ return {
 
 	-- Step 34: Un'Goro Crater: kill these as you meet them
 	-- {zone:1449} Un'Goro Crater
-	["{zone:1449}: kill these as you meet them"] = "",
+	["{zone:1449}: kill these as you meet them"] = "{zone:1449}：沿途擊殺以下目標",
 	-- plural, as words: Un'Goro Gorillas = {npc:6514} Un'Goro Gorilla
-	["Careful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "",
+	["Careful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "小心：安戈洛猩猩（50-51級）在生命降到25%後會向20碼內的同伴呼救。這一帶有個滿是猩猩的洞穴，在那裡打會引來很多額外的怪。",
 
 	-- Step 35: Marshal's Refuge
 	-- {npc:9117} J.D. Collie
-	["{npc:9117} is inside the cave."] = "",
+	["{npc:9117} is inside the cave."] = "{npc:9117}在洞穴裡面。",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, below ground"] = "",
+	["{npc:9117}, below ground"] = "{npc:9117}，地下",
 	-- {quest:3942} Linken's Memory · {npc:9116} Eridan Bluewind · {area:2479} Emerald Sanctuary · {zone:1448} Felwood
 	["Keep {quest:3942}: {npc:9116} is at the {area:2479}, on the next guide's way through {zone:1448}."] = "保留{quest:3942}：{npc:9116}在{area:2479}，下一份指南經過{zone:1448}時會路過。",
 	-- {npc:10980} Umi's Mechanical Yeti · {npc:10977} Quixxil
 	["Use {npc:10980} on {npc:10977}"] = "對{npc:10977}使用{npc:10980}",
 	-- {npc:10977} Quixxil · {npc:10980} Umi's Mechanical Yeti
-	["Scare {npc:10977} with {npc:10980}"] = "",
+	["Scare {npc:10977} with {npc:10980}"] = "用{npc:10980}嚇唬{npc:10977}",
 
 	-- Step 36: Ringo
 	-- {npc:9999} Ringo
@@ -176,7 +176,7 @@ return {
 	-- {npc:9999} Ringo
 	["Escort {npc:9999}"] = "護送{npc:9999}",
 	-- {npc:9999} Ringo · {area:541} Marshal's Refuge · {item:11804} Spraggle's Canteen
-	["Lead {npc:9999} north to {area:541}. When he faints, use {item:11804} on him to wake him."] = "",
+	["Lead {npc:9999} north to {area:541}. When he faints, use {item:11804} on him to wake him."] = "把{npc:9999}向北引到{area:541}。他昏倒時，對他使用{item:11804}把他喚醒。",
 
 	-- Step 39: Torwa Pathfinder
 	-- {npc:9619} Torwa Pathfinder · {npc:9622} U'cha
@@ -190,28 +190,28 @@ return {
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "飛往{area:1637}",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976}飛行管理員",
 
 	-- Step 43: Class trainer
 	["Class trainer"] = "職業訓練師",
 
 	-- Step 44: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "聖騎士訓練師",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}在{zone:1456}；{zone:1454}沒有聖騎士訓練師",
 
 	-- Step 47: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "乘飛艇到{zone:1458}",
 
 	-- Step 50: Radley and Durgen
 	["Radley and Durgen"] = "萊德雷與杜爾根",
 	-- {npc:11613} Huntsman Radley · {npc:11611} Cavalier Durgen · {npc:11610} Kirsta Deepshadow · {area:190} Hearthglen
-	["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "",
+	["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613}站在伐木場東邊；{npc:11611}守著{npc:11610}東北通往{area:190}的路。\n小心：塔底有衛兵，還有一個繞著塔巡邏。和杜爾根交戰前先清掉他們，免得他們加入戰鬥。",
 
 	-- Step 51: Northridge Lumber Camp
 	-- {npc:11615} Mickey Levine
-	["The lumber mill is right beside Radley: set {npc:11615}'s termite barrel down in the middle of it."] = "",
+	["The lumber mill is right beside Radley: set {npc:11615}'s termite barrel down in the middle of it."] = "伐木場就在拉德利旁邊：把{npc:11615}的白蟻桶放在伐木場中央。",
 
 	-- Step 53: Davil's Libram
 	-- {area:190} Hearthglen
@@ -219,7 +219,7 @@ return {
 
 	-- Step 54: Hearthglen
 	-- {area:190} Hearthglen
-	["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "",
+	["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "{area:190}的血色成員是58-60級。騎到地圖上標記的高點，俯瞰鎮子，然後離開。\n小心：門前的哨兵能發現潛行玩家。鎮內還有更多哨兵，附近有一個精英在巡邏。",
 
 	-- Step 56: Andorhal watchtowers and silos
 	["Andorhal watchtowers and silos"] = "安多哈爾的哨塔與穀倉",
@@ -227,7 +227,7 @@ return {
 	-- plural, as words: Temporal Parasites = {npc:10717} Temporal Parasite
 	["Ride south into Andorhal. {npc:10667} waits in the ruined inn on the west side of town. Stand in the doorway of each of the four towers with the {item:12815} to mark it; keep to the edges of town. Use the {item:12627} by the silos in the middle of town to bring out Temporal Parasites."] = "往南騎進安多哈爾。{npc:10667}在鎮西側的旅店廢墟裡等著。帶著{item:12815}站在四座哨塔各自的門口來標記；沿著鎮的外緣走。在鎮中央的穀倉旁使用{item:12627}，引出時光寄生蟲。",
 	-- {npc:10667} Chromie
-	["{npc:10667}, upstairs"] = "",
+	["{npc:10667}, upstairs"] = "{npc:10667}，樓上",
 	-- {npc:10903} Andorhal Tower Two · {item:12815} Beacon Torch
 	["Mark {npc:10903} with the {item:12815}"] = "用{item:12815}標記{npc:10903}",
 	-- {npc:10904} Andorhal Tower Three · {item:12815} Beacon Torch
@@ -242,7 +242,7 @@ return {
 
 	-- Step 58: Counting Out Time
 	-- {npc:10667} Chromie
-	["The lockboxes sit in Andorhal's ruined houses around {npc:10667}'s inn. Careful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "",
+	["The lockboxes sit in Andorhal's ruined houses around {npc:10667}'s inn. Careful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "鎖箱放在{npc:10667}所在旅店周圍的安多哈爾廢棄房屋裡。小心：食屍鬼和骷髏通常站在箱子旁，你靠近時會發動攻擊。灼熱食屍鬼還會傷害附近所有人，並會打破潛行。",
 
 	-- Step 63: Dalson's Tears
 	-- {npc:11077} Cauldron Lord Malvinious · {area:200} Dalson's Tears
@@ -270,20 +270,20 @@ return {
 
 	-- Step 72: Pamela and the Undercroft
 	-- {area:2261} Undercroft
-	["Pamela and the {area:2261}"] = "",
+	["Pamela and the {area:2261}"] = "帕米拉與{area:2261}",
 	-- {area:2262} Darrowshire · {npc:11886} Mercutio Filthgorger · {area:2261} Undercroft
-	["Ride to {area:2262} in the south-west; Pamela plays among the houses. {npc:11886} lurks in the {area:2261}, the crypt just west of the town.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot."] = "",
+	["Ride to {area:2262} in the south-west; Pamela plays among the houses. {npc:11886} lurks in the {area:2261}, the crypt just west of the town.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot."] = "騎到西南的{area:2262}；帕米拉在房屋間玩耍。{npc:11886}潛伏在{area:2261}，也就是鎮子西邊的墓穴。\n小心：大約四隻非精英怪會跟著墨丘利一起來。它們是走到墓前，而不是原地出現。",
 
 	-- Step 74: Tirion Fordring
 	-- {npc:1855} Tirion Fordring
 	["Ride north-west to {npc:1855}'s hut."] = "往西北騎到{npc:1855}的小屋。",
 
 	-- Step 77: Level 59.14
-	["Level 59.14"] = "",
+	["Level 59.14"] = "59.14級",
 	-- {quest:6135} Duskwing, Oh How I Hate Thee... · {quest:838} Scholomance · {area:2279} Stratholme
-	["If you skipped {quest:6135}, grind here to level 59.14 to stay on the route's plan. Or, with a group, run the {quest:838} dungeon or the {area:2279} dungeon instead."] = "",
+	["If you skipped {quest:6135}, grind here to level 59.14 to stay on the route's plan. Or, with a group, run the {quest:838} dungeon or the {area:2279} dungeon instead."] = "如果你跳過了{quest:6135}，就在這裡刷到59.14級，以保持攻略的節奏。或者組隊改打{quest:838}地下城或{area:2279}地下城。",
 	-- {npc:10717} Temporal Parasite
-	["grind on {npc:10717}"] = "",
+	["grind on {npc:10717}"] = "刷{npc:10717}",
 
 	-- Step 78: Chromie
 	-- {npc:10667} Chromie
@@ -293,43 +293,43 @@ return {
 
 	-- Step 79: The Bulwark
 	-- {area:152} The Bulwark
-	["West to the {area:152}."] = "",
+	["West to the {area:152}."] = "向西到{area:152}。",
 
 	-- Step 80: Into Eastern Plaguelands
 	-- {zone:1423} Eastern Plaguelands
-	["Into {zone:1423}"] = "",
+	["Into {zone:1423}"] = "進入{zone:1423}",
 
 	-- Step 81: Eastern Plaguelands
 	-- {quest:5845} Of Lost Honor
-	["The lake for {quest:5845}"] = "",
+	["The lake for {quest:5845}"] = "{quest:5845}要去的湖",
 
 	-- Step 82: Of Lost Honor
-	["Underwater"] = "",
+	["Underwater"] = "水下",
 
 	-- Step 83: Infiltrator Hameya
 	-- {area:2273} Zul'Mashar
-	["Hameya hides among the Mossflayer trolls of {area:2273}, in the north-east corner.\nCareful: The trolls along the path to {area:2273} are level 57-59. They run away at low health and call for help, so they often bring adds with them."] = "",
+	["Hameya hides among the Mossflayer trolls of {area:2273}, in the north-east corner.\nCareful: The trolls along the path to {area:2273} are level 57-59. They run away at low health and call for help, so they often bring adds with them."] = "哈米亞藏在{area:2273}東北角的苔蘚剝皮者巨魔中。\n小心：通往{area:2273}路上的巨魔是57-59級。他們低血量時會逃跑並呼救，所以常常帶來額外的怪。",
 
 	-- Step 85: Hameya's mound
 	["Hameya's mound"] = "哈米亞的土堆",
 	-- {npc:1855} Tirion Fordring · {area:2261} Undercroft · {object:177675} Mound of Dirt
-	["Ride south-east from {npc:1855} to the {area:2261}; the {object:177675} is just behind it."] = "",
+	["Ride south-east from {npc:1855} to the {area:2261}; the {object:177675} is just behind it."] = "從{npc:1855}向東南騎到{area:2261}；{object:177675}就在它後面。",
 
 	-- Step 86: Into Western Plaguelands
 	-- {zone:1422} Western Plaguelands
-	["Into {zone:1422}"] = "",
+	["Into {zone:1422}"] = "進入{zone:1422}",
 
 	-- Step 89: Target: Writhing Haunt
 	-- {npc:11055} Shadow Priestess Vandis · {area:152} The Bulwark
-	["from the cauldron, for {npc:11055} at the {area:152}"] = "",
+	["from the cauldron, for {npc:11055} at the {area:152}"] = "來自大鍋，交給{area:152}的{npc:11055}",
 
 	-- Step 91: Target: Gahrron's Withering
 	-- {area:202} Writhing Haunt · {area:201} Gahrron's Withering · {npc:11078} Cauldron Lord Soulwrath
-	["Back east past the {area:202} to {area:201}, the farm under the eastern hills: {npc:11078} guards its cauldron. Kill him for the key, then use the cauldron."] = "",
+	["Back east past the {area:202} to {area:201}, the farm under the eastern hills: {npc:11078} guards its cauldron. Kill him for the key, then use the cauldron."] = "向東經過{area:202}回到{area:201}，那是東邊丘陵下的農場：{npc:11078}守著它的大鍋。殺他拿鑰匙，然後使用大鍋。",
 
 	-- Step 92: The Bulwark
 	-- {area:152} The Bulwark
-	["West to the {area:152} one last time."] = "",
+	["West to the {area:152} one last time."] = "最後一次向西去{area:152}。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Dithers offers {item:14619} ({quest:838}). Skip it."] = "迪瑟斯提供{item:14619}（{quest:838}）。跳過。",

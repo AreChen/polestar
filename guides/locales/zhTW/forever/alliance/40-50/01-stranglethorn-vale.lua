@@ -11,9 +11,9 @@ return {
 	-- {quest:1260} Morgan Stern · {npc:4897} Helenia Olden
 	["{quest:1260} stands near the inn; {npc:4897}, a trade supplier a few steps south, sells the spices Jarl wants."] = "{quest:1260}站在旅店附近；往南幾步的商業用品供應商{npc:4897}販售加爾要的香料。",
 	-- {quest:1260} Morgan Stern
-	["{quest:1260}, inside"] = "",
+	["{quest:1260}, inside"] = "{quest:1260}，室內",
 	-- {npc:4964} Commander Samaul · {area:514} Foothold Citadel
-	["{npc:4964}, on the top floor of {area:514}"] = "",
+	["{npc:4964}, on the top floor of {area:514}"] = "{npc:4964}，在{area:514}的頂層",
 	-- {item:3713} Soothing Spices
 	["{item:3713}, for \"Swamp Eye\" Jarl"] = "{item:3713}，給「沼澤之眼」加爾",
 
@@ -26,7 +26,7 @@ return {
 
 	-- Step 3: Swamplight Manor
 	-- {quest:1218} Soothing Spices · {npc:4897} Helenia Olden
-	["Take the road north to the ruined manor; Jarl lives in the shack beside it and the loose dirt is at the corner of the house. Jarl wants three {quest:1218}: if you passed {npc:4897}, buy them from her in Theramore first."] = "",
+	["Take the road north to the ruined manor; Jarl lives in the shack beside it and the loose dirt is at the corner of the house. Jarl wants three {quest:1218}: if you passed {npc:4897}, buy them from her in Theramore first."] = "沿路向北到廢棄的莊園；亞爾就住在旁邊的棚屋裡，鬆土在房子的拐角處。亞爾要三個{quest:1218}：如果你路過了{npc:4897}，先在塞拉摩從她那裡買。",
 	["with the spices from Theramore"] = "帶著從塞拉摩買來的香料",
 
 	-- Step 4: "Stinky" Ignatz
@@ -40,7 +40,7 @@ return {
 
 	-- Step 6: Darkmist Cavern
 	-- plural, as words: Darkmist Lurkers = {npc:4377} Darkmist Lurker
-	["The Darkmist spiders nest around the cavern in the north-west of the marsh; every spider drops eyes.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "",
+	["The Darkmist spiders nest around the cavern in the north-west of the marsh; every spider drops eyes.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "暗霧蜘蛛在沼澤西北的洞穴周圍結巢；每種蜘蛛都掉眼睛。\n注意：暗霧潛伏者潛行移動，進入戰鬥後會使用毒。蜘蛛站得很近，很容易多拉怪；從外圍一次拉一只可以減少額外怪。",
 
 	-- Step 7: Mudcrush Durtfeet
 	["Ride south to the giant's hut in the middle of the marsh."] = "向南騎往沼澤中央巨人的小屋。",
@@ -52,13 +52,13 @@ return {
 	-- Step 9: Theramore
 	-- {area:514} Foothold Citadel
 	["Follow the road east back to Theramore. The officers are in {area:514}."] = "沿著道路向東回到塞拉摩。軍官們都在{area:514}。",
-	["On the top floor"] = "",
+	["On the top floor"] = "在頂層",
 	-- {npc:4948} Adjutant Tesoran
-	["{npc:4948}, on the top floor"] = "",
+	["{npc:4948}, on the top floor"] = "{npc:4948}，在頂層",
 	-- {npc:4794} Morgan Stern
-	["{npc:4794}, inside"] = "",
+	["{npc:4794}, inside"] = "{npc:4794}，室內",
 	-- {npc:4794} Morgan Stern · {zone:1435} Swamp of Sorrows
-	["{npc:4794}: the crawlers are on the {zone:1435} shore, keep it"] = "",
+	["{npc:4794}: the crawlers are on the {zone:1435} shore, keep it"] = "{npc:4794}：螃蟹在{zone:1435}岸邊，先留著任務",
 
 	-- Step 10: Mirefin murlocs
 	["Mirefin murlocs"] = "黑鰭魚人",
@@ -83,11 +83,11 @@ return {
 
 	-- Step 16: Foothold Citadel
 	-- {npc:4944} Captain Garran Vimes · {area:514} Foothold Citadel
-	["The boat leaves from Theramore: report to {npc:4944} on the top floor of {area:514} on the way to the docks."] = "",
+	["The boat leaves from Theramore: report to {npc:4944} on the top floor of {area:514} on the way to the docks."] = "船從塞拉摩出發：去碼頭途中，到{area:514}頂層向{npc:4944}報到。",
 	-- {npc:4944} Captain Garran Vimes
-	["{npc:4944}, on the top floor"] = "",
+	["{npc:4944}, on the top floor"] = "{npc:4944}，位於最頂層",
 	-- {npc:4968} Lady Jaina Proudmoore
-	["{npc:4968}, on the top floor"] = "",
+	["{npc:4968}, on the top floor"] = "{npc:4968}，在頂層",
 
 	-- Step 17: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -97,7 +97,7 @@ return {
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "飛往{zone:1453}",
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150}飛行管理員",
 
 	-- Step 20: Riding at 40
 	["Riding at 40"] = "40級騎術",
@@ -108,11 +108,11 @@ return {
 
 	-- Step 21: Riding at 40
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar · {area:279} Dalaran
-	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. Skyborne learn it from {npc:265756}, the stablemaster and riding trainer at the {area:17684} in {area:16638} on Zephras Isle, who also sells the Galestriders: the skyboat to the isle leaves the north side of {area:279} about every five minutes. Collectibles, Mounts · Level 40 lists the Galestriders."] = "",
+	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. Skyborne learn it from {npc:265756}, the stablemaster and riding trainer at the {area:17684} in {area:16638} on Zephras Isle, who also sells the Galestriders: the skyboat to the isle leaves the north side of {area:279} about every five minutes. Collectibles, Mounts · Level 40 lists the Galestriders."] = "40級時花100金就能學騎術，學會後可獲得一匹坐騎。天裔在澤弗拉斯島{area:16638}的{area:17684}向馴獸師兼騎術訓練師{npc:265756}學習，他還出售風行者：前往該島的天艇大約每五分鐘從{area:279}北側出發。收藏·坐騎·40級列出了風行者。",
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
-	["Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle."] = "",
+	["Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle."] = "騎術與風行者：{npc:265756}，在澤弗拉斯島{area:16638}的{area:17684}。",
 	-- {area:279} Dalaran
-	["Skyboat to Zephras Isle: the north side of {area:279}, about every five minutes."] = "",
+	["Skyboat to Zephras Isle: the north side of {area:279}, about every five minutes."] = "前往澤弗拉斯島的天艇：{area:279}北側，大約每五分鐘一班。",
 
 	-- Step 22: Boat to Booty Bay
 	-- {area:35} Booty Bay
@@ -124,21 +124,21 @@ return {
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "飛往{area:35}",
 	-- {area:42} Darkshire
-	["{area:42} flight master"] = "",
+	["{area:42} flight master"] = "{area:42}飛行管理員",
 
 	-- Step 44: Booty Bay
 	-- {npc:773} Krazek
-	["{npc:773}, upstairs"] = "",
+	["{npc:773}, upstairs"] = "{npc:773}，樓上",
 	-- {npc:770} Corporal Kaleb · {area:99} Rebel Camp
 	["for {npc:770} at the {area:99}, on the northern loop"] = "給{area:99}的{npc:770}，在北部環線上",
 	-- {npc:2487} Fleet Master Seahorn
 	["{npc:2487}, top floor"] = "{npc:2487}，頂樓",
 	-- {npc:737} Kebok
-	["{npc:737}, upstairs: the Skullsplitter trolls, on the northern loop"] = "",
-	["Inside"] = "",
+	["{npc:737}, upstairs: the Skullsplitter trolls, on the northern loop"] = "{npc:737}，在樓上：劈顱巨魔，在北部環線上",
+	["Inside"] = "在裡面",
 	["Seahorn's next errand goes back to Arathi: skip it."] = "海角的下一個任務會回到阿拉希：跳過。",
 	-- {npc:2542} Catelyn the Blade
-	["{npc:2542}, upstairs"] = "",
+	["{npc:2542}, upstairs"] = "{npc:2542}，樓上",
 	["Upstairs"] = "樓上",
 
 	-- Step 45: Bloodsail camp
@@ -147,19 +147,19 @@ return {
 
 	-- Step 46: Booty Bay
 	-- {npc:2488} Deeg
-	["{npc:2488}, on the top floor"] = "",
+	["{npc:2488}, on the top floor"] = "{npc:2488}，在頂層",
 	-- {npc:2624} Gazban
 	["{npc:2624} swims off the north-west coast, on the northern loop"] = "{npc:2624}在西北海岸外游動，在北部環線上",
 
 	-- Step 47: Wild Shore: kill these as you meet them
 	-- {area:43} Wild Shore
-	["{area:43}: kill these as you meet them"] = "",
+	["{area:43}: kill these as you meet them"] = "{area:43}：遇到就殺",
 	-- {npc:2493} Dizzy One-Eye · {area:43} Wild Shore · {area:35} Booty Bay
 	["Every Bloodsail drops Snuff and one of them carries {npc:2493}'s eye; the Swashbucklers walk the shore just north of town. The charts and orders lie in the pirate camp on the {area:43}, south of {area:35}."] = "每個血帆海盜都會掉落鼻煙，其中一個帶著{npc:2493}的眼睛；血帆流氓在城鎮北邊的岸上走動。海圖和命令在{area:35}南邊{area:43}的海盜營地裡。",
 
 	-- Step 48: Booty Bay
 	-- {quest:604} The Bloodsail Buccaneers
-	["Seahorn now offers {quest:604}: leave it. Its three captains are level 45-48 with crews around them, and the route brings you back to Seahorn at 48 for it."] = "",
+	["Seahorn now offers {quest:604}: leave it. Its three captains are level 45-48 with crews around them, and the route brings you back to Seahorn at 48 for it."] = "海角船長現在給{quest:604}：先放著。那三個船長是45-48級，身邊還有船員；路線會在48級時帶你回來找他做。",
 
 	-- Step 49: Gorilla hills
 	["Gorilla hills"] = "猩猩山丘",
@@ -172,7 +172,7 @@ return {
 	-- {npc:1514} Mokk the Savage
 	["Hand in the fangs and stay: three waves of gorillas come, {npc:1514} last. Fight at full health."] = "交出獠牙後留下來：會來三波猩猩，最後是{npc:1514}。滿血再戰。",
 	-- {npc:1449} Witch Doctor Unbagwa · {area:1742} Spirit Den
-	["{npc:1449}, inside {area:1742}"] = "",
+	["{npc:1449}, inside {area:1742}"] = "{npc:1449}，在{area:1742}內",
 
 	-- Step 51: Naga Explorers
 	-- plural, as words: Naga Explorers = {npc:1907} Naga Explorer
@@ -184,8 +184,8 @@ return {
 	-- {npc:2616} Privateer Groy
 	["for {npc:2616} in Theramore: keep it"] = "給塞拉摩的{npc:2616}：保留此任務",
 	-- {zone:1446} Tanaris
-	["for Stoley in {zone:1446}: keep it; on the top floor"] = "",
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
+	["for Stoley in {zone:1446}: keep it; on the top floor"] = "給{zone:1446}的斯托雷：留著；在頂層",
+	["\"Sea Wolf\" MacKinley, on the top floor"] = "“海狼”麥金利，在頂層",
 
 	-- Step 53: Cortello's scroll
 	["Cortello's scroll"] = "科泰羅的卷軸",
@@ -209,7 +209,7 @@ return {
 	-- plural, as words: Jungle Stalkers = {npc:687} Jungle Stalker
 	["Jungle Stalkers"] = "叢林捕獵者",
 	-- plural, as words: Jungle Stalkers = {npc:687} Jungle Stalker
-	["The Jungle Stalkers roam the slopes west of the mine."] = "",
+	["The Jungle Stalkers roam the slopes west of the mine."] = "叢林潛伏者在礦的西邊山坡上游蕩。",
 
 	-- Step 57: The north-west coast
 	["The north-west coast"] = "西北海岸",
@@ -217,69 +217,69 @@ return {
 	-- plural, as words: Giant Clams = {object:2744} Giant Clam
 	["Ride north-west from the mine to the bay on the north-west coast. The Giant Clams lie on its floor and hold the pearls; {npc:2624} swims among them and drops the {item:4034}."] = "從礦坑向西北騎往西北海岸的海灣。巨型蚌殼躺在海底，裡面有珍珠；{npc:2624}在牠們之間游動，會掉落{item:4034}。",
 	-- {item:4611} Blue Pearl
-	["{item:4611}; underwater"] = "",
+	["{item:4611}; underwater"] = "{item:4611}；水下",
 
 	-- Step 60: Arbor Tarantula
 	-- {npc:217588} Arbor Tarantula · {area:99} Rebel Camp · {npc:217412} Amaryllis Webb
-	["An {npc:217588} crawls in the jungle south-east of Nesingwary's camp, on the way to the {area:99}: catch one with the tool from {npc:217412}'s Entomology Starter Kit."] = "",
+	["An {npc:217588} crawls in the jungle south-east of Nesingwary's camp, on the way to the {area:99}: catch one with the tool from {npc:217412}'s Entomology Starter Kit."] = "一隻{npc:217588}在奈辛瓦里營地東南的叢林裡爬動，就在去{area:99}的路上：用{npc:217412}的昆蟲學入門工具包裡的工具抓一隻。",
 
 	-- Step 61: Rebel Camp
-	["Ride north-east past Nesingwary's camp and follow the road north to the camp at the top of the vale."] = "",
+	["Ride north-east past Nesingwary's camp and follow the road north to the camp at the top of the vale."] = "向東北騎過奈辛瓦里營地，沿路向北到山谷頂端的營地。",
 
 	-- Step 63: Panther Mastery
 	-- {npc:728} Bhag'thera
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:728} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:728} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "這些是精英怪：建議組隊，找人來一起做。{npc:728}是40級精英：大多數職業42級可以單挑，但可能需要幫忙。如果只有你一個人就跳過：路線會安排你刷怪補經驗。",
 
 	-- Step 64: Level 42.16 at Zul'Mamwe
-	["Level 42.16 at Zul'Mamwe"] = "",
+	["Level 42.16 at Zul'Mamwe"] = "在祖爾瑪姆維達到42.16級",
 	-- {npc:737} Kebok · {area:1517} Uldaman
-	["Alone, you skip Nesingwary's three elite hunts: take their experience from the Skullsplitter trolls of Zul'Mamwe instead, just east of the mine, so every kill also counts for {npc:737}'s tusks. Or, with a group, run the {area:1517} dungeon instead."] = "",
+	["Alone, you skip Nesingwary's three elite hunts: take their experience from the Skullsplitter trolls of Zul'Mamwe instead, just east of the mine, so every kill also counts for {npc:737}'s tusks. Or, with a group, run the {area:1517} dungeon instead."] = "一個人時跳過奈辛瓦里的三個精英狩獵：改從礦東邊祖爾瑪姆維的碎顱巨魔身上拿經驗，這樣每個擊殺也能算進{npc:737}的獠牙。或者組隊去刷{area:1517}副本。",
 	-- {npc:667} Skullsplitter Warrior
-	["grind on {npc:667}"] = "",
+	["grind on {npc:667}"] = "擊殺{npc:667}刷經驗",
 
 	-- Step 65: Ruins of Zul'Mamwe: kill these as you meet them
 	-- {area:103} Ruins of Zul'Mamwe
-	["{area:103}: kill these as you meet them"] = "",
+	["{area:103}: kill these as you meet them"] = "{area:103}：遇到就殺",
 	-- {area:310} Crystalvein Mine
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther
-	["The Skullsplitter trolls hold the ruins just east of the mine; any of them can drop tusks, their panthers always do.\nFollow the road north-east to the Venture Co. camp at the {area:310}; the miners, surveyors and foremen drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp."] = "",
+	["The Skullsplitter trolls hold the ruins just east of the mine; any of them can drop tusks, their panthers always do.\nFollow the road north-east to the Venture Co. camp at the {area:310}; the miners, surveyors and foremen drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp."] = "劈顱者巨魔佔據著礦場以東的廢墟；其中任何一個都可能掉獠牙，他們的黑豹必掉。\n沿路向東北前往{area:310}的風險投資公司營地；礦工、勘測員和工頭掉落水晶。\n注意：潛行的影顎黑豹和荊棘谷母虎在營地周圍活動。",
 
 	-- Step 66: Raptor Mastery
 	-- {npc:730} Tethis
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:730} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:730} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "這些是精英怪：建議組隊，找人來一起做。{npc:730}是43級精英：大多數職業45級可以單挑，但可能需要幫忙。如果只有你一個人就跳過：路線會安排你刷怪補經驗。",
 
 	-- Step 70: Big Game Hunter
 	-- {npc:731} King Bangalash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "這些是精英怪：建議組隊，找人來一起做。{npc:731}是43級精英：大多數職業45級可以單挑，但可能需要幫忙。如果只有你一個人就跳過：路線會安排你刷怪補經驗。\n注意：老虎和潛行的影顎黑豹在他附近遊蕩。拉他之前先清掉。開打後，{npc:731}會向20碼內的生物呼救。",
 
 	-- Step 72: Level 42.16
-	["Level 42.16"] = "",
+	["Level 42.16"] = "42.16級",
 	-- {area:310} Crystalvein Mine · {area:35} Booty Bay · {area:1517} Uldaman
 	-- plural, as words: Cold Eye Basilisks = {npc:690} Cold Eye Basilisk
-	["Still short of level 42.16 after the hunts you did? Make up the rest on the Cold Eye Basilisks by the {area:310}, on your way south to {area:35}. Or, with a group, run the {area:1517} dungeon instead."] = "",
+	["Still short of level 42.16 after the hunts you did? Make up the rest on the Cold Eye Basilisks by the {area:310}, on your way south to {area:35}. Or, with a group, run the {area:1517} dungeon instead."] = "做完了這些狩獵還不到42.16級？在向南去{area:35}的路上，打{area:310}旁的冷眼蜥蜴補齊。或者組隊去刷{area:1517}副本。",
 	-- {npc:690} Cold Eye Basilisk
-	["grind on {npc:690}"] = "",
+	["grind on {npc:690}"] = "刷{npc:690}",
 
 	-- Step 73: Booty Bay
 	-- {area:35} Booty Bay
-	["Ride south down the road to {area:35}."] = "",
+	["Ride south down the road to {area:35}."] = "沿道路向南騎到{area:35}。",
 	-- {npc:2498} Crank Fizzlebub · {zone:1441} Thousand Needles
 	["{npc:2498}'s next Zanzil errand starts in {zone:1441}: skip it."] = "{npc:2498}的下一個贊吉爾任務從{zone:1441}開始：跳過。",
 	-- {npc:737} Kebok
-	["{npc:737}, upstairs"] = "",
+	["{npc:737}, upstairs"] = "{npc:737}，樓上",
 	["MacKinley's next task sends you after elite ogres: skip it."] = "馬克基雷的下一個任務要你去打精英巨魔：跳過。",
 	-- {npc:773} Krazek · {quest:2864} Tran'rek · {zone:1446} Tanaris
 	["{npc:773}: for {quest:2864} in {zone:1446}, keep it"] = "{npc:773}：給{zone:1446}的{quest:2864}，保留此任務",
 
 	-- Step 74: Fly to Stormwind
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35}飛行管理員",
 
 	-- Step 75: Stormwind
 	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District
 	["{npc:1141} cooks in the {object:2169}; {npc:5384} is in the {object:28027}."] = "{npc:1141}在{object:2169}烹飪；{npc:5384}在{object:28027}。",
 	-- {npc:5694} High Sorcerer Andromath · {npc:5464} Watchmaster Sorigal · {area:42} Darkshire
-	["{npc:5694}: for {npc:5464} in {area:42}, on the way to the swamp"] = "",
+	["{npc:5694}: for {npc:5464} in {area:42}, on the way to the swamp"] = "{npc:5694}：給{area:42}的{npc:5464}，在去沼澤的路上",
 
 	-- Step 76: Stormwind
 	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep
@@ -292,7 +292,7 @@ return {
 	["{npc:6171}, in the Cathedral of Light"] = "{npc:6171}，在光明大教堂裡",
 
 	-- Step 79: Stormwind City
-	["Stormwind City"] = "",
+	["Stormwind City"] = "暴風城",
 
 	-- Step 80: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed
@@ -302,9 +302,9 @@ return {
 
 	-- Step 82: Fly to Rut'theran Village
 	-- {area:702} Rut'theran Village
-	["Fly to {area:702}"] = "",
+	["Fly to {area:702}"] = "飛往{area:702}",
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442}飛行管理員",
 
 	-- Step 85: Riding at 40
 	-- {npc:4753} Jartsam · {zone:1457} Darnassus · {npc:4730} Lelanai · {area:17203} Stormwind Harbor · {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4732} Randal Hunter · {area:88} Eastvale Logging Camp · {zone:1429} Elwynn Forest
@@ -314,33 +314,33 @@ return {
 
 	-- Step 87: Fly to Auberdine
 	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "",
+	["Fly to {area:442}"] = "飛往{area:442}",
 	-- {area:702} Rut'theran Village
-	["{area:702} flight master"] = "",
+	["{area:702} flight master"] = "{area:702}飛行管理員",
 
 	-- Step 88: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
-	["Boat to {area:17203}"] = "",
+	["Boat to {area:17203}"] = "乘船前往{area:17203}",
 
 	-- Step 89: Fly to Darkshire
 	-- {area:42} Darkshire
 	["Fly to {area:42}"] = "飛往{area:42}",
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453}飛行管理員",
 
 	-- Step 90: Darkshire
 	-- {npc:5464} Watchmaster Sorigal
-	["{npc:5464}, by the flight master"] = "",
+	["{npc:5464}, by the flight master"] = "{npc:5464}，在飛行管理員旁邊",
 
 	-- Step 92: Misty Valley
 	["The scroll lies in the marsh north of Biggs. The Swampwalkers north of it can drop Khadgar's essays."] = "卷軸在比格斯北邊的沼澤裡。它北邊的沼澤漫步者可能會掉落卡德加的空間收斂研究筆記。",
 
 	-- Step 94: Level 42.46
-	["Level 42.46"] = "",
+	["Level 42.46"] = "42.46級",
 	-- {quest:543} The Perenolde Tiara · {area:1517} Uldaman
-	["If you skipped {quest:543}, grind here to level 42.46 to stay on the route's plan. Or, with a group, run the {area:1517} dungeon instead."] = "",
+	["If you skipped {quest:543}, grind here to level 42.46 to stay on the route's plan. Or, with a group, run the {area:1517} dungeon instead."] = "如果你跳過了{quest:543}，就在這裡刷到42.46級，以保持攻略的節奏。或者組隊去刷{area:1517}副本。",
 	-- {npc:766} Tangled Horror
-	["grind on {npc:766}"] = "",
+	["grind on {npc:766}"] = "刷{npc:766}",
 
 	-- Step 95: Cortello's Riddle
 	-- {npc:217412} Amaryllis Webb · {quest:93176} My Little Friends
@@ -348,7 +348,7 @@ return {
 
 	-- Step 96: Watcher Biggs
 	-- {npc:5476} Watcher Biggs
-	["{npc:5476} stands by the road junction in the west of the swamp."] = "",
+	["{npc:5476} stands by the road junction in the west of the swamp."] = "{npc:5476}站在沼澤西部的路口旁。",
 
 	-- Step 97: The sunken temple
 	["The sunken temple"] = "沉沒的神廟",
@@ -360,7 +360,7 @@ return {
 	["The driftwood washes up along the eastern shore."] = "浮木沖上東岸。",
 	-- {item:5938} Pristine Crawler Leg
 	-- plural, as words: Silt Crawlers = {npc:922} Silt Crawler
-	["{item:5938}, from the Silt Crawlers on the same shore"] = "",
+	["{item:5938}, from the Silt Crawlers on the same shore"] = "{item:5938}，來自同一片岸邊的淤泥爬蟲",
 
 	-- Step 99: Watcher Biggs
 	-- {area:1438} Nethergarde Keep
@@ -372,11 +372,11 @@ return {
 
 	-- Step 103: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "乘地鐵前往{zone:1455}",
 
 	-- Step 106: Ironforge
 	-- {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern
-	["{npc:5637} is in the Reclaimers' hall by the {object:32356}, {npc:2786} in the {object:32383}."] = "",
+	["{npc:5637} is in the Reclaimers' hall by the {object:32356}, {npc:2786} in the {object:32383}."] = "{npc:5637}在{object:32356}旁的尋物公司大廳，{npc:2786}在{object:32383}。",
 	-- {zone:1453} Stormwind
 	["{zone:1453} has no shaman trainer"] = "{zone:1453}沒有薩滿訓練師",
 
@@ -394,19 +394,19 @@ return {
 
 	-- Step 111: Fly to Thelsamar
 	-- {area:144} Thelsamar
-	["Fly to {area:144}"] = "",
+	["Fly to {area:144}"] = "飛往{area:144}",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455}飛行管理員",
 
 	-- Step 112: Loch Modan
 	-- {zone:1426} Dun Morogh · {zone:1432} Loch Modan · {area:144} Thelsamar
-	["Ride east out of {zone:1426} through the tunnel into {zone:1432} and on along the road to {area:144}."] = "",
+	["Ride east out of {zone:1426} through the tunnel into {zone:1432} and on along the road to {area:144}."] = "從{zone:1426}向東騎，穿過隧道進入{zone:1432}，再沿路一直到{area:144}。",
 
 	-- Step 113: Thelsamar
 	-- {npc:1470} Ghak Healtouch · {area:144} Thelsamar · {area:1517} Uldaman · {zone:1418} Badlands
-	["{npc:1470} is below ground in {area:144}, by the inn. His mushrooms grow in the {area:1517} dig in the {zone:1418}; the next guide takes you there and back through {area:144}."] = "",
+	["{npc:1470} is below ground in {area:144}, by the inn. His mushrooms grow in the {area:1517} dig in the {zone:1418}; the next guide takes you there and back through {area:144}."] = "{npc:1470}在{area:144}的地下、旅店旁。他的蘑菇長在{zone:1418}裡{area:1517}的挖掘場；下一篇指南帶你經{area:144}往返那裡。",
 	-- {npc:1470} Ghak Healtouch
-	["{npc:1470}, below ground"] = "",
+	["{npc:1470}, below ground"] = "{npc:1470}：在地下",
 
 	-- Step 115: Hammertoe's Digsite
 	-- {zone:1432} Loch Modan · {zone:1418} Badlands · {npc:2860} Sigrun Ironhew

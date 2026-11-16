@@ -10,7 +10,7 @@ return {
 	-- {area:272} Tarren Mill
 	["Fly to {area:272}"] = "飛往{area:272}",
 	-- {area:1446} Thorium Point
-	["{area:1446} flight master"] = "",
+	["{area:1446} flight master"] = "{area:1446}飛行管理員",
 
 	-- Step 2: The Hinterlands
 	-- {npc:7801} Gilveradin Sunchaser
@@ -23,11 +23,11 @@ return {
 	-- Step 4: Highvale
 	["Highvale"] = "高原精靈",
 	-- {area:350} Quel'Danil Lodge · {npc:7780} Rin'ji
-	["The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way.\nCareful: Groups of about three elves ambush the escort, usually twice."] = "",
+	["The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way.\nCareful: Groups of about three elves ambush the escort, usually twice."] = "高地谷的精靈在{area:350}周圍紮營。在他們的營地裡燒掉報告、筆記和記錄。{npc:7780}被關在屋內：帶他出來，並在途中擊退伏擊。\n注意：大約三隻精靈一組會伏擊護送隊，通常兩次。",
 
 	-- Step 5: Violet Tragan
 	["East of the village, the violet flower grows in the hills."] = "村子東邊的丘陵上長著紫色水生菇。",
-	["Underwater"] = "",
+	["Underwater"] = "水下",
 
 	-- Step 6: Revantusk Village
 	-- {zone:1425} The Hinterlands
@@ -35,15 +35,15 @@ return {
 
 	-- Step 8: Revantusk Village
 	-- {quest:7849} Separation Anxiety · {quest:7845} Kidnapped Elder Torntusk! · {quest:7850} Dark Vessels · {area:354} Jintha'Alor · {npc:14736} Primal Torntusk · {npc:14731} Lard
-	["{quest:7849}, {quest:7845} and {quest:7850} are group quests: they send you into {area:354}, whose trolls are elite (46-50). Take them with a group of three or more; skip them if you are alone, the route has you grind the experience back.\n{npc:14736} stands up on top of the inn, above {npc:14731}: go up, the arrow cannot tell the levels apart."] = "",
+	["{quest:7849}, {quest:7845} and {quest:7850} are group quests: they send you into {area:354}, whose trolls are elite (46-50). Take them with a group of three or more; skip them if you are alone, the route has you grind the experience back.\n{npc:14736} stands up on top of the inn, above {npc:14731}: go up, the arrow cannot tell the levels apart."] = "{quest:7849}、{quest:7845}和{quest:7850}都是組隊任務：要你進入{area:354}，那裡的巨魔是精英（46-50級）。三人以上組隊再接；獨自一人就跳過，路線會讓你刷怪把經驗補回來。\n{npc:14736}站在旅店頂上，在{npc:14731}上方：往上走，箭頭分不清樓層。",
 
 	-- Step 9: The Overlook Cliffs: kill these as you meet them
 	-- {area:307} The Overlook Cliffs
-	["{area:307}: kill these as you meet them"] = "",
+	["{area:307}: kill these as you meet them"] = "{area:307}：遇到就殺",
 	-- {npc:2491} Whiskey Slim · {area:307} The Overlook Cliffs
-	["The big turtles crawl along the beaches north of the village, and {npc:2491}'s bottles of port lie on the same beaches, from the village up to the {area:307}: pick them up as you go. A snapjaw can drop OOX-09/HL's distress beacon, rarely: keep it."] = "",
+	["The big turtles crawl along the beaches north of the village, and {npc:2491}'s bottles of port lie on the same beaches, from the village up to the {area:307}: pick them up as you go. A snapjaw can drop OOX-09/HL's distress beacon, rarely: keep it."] = "大烏龜在村子以北的海灘上爬行，{npc:2491}的波特酒瓶就在同一片海灘上，從村子一直到{area:307}：邊走邊撿。硬顎鱷魚很少掉 OOX-09/HL 的遇險信標：留著。",
 	-- {object:2068} Pupellyverbos Port
-	["{object:2068}, on the beaches"] = "",
+	["{object:2068}, on the beaches"] = "{object:2068}，在海灘上",
 	-- {item:8704} OOX-09/HL Distress Beacon
 	["{item:8704}, a rare drop"] = "{item:8704}，稀有掉落",
 
@@ -65,10 +65,10 @@ return {
 
 	-- Step 14: Shaol'watha: kill these as you meet them
 	-- {area:1917} Shaol'watha
-	["{area:1917}: kill these as you meet them"] = "",
+	["{area:1917}: kill these as you meet them"] = "{area:1917}：遇到就殺",
 	-- {area:1884} Agol'watha · {area:1917} Shaol'watha · {area:351} Skulk Rock · {item:9618} Wildkin Muisek Vessel · {npc:14738} Otho Moji'ko · {spell:7367} Infected Bite · {npc:2925} Silvermane Howler
 	-- plural, as words: Silvermane Stalkers = {npc:2926} Silvermane Stalker · Savage Owlbeasts = {npc:2929} Savage Owlbeast · Razorbeak Skylords = {npc:2659} Razorbeak Skylord · Long Elegant Feathers = {item:4589} Long Elegant Feather
-	["West of the island, the Vilebranch scalpers hold the temples of {area:1884} and {area:1917}. Slagtree's tools lie at one of the temples.\nThe Silvermane Stalkers, Savage Owlbeasts and Razorbeak Skylords share the hills between the temples and {area:351}. Use the {item:9618} on the owlbeasts you kill. The Skylords also drop Long Elegant Feathers: keep ten for {npc:14738}'s second message.\nCareful: Silvermane Stalkers are level 47-48 and stay stealthed while out of combat. Up close they use {spell:7367}. When a {npc:2925} falls to 50% health or lower, it calls for help from anything within 25 yd."] = "",
+	["West of the island, the Vilebranch scalpers hold the temples of {area:1884} and {area:1917}. Slagtree's tools lie at one of the temples.\nThe Silvermane Stalkers, Savage Owlbeasts and Razorbeak Skylords share the hills between the temples and {area:351}. Use the {item:9618} on the owlbeasts you kill. The Skylords also drop Long Elegant Feathers: keep ten for {npc:14738}'s second message.\nCareful: Silvermane Stalkers are level 47-48 and stay stealthed while out of combat. Up close they use {spell:7367}. When a {npc:2925} falls to 50% health or lower, it calls for help from anything within 25 yd."] = "島以西，邪枝剝皮者佔據著{area:1884}和{area:1917}的神廟。斯拉格樹的工具在其中一個神廟裡。\n銀鬃潛伏者、野蠻梟獸和銳喙天空領主分佈在神廟與{area:351}之間的山丘。對你殺死的梟獸使用{item:9618}。天空領主還會掉優雅長羽：留十根給{npc:14738}的第二條訊息。\n注意：銀鬃潛伏者是47-48級，脫戰後保持潛行。近身時會使出{spell:7367}。當{npc:2925}生命值降到50%或更低時，會向25碼內的任何東西呼救。",
 
 	-- Step 15: Skulk Rock
 	-- {item:8684} Hinterlands Honey Ripple · {area:351} Skulk Rock
@@ -76,19 +76,19 @@ return {
 
 	-- Step 16: Wildkin Muisek
 	-- {area:1883} Valorwind Lake
-	["Careful: Stealthed wolves and griffons roam the {area:1883} area."] = "",
+	["Careful: Stealthed wolves and griffons roam the {area:1883} area."] = "注意：潛行的狼和獅鷲在{area:1883}一帶遊蕩。",
 
 	-- Step 17: The Altar of Zul: kill these as you meet them
 	-- {area:355} The Altar of Zul
-	["{area:355}: kill these as you meet them"] = "",
+	["{area:355}: kill these as you meet them"] = "{area:355}：遇到就殺",
 	-- {area:355} The Altar of Zul · {npc:8636} Morta'gya the Keeper
 	-- plural, as words: Silvermane Howlers = {npc:2925} Silvermane Howler
-	["South-west of the lake, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.\nSouth-west, the Silvermane Howlers roam the hills east of the Witherbark villages."] = "",
+	["South-west of the lake, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.\nSouth-west, the Silvermane Howlers roam the hills east of the Witherbark villages."] = "湖的西南，邪枝占卜者佔據著{area:355}，即中央丘陵以南的巨魔神廟。恰加和{npc:8636}（50級精英）站在頂端：在下層臺階上打占卜者。\n西南方向，銀鬃嗥叫者在枯木村以東的山丘遊蕩。",
 
 	-- Step 18: OOX-09/HL
 	["OOX-09/HL"] = "OOX-09/HL",
 	-- {area:351} Skulk Rock · {area:307} The Overlook Cliffs · {area:35} Booty Bay
-	["Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}.\nCareful: Two ambushes spawn during the escort: first three wildkin owlbeasts, then three trolls. Before each, the robot halts and announces it senses danger. Oozes, stealthed wolves and a large turtle along the path can join fights, and they respawn even if cleared beforehand."] = "",
+	["Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}.\nCareful: Two ambushes spawn during the escort: first three wildkin owlbeasts, then three trolls. Before each, the robot halts and announces it senses danger. Oozes, stealthed wolves and a large turtle along the path can join fights, and they respawn even if cleared beforehand."] = "只有帶著求救信標才行：機器人停在{area:351}以西的河源處。護送它向東到{area:307}之外的海岸；獎勵在{area:35}的奧格索普那裡領。\n注意：護送過程中會刷出兩次伏擊：先是三隻野生梟獸，然後是三隻巨魔。每次之前機器人都會停下並說它感到危險。路上的軟泥怪、潛行的狼和一隻大烏龜可能加入戰鬥，而且即使事先清過也會重新整理。",
 
 	-- Step 19: Gilveradin Sunchaser's camp
 	-- {npc:6986} Dran Droffers · {zone:1454} Orgrimmar
@@ -100,7 +100,7 @@ return {
 
 	-- Step 21: Jintha'Alor
 	-- {area:354} Jintha'Alor · {npc:14757} Elder Torntusk
-	["Huntsman Malkhor's skull lies on a pile below the Vilebranch ruins, his bones on a pile at the foot of {area:354}. The Vessels of Tainted Blood sit on the lower terraces, and {npc:14757} is held at the top. The trolls inside are elite: stay with your group and keep to the paths."] = "",
+	["Huntsman Malkhor's skull lies on a pile below the Vilebranch ruins, his bones on a pile at the foot of {area:354}. The Vessels of Tainted Blood sit on the lower terraces, and {npc:14757} is held at the top. The trolls inside are elite: stay with your group and keep to the paths."] = "獵戶莫克霍爾的顱骨在邪枝廢墟下方的一堆骨頭上，他的骨頭在{area:354}腳下的一堆上。汙染之血容器放在下層平臺上，{npc:14757}被關在最頂上。裡面的巨魔都是精英：跟緊隊伍，沿小路走。",
 	-- {npc:14757} Elder Torntusk · {area:354} Jintha'Alor
 	["{npc:14757}, at the top of {area:354}"] = "{npc:14757}，在{area:354}頂端",
 	-- {area:355} The Altar of Zul
@@ -108,18 +108,18 @@ return {
 
 	-- Step 22: Revantusk Village
 	-- {npc:14731} Lard
-	["{npc:14731}, inside"] = "",
+	["{npc:14731}, inside"] = "{npc:14731}，在裡面",
 
 	-- Step 23: Revantusk Village
 	-- {npc:14736} Primal Torntusk · {npc:14731} Lard
-	["{npc:14736} stands up on top of the inn, above {npc:14731}: go up, the arrow cannot tell the levels apart."] = "",
+	["{npc:14736} stands up on top of the inn, above {npc:14731}: go up, the arrow cannot tell the levels apart."] = "{npc:14736}站在旅店的屋頂上，在{npc:14731}上方：走上去，箭頭無法區分上下層。",
 
 	-- Step 25: Level 49.02
-	["Level 49.02"] = "",
+	["Level 49.02"] = "49.02級",
 	-- {quest:7816} Gammerita, Mon! · {area:354} Jintha'Alor · {area:2100} Maraudon
-	["If you skipped {quest:7816} or the {area:354} group quests, grind here to level 49.02 to stay on the route's plan. Or, with a group, run the {area:2100} dungeon instead."] = "",
+	["If you skipped {quest:7816} or the {area:354} group quests, grind here to level 49.02 to stay on the route's plan. Or, with a group, run the {area:2100} dungeon instead."] = "如果你跳過了{quest:7816}或{area:354}的組隊任務，就在這裡刷到49.02級，以跟上本路線的進度規劃。或者組隊改去打{area:2100}副本。",
 	-- {npc:2505} Saltwater Snapjaw
-	["grind on {npc:2505}"] = "",
+	["grind on {npc:2505}"] = "刷{npc:2505}",
 
 	-- Step 26: The Atal'ai Exile
 	-- {area:353} Shadra'Alor
@@ -139,18 +139,18 @@ return {
 	-- {area:75} Stonard
 	["Fly to {area:75}"] = "飛往{area:75}",
 	-- {area:3317} Revantusk Village
-	["{area:3317} flight master"] = "",
+	["{area:3317} flight master"] = "{area:3317}飛行管理員",
 
 	-- Step 32: Fel'zerul
-	["On the top floor"] = "",
+	["On the top floor"] = "在頂層",
 
 	-- Step 33: Fallen Hero of the Horde
 	-- {zone:1419} Blasted Lands
-	["The ghostly orc stands by the road where the swamp meets the canyon into the {zone:1419}. Listen to his story."] = "",
+	["The ghostly orc stands by the road where the swamp meets the canyon into the {zone:1419}. Listen to his story."] = "幽靈獸人站在沼澤與通往{zone:1419}的峽谷相接處的路邊。聽完他的故事。",
 
 	-- Step 35: Fallen Hero of the Horde
 	-- {npc:7623} Dispatch Commander Ruag · {area:75} Stonard · {zone:1419} Blasted Lands
-	["for {npc:7623} in {area:75}, after the {zone:1419}"] = "",
+	["for {npc:7623} in {area:75}, after the {zone:1419}"] = "給{area:75}的{npc:7623}，{zone:1419}之後",
 
 	-- Step 36: The bloodmages
 	["The bloodmages"] = "血法師",
@@ -159,10 +159,10 @@ return {
 
 	-- Step 37: Serpent's Coil: kill these as you meet them
 	-- {area:1440} Serpent's Coil
-	["{area:1440}: kill these as you meet them"] = "",
+	["{area:1440}: kill these as you meet them"] = "{area:1440}：遇到就殺",
 	-- {npc:5982} Black Slayer · {spell:5416} Venom Sting · {npc:8301} Clack the Reaver
 	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang · Scorpok Stingers = {npc:5988} Scorpok Stinger
-	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "",
+	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "這五個任務用同樣的部件：一趟全收齊。路西的山丘上有{npc:5982}禿鷲、飢餓的詭笑者、斯考皮克刺針和死眼蜥蜴。\n路東的灰鬃野豬和咕嚕者在紅石蜥蜴旁的山坡上拱食。遠離更南邊的52級地獄野豬。\n注意：斯考皮克刺針會使用{spell:5416}；{npc:8301}還會擊倒。",
 
 	-- Step 38: The bloodmages
 	["Ride back north to the bloodmages."] = "向北騎回血法師那裡。",
@@ -170,9 +170,9 @@ return {
 
 	-- Step 39: Stonard
 	-- {area:75} Stonard
-	["Ride back north through the canyon to {area:75}."] = "",
+	["Ride back north through the canyon to {area:75}."] = "向北穿過峽谷騎回{area:75}。",
 	-- {npc:7643} Bengor · {npc:950} Swamp Talker
-	["{npc:7643}'s The {npc:950} is a level 55 quest: leave it."] = "",
+	["{npc:7643}'s The {npc:950} is a level 55 quest: leave it."] = "{npc:7643}的{npc:950}是55級任務：放著別做。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["East of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south."] = "道路東邊，灰鬃野豬和格朗特在紅石蜥蜴旁的山坡上拱土。遠離更南邊52級的地獄野豬。",

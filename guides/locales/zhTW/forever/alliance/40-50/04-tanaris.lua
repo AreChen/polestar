@@ -10,7 +10,7 @@ return {
 	-- {area:2240} Mirage Raceway · {area:439} Shimmering Flats · {zone:1441} Thousand Needles · {npc:4454} Fizzle Brassbolts
 	["The {area:2240} lies on the {area:439} in south-east {zone:1441}: {npc:4454} is in the gnomes' camp beside the track, Zamek by the goblin camp."] = "{area:2240}位於{zone:1441}東南部的{area:439}：{npc:4454}在賽道旁的地精營地內，札米克在哥布林營地旁。",
 	-- {npc:4454} Fizzle Brassbolts · {quest:1137} News for Fizzle · {zone:1418} Badlands
-	["{npc:4454}: {quest:1137}, from Martek in the {zone:1418}"] = "",
+	["{npc:4454}: {quest:1137}, from Martek in the {zone:1418}"] = "{npc:4454}：{quest:1137}，來自{zone:1418}的馬特克",
 
 	-- Step 4: Gadgetzan
 	-- {area:439} Shimmering Flats · {zone:1446} Tanaris · {area:976} Gadgetzan
@@ -30,38 +30,38 @@ return {
 	-- {npc:7847} Caliph Scorpidsting · {area:976} Gadgetzan
 	["The same poster: {npc:7847} comes much later, after {area:976}"] = "同一張告示：{npc:7847}要很久以後才會出現，在{area:976}之後",
 	-- {npc:7882} Security Chief Bilgewhizzle
-	["{npc:7882}, inside"] = "",
+	["{npc:7882}, inside"] = "{npc:7882}，室內",
 	-- {npc:7881} Stoley
-	["{npc:7881}, in the port's tavern; inside"] = "",
+	["{npc:7881}, in the port's tavern; inside"] = "{npc:7881}，在港口酒館裡；室內",
 
 	-- Step 6: Noonshade Ruins: kill these as you meet them
 	-- {area:1937} Noonshade Ruins
-	["{area:1937}: kill these as you meet them"] = "",
+	["{area:1937}: kill these as you meet them"] = "{area:1937}：遇到就殺",
 	-- {area:976} Gadgetzan
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
-	["Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "",
+	["Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "騎馬向西返回{area:976}。廢土強盜和竊賊佔據著路上的沙丘；其中任何一個都可能帶著水袋。\n注意：廢土盜賊（43-44級）潛行移動，可能悄悄靠近。",
 
 	-- Step 8: Waterspring Field
 	-- {area:976} Gadgetzan · {npc:7847} Caliph Scorpidsting
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
-	["The tougher Wastewander rogues, shadow mages and assassins camp south-east of {area:976}, south of the bandits. Leave {npc:7847} in the middle of the southern camp for later.\nCareful: Wastewander Rogues keep Sneak up while out of combat, so hidden rogues can join a fight you start at a camp."] = "",
+	["The tougher Wastewander rogues, shadow mages and assassins camp south-east of {area:976}, south of the bandits. Leave {npc:7847} in the middle of the southern camp for later.\nCareful: Wastewander Rogues keep Sneak up while out of combat, so hidden rogues can join a fight you start at a camp."] = "更強的廢土盜賊、暗法師和刺客在{area:976}東南、強盜南邊紮營。把南營地中央的{npc:7847}留到後面。\n注意：廢土盜賊在脫戰時保持潛行，因此藏著的盜賊可能加入你在營地挑起的戰鬥。",
 
 	-- Step 9: Lost Rigger Cove: kill these as you meet them
 	-- {area:1336} Lost Rigger Cove
-	["{area:1336}: kill these as you meet them"] = "",
+	["{area:1336}: kill these as you meet them"] = "{area:1336}：遇到就殺",
 	-- {npc:7883} Andre Firebeard · {npc:7881} Stoley
-	["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "",
+	["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "沿海岸向南前往海盜灣。南海海盜擠滿沙灘和船隻：沿邊緣行動，一次拉一隻。{npc:7883}在對面；{npc:7881}被偷的貨物在營地裡。\n注意：有兩三個海盜和{npc:7883}站在一起，戰鬥一開始還會有更多鎮上的海盜加入。",
 	-- {quest:2873} Stoley's Shipment
-	["{quest:2873}; upstairs"] = "",
+	["{quest:2873}; upstairs"] = "{quest:2873}；樓上",
 
 	-- Step 10: Steamwheedle Port
 	-- {npc:7881} Stoley
-	["{npc:7881}, inside"] = "",
+	["{npc:7881}, inside"] = "{npc:7881}，室內",
 	-- {area:35} Booty Bay · {zone:1425} Hinterlands
-	["\"Sea Wolf\" MacKinley in {area:35}: the route takes you there at the end of the {zone:1425} guide, keep it"] = "",
+	["\"Sea Wolf\" MacKinley in {area:35}: the route takes you there at the end of the {zone:1425} guide, keep it"] = "{area:35}的“海狼”麥金利：路線在{zone:1425}指南結尾會帶你過去，留著它",
 
 	-- Step 11: Noonshade Ruins
-	["Careful: Thieves cast Disarm. Rogues stay hidden with Sneak. Assassins use Execute when your health is at 20% or lower."] = "",
+	["Careful: Thieves cast Disarm. Rogues stay hidden with Sneak. Assassins use Execute when your health is at 20% or lower."] = "注意：竊賊會施放繳械。盜賊用潛行保持隱蔽。刺客在你血量20%或更低時使用斬殺。",
 
 	-- Step 13: The pool by Sandsorrow Watch
 	-- {area:979} Sandsorrow Watch
@@ -82,22 +82,22 @@ return {
 	-- Step 17: The Noxious Lair
 	-- {npc:4196} Silithid Swarm
 	-- plural, as words: Centipaar Swarmers = {npc:5457} Centipaar Swarmer
-	["Ride north-west to the Centipaar hive in the dunes. Any Centipaar can drop insect parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you."] = "",
+	["Ride north-west to the Centipaar hive in the dunes. Any Centipaar can drop insect parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you."] = "騎馬向西北前往沙丘中的森提帕蟲巢。任何森提帕蟲都可能掉落昆蟲部件。\n注意：森提帕群居者不論戰鬥內外都會施放{npc:4196}，召來打斷你的小增援。",
 
 	-- Step 18: Dunemaul Compound
 	-- {npc:12046} Gor'marok the Ravager
 	["Ride south-west to the ogre compound. Brutes and Enforcers (46-48) fill it; {npc:12046} (49) stands in the middle with guards around him: clear them first."] = "向西南騎往巨魔營地。裡面滿是砂槌蠻兵和砂槌執行者（46-48級）；{npc:12046}（49級）站在中央，周圍有守衛：先清掉守衛。",
 	-- {npc:12046} Gor'marok the Ravager
-	["{npc:12046}, below ground"] = "",
+	["{npc:12046}, below ground"] = "{npc:12046}，地下",
 	-- {npc:5474} Dunemaul Brute
-	["grind on {npc:5474}"] = "",
+	["grind on {npc:5474}"] = "刷{npc:5474}",
 
 	-- Step 19: Thistleshrub Valley: kill these as you meet them
 	-- {quest:3362} Thistleshrub Valley
-	["{quest:3362}: kill these as you meet them"] = "",
+	["{quest:3362}: kill these as you meet them"] = "{quest:3362}：遇到就殺",
 	-- {quest:3362} Thistleshrub Valley
 	-- plural, as words: Gnarled Thistleshrubs = {npc:5490} Gnarled Thistleshrub
-	["Ride south into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley. The Thistleshrubs are 48-50, above you: pull one at a time.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."] = "",
+	["Ride south into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley. The Thistleshrubs are 48-50, above you: pull one at a time.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."] = "騎馬向南進入{quest:3362}。露水收集者掉落露腺；只有部分是飽滿的，因此只留飽滿的那一個。多節的薊灌木和塑根者共處山谷。薊灌木是48-50級，高於你：一次拉一隻。\n注意：該區域其他薊灌木怪是49-50級，且活動範圍廣，很容易多拉怪。",
 
 	-- Step 20: Tooga's escort
 	-- {npc:5955} Tooga
@@ -107,20 +107,20 @@ return {
 
 	-- Step 21: Gadgetzan
 	-- {area:976} Gadgetzan · {npc:11758} Andi Lynn
-	["Ride back west to {area:976}: {npc:11758} stands on the east side of town, where you come in."] = "",
+	["Ride back west to {area:976}: {npc:11758} stands on the east side of town, where you come in."] = "向西騎回{area:976}：{npc:11758}站在鎮子東側，就是你進來的地方。",
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}，室內",
 
 	-- Step 22: Caliph Scorpidsting
 	-- {area:985} Waterspring Field · {npc:7847} Caliph Scorpidsting
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
-	["Ride south-east to {area:985}. {npc:7847} stands in the middle of the southern Wastewander camp: clear around him first.\nCareful: Two stealthed Wastewander Rogues travel with him wherever he goes. At his spawn camp, two shadowmages and their minions are close enough to join a fight with him. Out by the towers you can fight him without them."] = "",
+	["Ride south-east to {area:985}. {npc:7847} stands in the middle of the southern Wastewander camp: clear around him first.\nCareful: Two stealthed Wastewander Rogues travel with him wherever he goes. At his spawn camp, two shadowmages and their minions are close enough to join a fight with him. Out by the towers you can fight him without them."] = "騎馬向東南前往{area:985}。{npc:7847}站在廢土營地南部的中央：先清掉他周圍。\n注意：兩名潛行的廢土盜賊跟著他移動。在他的重新整理營地，兩名暗法師及其僕從距離很近，能加入與他的戰鬥。在塔樓外則可以不受他們干擾地打他。",
 
 	-- Step 23: The Gaping Chasm
 	-- {area:1938} Broken Pillar · {area:981} The Gaping Chasm
-	["Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "",
+	["Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "騎馬向南經過{area:1938}前往{area:981}，即哈扎利隧道；斯克林克的裝備在深處。\n注意：一隻蟲子守著裝備。許多蟲子在隧道里巡邏，其中一些是50級，所以戰鬥常會多拉怪。",
 	-- {item:8593} Scrimshank's Surveying Gear
-	["{item:8593}; below ground"] = "",
+	["{item:8593}; below ground"] = "{item:8593}；地下",
 
 	-- Step 24: Gadgetzan
 	-- {zone:1457} Darnassus
@@ -129,7 +129,7 @@ return {
 	-- Step 25: Fly to Theramore
 	["Fly to Theramore"] = "飛往塞拉摩",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976}飛行管理員",
 
 	-- Step 26: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -137,18 +137,18 @@ return {
 
 	-- Step 27: Fly to Aerie Peak
 	-- {area:348} Aerie Peak
-	["Fly to {area:348}"] = "",
+	["Fly to {area:348}"] = "飛往{area:348}",
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150}飛行管理員",
 
 	-- Step 28: Aerie Peak
 	-- {npc:5636} Gryphon Master Talonaxe
-	["{npc:5636}, beside the flight master"] = "",
+	["{npc:5636}, beside the flight master"] = "{npc:5636}，在飛行管理員旁",
 	-- {npc:7884} Fraggar Thundermantle
-	["{npc:7884}, inside"] = "",
+	["{npc:7884}, inside"] = "{npc:7884}，室內",
 
 	-- Step 31: Sprinkle's Secret Ingredient
-	["Underwater"] = "",
+	["Underwater"] = "水下",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Fly from {area:976} to Theramore, take the boat to {area:150} and fly to {area:1537}. Train."] = "從{area:976}飛往塞拉摩，搭船前往{area:150}，再飛往{area:1537}。訓練。",

@@ -10,7 +10,7 @@ return {
 	-- {npc:6790} Innkeeper Trelayne
 	["{npc:6790}, Scarlet Raven Tavern"] = "{npc:6790}，在旅店",
 	-- {npc:840} Watcher Backus · {area:42} Darkshire
-	["{npc:840}, at the north entrance of town; walks around {area:42}: look inside the circle on the map"] = "",
+	["{npc:840}, at the north entrance of town; walks around {area:42}: look inside the circle on the map"] = "{npc:840}，在小鎮北入口；在{area:42}附近走動：看地圖上的圓圈內",
 
 	-- Step 3: Nightbane Shadow Weavers
 	-- plural, as words: Nightbane Shadow Weavers = {npc:533} Nightbane Shadow Weaver
@@ -29,21 +29,21 @@ return {
 	-- plural, as words: Nightbane Vile Fangs = {npc:206} Nightbane Vile Fang
 	["Nightbane Vile Fangs and the {npc:511}"] = "夜行邪齒狼人與{npc:511}",
 	-- {area:42} Darkshire · {area:121} Tranquil Gardens Cemetery · {npc:511} Insane Ghoul · {spell:8282} Curse of Blood
-	["The strongest worgen roam the woods south of {area:42}, west and south of the {area:121}. The {npc:511} hides in the small crypt by the cemetery.\nCareful: {spell:8282} lasts 10 minutes and adds 13 to each hit of physical damage you take.\nCareful: Some worgen outside the cave stand in groups, including one camp of four. To avoid adds, pull them one at a time from the raised ground next to the cave entrance."] = "",
+	["The strongest worgen roam the woods south of {area:42}, west and south of the {area:121}. The {npc:511} hides in the small crypt by the cemetery.\nCareful: {spell:8282} lasts 10 minutes and adds 13 to each hit of physical damage you take.\nCareful: Some worgen outside the cave stand in groups, including one camp of four. To avoid adds, pull them one at a time from the raised ground next to the cave entrance."] = "最強的狼人在{area:42}南邊的森林遊蕩，位於{area:121}西側和南側。{npc:511}藏在墓地旁的小墓穴裡。\n小心：{spell:8282}持續10分鐘，使你受到的每次物理傷害提高13點。\n小心：洞外有些狼人成群站立，其中一處有四隻。要避免多拉怪，就從洞口旁的高地一隻一隻引出來。",
 	-- {item:1946} Mary's Looking Glass
-	["{item:1946}; inside"] = "",
+	["{item:1946}; inside"] = "{item:1946}；室內",
 
 	-- Step 8: Darkshire
 	-- {npc:276} Viktori Prism'Antras
-	["{npc:276}, inside"] = "",
+	["{npc:276}, inside"] = "{npc:276}，室內",
 	-- {npc:661} Jonathan Carevin · {npc:633} Elaine Carevin
-	["{npc:661}, by {npc:633}'s house; inside"] = "",
+	["{npc:661}, by {npc:633}'s house; inside"] = "{npc:661}，在{npc:633}的房子旁；室內",
 
 	-- Step 9: Vul'Gol Ogre Mound: kill these as you meet them
 	-- {area:93} Vul'Gol Ogre Mound
-	["{area:93}: kill these as you meet them"] = "",
+	["{area:93}: kill these as you meet them"] = "{area:93}：遇到就殺",
 	-- {area:42} Darkshire · {object:119} Abercrombie's Crate
-	["Head south-west from {area:42} to the ogre mound. {object:119} sits in the camp at its entrance; Splinter Fist ogres guard it."] = "",
+	["Head south-west from {area:42} to the ogre mound. {object:119} sits in the camp at its entrance; Splinter Fist ogres guard it."] = "從{area:42}向西南前往食人魔土丘。{object:119}在入口處的營地；碎拳食人魔看守著它。",
 	-- {npc:272273} Lost Watcher · {quest:96138} Merrick's Bow
 	["Only if a {npc:272273} dropped {quest:96138}: right-click it"] = "僅限{npc:272273}掉落了{quest:96138}時：右鍵點擊它",
 	["Below ground"] = "地下",
@@ -52,18 +52,18 @@ return {
 	-- {zone:1431} Duskwood · {area:94} Raven Hill · {zone:1436} Westfall
 	["The Defias camp lies in the south-west of {zone:1431}, south of {area:94} near the {zone:1436} border. The strongbox stands among the tents."] = "迪菲亞營地位於{zone:1431}西南部，{area:94}南邊，靠近{zone:1436}邊界。保險箱在帳篷之間。",
 	-- {item:5947} Defias Docket
-	["{item:5947}; inside"] = "",
+	["{item:5947}; inside"] = "{item:5947}；室內",
 
 	-- Step 12: Raven Hill Cemetery: kill these as you meet them
 	-- {area:492} Raven Hill Cemetery
-	["{area:492}: kill these as you meet them"] = "",
+	["{area:492}: kill these as you meet them"] = "{area:492}：遇到就殺",
 	-- {area:492} Raven Hill Cemetery · {npc:522} Mor'Ladim · {npc:311} Sven Yorgen
 	-- plural, as words: Plague Spreaders = {npc:604} Plague Spreader · Skeletal Raiders = {npc:1110} Skeletal Raider
-	["The Plague Spreaders walk the northern half of the {area:492}. {npc:522}, an elite, wanders the graves: keep away from him.\nSkeletal Raiders, Healers and Warders hold the west part of the cemetery, just east of {npc:311}'s camp.\nCareful: The skeletons in the catacombs are packed close together, so you can easily pull extra mobs."] = "",
+	["The Plague Spreaders walk the northern half of the {area:492}. {npc:522}, an elite, wanders the graves: keep away from him.\nSkeletal Raiders, Healers and Warders hold the west part of the cemetery, just east of {npc:311}'s camp.\nCareful: The skeletons in the catacombs are packed close together, so you can easily pull extra mobs."] = "瘟疫傳播者在{area:492}的北半部走動。精英{npc:522}在墳墓間徘徊：遠離他。\n骷髏襲擊者、治療者和守望者佔據墓地西側，就在{npc:311}營地以東。\n小心：地下墓穴裡的骷髏捱得很近，很容易多拉到怪。",
 
 	-- Step 13: The Weathered Grave
 	-- {npc:311} Sven Yorgen · {npc:268} Sirra Von'Indi · {area:42} Darkshire
-	["The grave stands among the skeletons at the cemetery's north-west corner, on the way to {npc:311}. Its quest and the next are talk-only, to {npc:268} and Commander Althea in {area:42}: level 35 from level 28, but no fight."] = "",
+	["The grave stands among the skeletons at the cemetery's north-west corner, on the way to {npc:311}. Its quest and the next are talk-only, to {npc:268} and Commander Althea in {area:42}: level 35 from level 28, but no fight."] = "墳墓立在墓地西北角的骸骨之間，在去{npc:311}的路上。它和下一個任務都只需對話，找{area:42}的{npc:268}和指揮官阿爾西婭：35級的任務28級就能做，但不用打。",
 
 	-- Step 14: Sven Yorgen's Camp
 	-- {npc:311} Sven Yorgen
@@ -80,20 +80,20 @@ return {
 	["{npc:268}, in the house behind the town hall"] = "{npc:268}，在市政廳後面的房子裡",
 	["Wait a moment, then speak with her again"] = "稍等一下，然後再和她說話",
 	-- {npc:840} Watcher Backus · {area:42} Darkshire
-	["{npc:840} walks around {area:42}: look inside the circle on the map"] = "",
+	["{npc:840} walks around {area:42}: look inside the circle on the map"] = "{npc:840}在{area:42}附近走動：看地圖上的圓圈內",
 	-- {npc:482} Elling Trias · {zone:1453} Stormwind
 	["For {npc:482} in {zone:1453}, in the next guide"] = "交給{zone:1453}的{npc:482}，在下一份指南",
 
 	-- Step 16: Viktori Prism'Antras
 	-- {npc:276} Viktori Prism'Antras
-	["{npc:276}'s house stands at the east end of town, on the way to the flight master."] = "",
-	["Inside"] = "",
+	["{npc:276}'s house stands at the east end of town, on the way to the flight master."] = "{npc:276}的房子在鎮子東端，去飛行管理員的路上。",
+	["Inside"] = "在裡面",
 
 	-- Step 17: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "飛往{area:150}",
 	-- {area:42} Darkshire
-	["{area:42} flight master"] = "",
+	["{area:42} flight master"] = "{area:42}飛行管理員",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Back to Menethil"] = "回到米奈希爾",

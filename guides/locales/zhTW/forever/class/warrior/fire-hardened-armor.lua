@@ -8,11 +8,11 @@
 return {
 	-- Guide
 	["Fire Hardened Armor"] = "火焰淬煉護甲",
-	["Starts now at 20 with a shield; a hauberk at 28, then a coif, leggings and gauntlets from three smiths."] = "",
+	["Starts now at 20 with a shield; a hauberk at 28, then a coif, leggings and gauntlets from three smiths."] = "現在20級就能接到，先給一面盾；28級給胸甲，然後從三個鐵匠那裡拿頭巾、護腿和手套。",
 
 	-- Step 1: Yorus Barleybrew (Stormwind)
 	-- {npc:5479} Wu Shen · {npc:5480} Ilsa Corbin · {object:2100} Old Town · {quest:1698} Yorus Barleybrew
-	["At 20, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to {quest:1698} in Redridge."] = "",
+	["At 20, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to {quest:1698} in Redridge."] = "20級時，{object:2100}戰士訓練師建築裡{npc:5480}身旁的{npc:5479}派你去赤脊山找{quest:1698}。",
 
 	-- Step 2: Yorus Barleybrew (Ironforge)
 	-- {npc:5113} Kelv Sternhammer · {zone:1455} Ironforge · {quest:1698} Yorus Barleybrew
@@ -24,24 +24,24 @@ return {
 
 	-- Step 4: Yorus Barleybrew
 	-- {quest:1698} Yorus Barleybrew · {area:69} Lakeshire · {area:98} Rethban Caverns
-	["{quest:1698} sits in the inn at {area:69}. His test is timed: before you take it, clear the Redridge gnolls on the path to the {area:98} in the hills north-west of {area:69}, including the two on the rock by the cave mouth (climb it from its right side)."] = "",
+	["{quest:1698} sits in the inn at {area:69}. His test is timed: before you take it, clear the Redridge gnolls on the path to the {area:98} in the hills north-west of {area:69}, including the two on the rock by the cave mouth (climb it from its right side)."] = "{quest:1698}待在{area:69}的旅店裡。他的考驗限時：接任務前，先清掉{area:69}西北丘陵中通往{area:98}路上的赤脊豺狼人，包括洞口岩石上的那兩隻（從岩石右側爬上去）。",
 
 	-- Step 5: The Rethban Gauntlet
 	-- {npc:6166} Yorus Barleybrew · {spell:8553} Barleybrew Scalder · {area:98} Rethban Caverns · {area:69} Lakeshire
-	["You have one hour, and {npc:6166}'s {spell:8553} leaves you drunk for 8-10 minutes. Run north-west into the {area:98}, keeping close to the cliff wall to miss most gnoll packs, and go in as far as the first fork; then come back to {npc:6166} (from the ridge you can jump down into {area:69}). Dying and releasing your spirit fails the quest: abandon it and {npc:6166} gives it again."] = "",
+	["You have one hour, and {npc:6166}'s {spell:8553} leaves you drunk for 8-10 minutes. Run north-west into the {area:98}, keeping close to the cliff wall to miss most gnoll packs, and go in as far as the first fork; then come back to {npc:6166} (from the ridge you can jump down into {area:69}). Dying and releasing your spirit fails the quest: abandon it and {npc:6166} gives it again."] = "你有一個小時，而{npc:6166}的{spell:8553}會讓你醉酒8-10分鐘。向西北跑進{area:98}，貼著崖壁走以避開大多數豺狼人群，一直進入到第一個岔路；然後回到{npc:6166}（從山脊上可以直接跳進{area:69}）。死亡並釋放靈魂會導致任務失敗：放棄任務，{npc:6166}會再給你一次。",
 	-- {area:98} Rethban Caverns
 	["Enter the {area:98} and come back"] = "進入{area:98}再回來",
 
 	-- Step 6: The Shieldsmith
 	-- {npc:5413} Furen Longbeard · {item:6843} Cask of Scalder · {npc:6166} Yorus Barleybrew · {item:6970} Furen's Favor · {quest:1701} Fire Hardened Mail · {item:6842} Furen's Instructions
-	["{npc:5413} works in the Dwarven District of Stormwind. He takes the {item:6843} (lost it? abandon the quest and {npc:6166} gives a new one) and gives you {item:6970}, a shield; {quest:1701} is a level 28 quest, with {item:6842} listing what it needs."] = "",
+	["{npc:5413} works in the Dwarven District of Stormwind. He takes the {item:6843} (lost it? abandon the quest and {npc:6166} gives a new one) and gives you {item:6970}, a shield; {quest:1701} is a level 28 quest, with {item:6842} listing what it needs."] = "{npc:5413}在暴風城矮人區幹活。他收下{item:6843}（弄丟了？放棄任務，{npc:6166}會給一個新的）並給你{item:6970}，一面盾；{quest:1701}是28級任務，{item:6842}裡列著所需材料。",
 
 	-- Step 7: Scorched Spider Fangs
 	-- plural, as words: Scorched Spider Fangs = {item:6838} Scorched Spider Fang
 	["Scorched Spider Fangs"] = "燒焦的蜘蛛牙",
 	-- {zone:1437} Wetlands · {area:836} Dun Algaz
 	-- plural, as words: Leech Stalkers = {npc:1111} Leech Stalker · Cave Stalkers = {npc:4040} Cave Stalker
-	["You need 50 fangs. The Leech Stalkers and Cave Stalkers (level 21-22) crawl in the middle of the {zone:1437}, north of {area:836}; every one drops a fang. They poison; back in 5 minutes."] = "",
+	["You need 50 fangs. The Leech Stalkers and Cave Stalkers (level 21-22) crawl in the middle of the {zone:1437}, north of {area:836}; every one drops a fang. They poison; back in 5 minutes."] = "你需要50顆牙。吸血潛伏者和洞穴潛伏者（21-22級）爬行在{zone:1437}中部、{area:836}以北；每隻都掉一顆牙。它們會下毒；5分鐘重新整理。",
 
 	-- Step 8: Charred and Galvanized Horns
 	-- plural, as words: Galvanized Horns = {item:6840} Galvanized Horn
@@ -50,56 +50,56 @@ return {
 	-- plural, as words: Charred Horns = {item:6839} Charred Horn · Young Chimaeras = {npc:4032} Young Chimaera
 	["The chimaeras live south-west of {area:460} in the {area:465}; the guide waits for level 26 first. You need 12 Charred Horns from the Fledgling (level 25-27) and Young Chimaeras (23-25), four kills in five, and the {item:6840} from the {npc:6167} (28, the big one), also four in five. Only three Fledglings, two Young and one Matriarch live there, each back in 5 minutes, so expect to wait. Fledglings and the Matriarch spit {spell:3396}, the Young cast {spell:403}. Alliance: fly to {area:467} and head south."] = "奇美拉生活在{area:460}西南方的{area:465}；指南會先等到26級。你需要從奇美拉雛獸（25-27級）和小奇美拉（23-25級）身上取得12個燒焦的奇美拉角，每擊殺五隻約掉四個；還需要從{npc:6167}（28級，體型最大的那隻）身上取得{item:6840}，同樣是五隻掉四個。那裡只有三隻雛獸、兩隻小奇美拉和一隻雌奇美拉，每隻5分鐘重生，所以要有等待的準備。雛獸和雌奇美拉會噴吐{spell:3396}，小奇美拉會施放{spell:403}。聯盟：飛往{area:467}後往南走。",
 	-- {item:6839} Charred Horn
-	["{item:6839}, from the young chimaeras"] = "",
+	["{item:6839}, from the young chimaeras"] = "{item:6839}，來自青年奇美拉",
 	-- {item:6840} Galvanized Horn · {npc:6167} Chimaera Matriarch
-	["{item:6840}, from the {npc:6167}"] = "",
+	["{item:6840}, from the {npc:6167}"] = "{item:6840}，來自{npc:6167}",
 
 	-- Step 9: Roogug in Razorfen Kraul
 	-- {area:1717} Razorfen Kraul
 	["Roogug in {area:1717}"] = "{area:1717}的魯古格",
 	-- {area:1717} Razorfen Kraul · {zone:1413} Barrens · {spell:403} Lightning Bolt
-	["Roogug is an elite quilboar (level 28) inside {area:1717}, the dungeon at the south end of the {zone:1413}; a five-player dungeon: needs a group of five, and his guards come with him. Inside take the left path at the first fork, cross the root bridge, go past the big empty cauldron: he is in a dead end on the right, with about ten elites on the way. He casts {spell:403} and calls Earth Rumblers. The vial always drops."] = "",
+	["Roogug is an elite quilboar (level 28) inside {area:1717}, the dungeon at the south end of the {zone:1413}; a five-player dungeon: needs a group of five, and his guards come with him. Inside take the left path at the first fork, cross the root bridge, go past the big empty cauldron: he is in a dead end on the right, with about ten elites on the way. He casts {spell:403} and calls Earth Rumblers. The vial always drops."] = "魯古格是{zone:1413}南端地下城{area:1717}裡的精英野豬人（28級）；這是五人地下城：需要五人小隊，他的衛兵會跟他一起來。進去後在第一個岔路走左邊，穿過樹根橋，經過那個空的大鍋：他在右側的死路里，路上約有十個精英。他會施放{spell:403}並召喚大地轟響者。藥瓶必掉。",
 	-- {item:6841} Vial of Phlogiston
 	["{item:6841}, from Roogug"] = "{item:6841}，來自魯古格",
 
 	-- Step 10: Furen's Armor
 	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District
-	["Back to {npc:5413} in the {object:28027} for the hauberk. He then sends you to the smith of your race; the other two smiths' pieces are open to you as well: talk to them directly."] = "",
+	["Back to {npc:5413} in the {object:28027} for the hauberk. He then sends you to the smith of your race; the other two smiths' pieces are open to you as well: talk to them directly."] = "回{object:28027}找{npc:5413}領鎖甲上衣。然後他會派你去找本種族的鐵匠；另外兩位鐵匠的部件你也可以做：直接找他們談。",
 
 	-- Step 11: Grimand Elmore
 	-- {npc:1416} Grimand Elmore · {object:28027} Dwarven District · {npc:5413} Furen Longbeard · {quest:1705} Burning Blood · {item:6845} Burning Rock
-	["{npc:1416} keeps the weapon shop in the north-west of the {object:28027}, a short walk from {npc:5413}. He wants 20 {quest:1705} and the {item:6845}."] = "",
+	["{npc:1416} keeps the weapon shop in the north-west of the {object:28027}, a short walk from {npc:5413}. He wants 20 {quest:1705} and the {item:6845}."] = "{npc:1416}在{object:28027}西北角經營武器店，離{npc:5413}只幾步路。他要20個{quest:1705}和{item:6845}。",
 
 	-- Step 12: Burning Blood
 	-- {zone:1431} Duskwood · {area:42} Darkshire · {quest:1705} Burning Blood · {spell:3427} Infected Wound
 	["The Nightbane worgen of {zone:1431} (Dark Runners, Vile Fangs, Shadow Weavers, Worgen and Tainted Ones, level 26-31) south and west of {area:42} drop the {quest:1705} four kills in five. The Tainted Ones poison and howl; Vile Fangs cause {spell:3427}."] = "{zone:1431}的{area:42}南邊和西邊分布著夜行狼人（夜行黑暗狼人、夜行邪齒狼人、夜行織影狼人、夜行狼人和夜行墮落狼人，26-31級），每擊殺五隻約有四隻掉落{quest:1705}。夜行墮落狼人會下毒和嚎叫；夜行邪齒狼人會造成{spell:3427}。",
 	-- {quest:1705} Burning Blood
-	["{quest:1705}, from the Nightbane worgen"] = "",
+	["{quest:1705}, from the Nightbane worgen"] = "{quest:1705}，來自夜禍狼人",
 
 	-- Step 13: Gutspill
 	-- {npc:6170} Gutspill · {item:6845} Burning Rock · {area:2161} Roland's Doom · {area:42} Darkshire
 	["{npc:6170} (level 32, not elite) carries the {item:6845}, four kills in five; the guide waits for level 30 first. He walks between the inside and the mouth of the {area:2161} mine south-east of {area:42}, so wait at the entrance and pull him outside. He poisons and howls."] = "{npc:6170}（32級，非精英）身上帶著{item:6845}，每擊殺五次約有四次掉落；指南會先等到30級。他在{area:42}東南方的{area:2161}礦坑內部與洞口之間走動，可以在入口等他，把他引到外面。他會下毒和嚎叫。",
 	-- {item:6845} Burning Rock · {npc:6170} Gutspill
-	["{item:6845}, from {npc:6170}"] = "",
+	["{item:6845}, from {npc:6170}"] = "{item:6845}，來自{npc:6170}",
 
 	-- Step 15: Mathiel
 	-- {quest:1703} Mathiel · {area:1660} Warrior's Terrace · {zone:1457} Darnassus · {quest:1710} Sunscorched Shells
-	["{quest:1703} works on the south side of the {area:1660} in {zone:1457}. He wants 20 {quest:1710}."] = "",
+	["{quest:1703} works on the south side of the {area:1660} in {zone:1457}. He wants 20 {quest:1710}."] = "{quest:1703}在{zone:1457}的{area:1660}南側幹活。他要20個{quest:1710}。",
 
 	-- Step 16: Sunscorched Shells
 	-- {area:482} Highperch · {zone:1441} Thousand Needles
 	-- plural, as words: Highperch Wyverns = {npc:4107} Highperch Wyvern
-	["The shells lie on the ground under the wyvern nests at {area:482} in western {zone:1441}, deeper into the gorge. Only nine exist and each returns 3 minutes after you pick it, so you will wait; some shell-like things there cannot be looted. Highperch Wyverns (level 28-31) guard them and sometimes come several at once."] = "",
+	["The shells lie on the ground under the wyvern nests at {area:482} in western {zone:1441}, deeper into the gorge. Only nine exist and each returns 3 minutes after you pick it, so you will wait; some shell-like things there cannot be looted. Highperch Wyverns (level 28-31) guard them and sometimes come several at once."] = "貝殼躺在{area:482}風蛇巢下方的地上，位於{zone:1441}西部、峽谷更深處。那裡只有九個，每個採集後3分鐘重新整理，所以你會等上一陣；有些像貝殼的東西無法拾取。高崖風蛇（28-31級）守護著它們，有時會幾隻一起過來。",
 
 	-- Step 18: Klockmort Spannerspan
 	-- {area:2257} Deeprun Tram · {zone:1453} Stormwind · {zone:1455} Ironforge · {quest:1704} Klockmort Spannerspan · {object:171524} Tinker Town · {item:6848} Searing Coral
-	["Ride the {area:2257} from {zone:1453} to {zone:1455}. {quest:1704}, a gnome smith, works in {object:171524} near the engineering trainers. He wants 20 {item:6848}."] = "",
+	["Ride the {area:2257} from {zone:1453} to {zone:1455}. {quest:1704}, a gnome smith, works in {object:171524} near the engineering trainers. He wants 20 {item:6848}."] = "從{zone:1453}乘{area:2257}到{zone:1455}。侏儒鐵匠{quest:1704}在{object:171524}工程訓練師附近幹活。他要20個{item:6848}。",
 
 	-- Step 19: Iron Coral
 	-- {quest:1708} Iron Coral · {area:150} Menethil Harbor · {item:5996} Draught of Water Breathing
-	["The {quest:1708} grows on the sea floor just south of {area:150}, by the murloc huts and a wrecked boat: eight there and two south-east of the harbor, each back in 3 minutes, so you will wait for respawns to reach 20. The murlocs can net you underwater: watch your breath, and a {item:5996} removes the risk."] = "",
+	["The {quest:1708} grows on the sea floor just south of {area:150}, by the murloc huts and a wrecked boat: eight there and two south-east of the harbor, each back in 3 minutes, so you will wait for respawns to reach 20. The murlocs can net you underwater: watch your breath, and a {item:5996} removes the risk."] = "{quest:1708}生長在{area:150}正南的海底，魚人小屋和一條沉船旁：那裡有八株，港口東南兩株，每株3分鐘重新整理，所以湊到20株要等重新整理。魚人會在水下撒網：留意呼吸，{item:5996}能消除這個風險。",
 	-- {item:6848} Searing Coral · {quest:1708} Iron Coral
-	["{item:6848}, from {quest:1708}"] = "",
+	["{item:6848}, from {quest:1708}"] = "{item:6848}，來自{quest:1708}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way."] = "28級的鎖甲衫、依種族而定的頭巾、護腿或護手，以及途中的一面盾牌。",

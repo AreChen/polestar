@@ -8,9 +8,9 @@
 return {
 	-- Step 1: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "飛往{area:150}",
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453}飛行管理員",
 
 	-- Step 2: Red Jack Flint
 	-- {npc:4455} Red Jack Flint · {area:2103} Menethil Keep
@@ -21,11 +21,11 @@ return {
 	-- Step 3: Glorin Steelbrow
 	-- {npc:1217} Glorin Steelbrow · {area:2104} Deepwater Tavern · {npc:4963} Mikhail · {npc:5082} Vincent Hyal
 	["{npc:1217} stands in the {area:2104}, south of the keep, where {npc:4963} and {npc:5082} wait too."] = "{npc:1217}站在城堡南邊的{area:2104}裡，{npc:4963}和{npc:5082}也在那裡等著。",
-	["Inside"] = "",
+	["Inside"] = "在裡面",
 
 	-- Step 4: Deepwater Tavern
 	-- {quest:1248} The Missing Diplomat · {npc:4963} Mikhail
-	["Tapoke Jahn (34) slips out of the tavern once you take {quest:1248}: stay close behind him. He turns on you outside, a friend joins him, and he gives up once badly hurt. If you lose him the quest fails: abandon it and take it again from {npc:4963}."] = "",
+	["Tapoke Jahn (34) slips out of the tavern once you take {quest:1248}: stay close behind him. He turns on you outside, a friend joins him, and he gives up once badly hurt. If you lose him the quest fails: abandon it and take it again from {npc:4963}."] = "你一接下{quest:1248}，塔波克·詹（34級）就會從酒館溜出去：緊跟在他後面。他在外面會轉身打你，還有個幫手加入，但他重傷後會認輸。跟丟了他，任務就失敗：放棄它，再找{npc:4963}重接。",
 
 	-- Step 5: Waterlogged Chest
 	["The wreck of the Flying Osprey lies in the shallows south of the keep."] = "沉船殘骸在城堡南邊的淺水處。",
@@ -33,34 +33,34 @@ return {
 	-- Step 6: Lightforge Ingots
 	["The Bluegill murlocs on the beach south-west of Menethil carry the ingots."] = "米奈希爾西南方海灘上的藍腮魚人帶著鐵錠。",
 	-- {item:2702} Lightforge Ingot
-	["{item:2702}; underwater"] = "",
+	["{item:2702}; underwater"] = "{item:2702}；水下",
 
 	-- Step 7: Glorin Steelbrow
 	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind
-	["For {npc:1416} in {zone:1453}, after Stranglethorn"] = "",
+	["For {npc:1416} in {zone:1453}, after Stranglethorn"] = "給{zone:1453}的{npc:1416}，荊棘谷之後",
 
 	-- Step 9: Theramore
 	["Theramore"] = "塞拉摩",
 	-- {area:514} Foothold Citadel · {npc:5083} Clerk Lendry · {npc:4964} Commander Samaul
 	["The flight master stands by the gate of {area:514}; {npc:5083} and {npc:4964} are inside the citadel."] = "飛行管理員站在{area:514}的大門旁；{npc:5083}和{npc:4964}在要塞裡面。",
 	-- {npc:5083} Clerk Lendry
-	["{npc:5083}, on the top floor"] = "",
+	["{npc:5083}, on the top floor"] = "{npc:5083}，頂層",
 	-- {npc:4964} Commander Samaul
-	["{npc:4964}, on the top floor"] = "",
+	["{npc:4964}, on the top floor"] = "{npc:4964}，頂層",
 	-- {quest:1132} Fiora Longears
 	["{quest:1132}, inside the inn in the north of town"] = "{quest:1132}，在鎮北的旅店內",
 	-- {npc:4456} Fiora Longears · {area:415} Astranaar
-	["{npc:4456}'s next errand goes to {area:415}, off this route: leave it."] = "",
+	["{npc:4456}'s next errand goes to {area:415}, off this route: leave it."] = "{npc:4456}的下一個差事要去{area:415}，不在這條路線上：放著別做。",
 	-- {quest:1132} Fiora Longears · {zone:1441} Thousand Needles
-	["{quest:1132}: the wyverns are in {zone:1441}, later in this guide"] = "",
+	["{quest:1132}: the wyverns are in {zone:1441}, later in this guide"] = "{quest:1132}：雙足飛龍在{zone:1441}，本指南稍後會去",
 
 	-- Step 10: The Shady Rest Inn
 	-- {zone:1413} Barrens
-	["Follow the road west out of Theramore to the burned inn on the road toward the {zone:1413}: the black shield lies in the ashes and the hoofprints are in the mud beside the inn."] = "",
+	["Follow the road west out of Theramore to the burned inn on the road toward the {zone:1413}: the black shield lies in the ashes and the hoofprints are in the mud beside the inn."] = "從塞拉摩沿路向西，到通往{zone:1413}路上的燒燬旅店：黑盾躺在灰燼裡，蹄印在旅店旁的泥地裡。",
 
 	-- Step 11: Into Barrens
 	-- {zone:1413} Barrens
-	["Into {zone:1413}"] = "",
+	["Into {zone:1413}"] = "進入{zone:1413}",
 
 	-- Step 12: Takar the Seer
 	-- {zone:1413} Barrens · {npc:6244} Takar the Seer · {area:378} Camp Taurajo
@@ -72,13 +72,13 @@ return {
 
 	-- Step 13: Highperch
 	-- {area:485} Great Lift · {zone:1441} Thousand Needles · {area:482} Highperch
-	["Down the {area:485} into {zone:1441}, then west to the wyverns' cliffs at {area:482}. Every wyvern there can drop a venom sac."] = "",
+	["Down the {area:485} into {zone:1441}, then west to the wyverns' cliffs at {area:482}. Every wyvern there can drop a venom sac."] = "乘{area:485}下到{zone:1441}，再向西前往{area:482}的雙足飛龍懸崖。那裡所有雙足飛龍都可能掉落毒囊。",
 
 	-- Step 14: Thousand Needles
 	-- {area:484} Freewind Post
 	["East through the canyons. {area:484}, a Horde camp with guards, sits on the mesa here: keep to the canyon floor and give the foot of its lifts a wide berth."] = "向東穿過峽谷。{area:484}是部落的營地，有守衛，位於這裡的台地上：沿著峽谷底部走，離它的升降梯底部遠一點。",
 	-- {area:482} Highperch
-	["The canyons east of {area:482}"] = "",
+	["The canyons east of {area:482}"] = "{area:482}以東的峽谷",
 
 	-- Step 16: Mirage Raceway
 	-- {area:2240} Mirage Raceway
@@ -88,36 +88,36 @@ return {
 
 	-- Step 17: Mirage Raceway: kill these as you meet them
 	-- {area:2240} Mirage Raceway
-	["{area:2240}: kill these as you meet them"] = "",
+	["{area:2240}: kill these as you meet them"] = "{area:2240}：遇到就殺",
 	-- {object:19868} Rocket Car Rubble
 	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Saltstone Basilisks = {npc:4147} Saltstone Basilisk
-	["{object:19868} lies all over the flats. Scorpid Reavers and Salt Flats Scavengers roam the north half, Sparkleshell Snappers (tortoises) the whole flats. Saltstone Basilisks and Crystalhides hold the middle; the Gazers (34-35) only the far south."] = "",
+	["{object:19868} lies all over the flats. Scorpid Reavers and Salt Flats Scavengers roam the north half, Sparkleshell Snappers (tortoises) the whole flats. Saltstone Basilisks and Crystalhides hold the middle; the Gazers (34-35) only the far south."] = "{object:19868}遍佈整片平地。毒蠍掠奪者和鹽灘拾荒者在北半部遊蕩，亮殼咬龜（陸龜）遍佈整個平地。鹽石蜥蜴和水晶皮佔據中部；凝視者（34-35級）只在最南端。",
 	-- {npc:4078} Collin Mauren · {zone:1453} Stormwind
 	-- plural, as words: Saltstone Basilisks = {npc:4147} Saltstone Basilisk
-	["Crystalized Scale, from the Saltstone Basilisks: eight for {npc:4078} in {zone:1453}"] = "",
+	["Crystalized Scale, from the Saltstone Basilisks: eight for {npc:4078} in {zone:1453}"] = "結晶鱗片，來自鹽石蜥蜴：八個，交給{zone:1453}的{npc:4078}",
 
 	-- Step 18: Mirage Raceway
 	-- {npc:4454} Fizzle Brassbolts · {zone:1418} Badlands
-	["{npc:4454}: for Martek in the {zone:1418}, at the end of 30-40"] = "",
+	["{npc:4454}: for Martek in the {zone:1418}, at the end of 30-40"] = "{npc:4454}：交給{zone:1418}的馬特克，在 30-40 段末尾",
 
 	-- Step 19: Into Tanaris
 	-- {zone:1446} Tanaris
-	["Into {zone:1446}"] = "",
+	["Into {zone:1446}"] = "進入{zone:1446}",
 	-- {area:439} Shimmering Flats · {zone:1446} Tanaris
-	["From the raceway follow the road south out of the {area:439} into {zone:1446}."] = "",
+	["From the raceway follow the road south out of the {area:439} into {zone:1446}."] = "從賽道沿路向南離開{area:439}，進入{zone:1446}。",
 
 	-- Step 20: Gadgetzan
 	-- {area:976} Gadgetzan · {npc:7823} Bera Stonehammer
-	["{area:976} is a short walk down the road; keep to it. {npc:7823}, the Alliance flight master, stands inside the walls."] = "",
+	["{area:976} is a short walk down the road; keep to it. {npc:7823}, the Alliance flight master, stands inside the walls."] = "沿路走一小段就到{area:976}；不要偏離道路。聯盟飛行管理員{npc:7823}站在城牆裡。",
 
 	-- Step 21: Fly to Theramore
 	["Fly to Theramore"] = "飛往塞拉摩",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976}飛行管理員",
 
 	-- Step 22: Theramore
 	-- {npc:4456} Fiora Longears · {area:514} Foothold Citadel · {npc:4941} Caz Twosprocket
-	["{npc:4456} is in the north of town, Captain Vimes in {area:514}; {npc:4941} stands in the town."] = "",
+	["{npc:4456} is in the north of town, Captain Vimes in {area:514}; {npc:4941} stands in the town."] = "{npc:4456}在城鎮北邊，維姆斯上尉在{area:514}；{npc:4941}站在鎮裡。",
 
 	-- Step 23: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor

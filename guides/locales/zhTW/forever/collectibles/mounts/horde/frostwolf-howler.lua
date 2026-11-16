@@ -8,11 +8,11 @@
 return {
 	-- Step 1: Frostwolf Clan
 	-- {area:2839} Alterac Valley · {faction:729} Frostwolf Clan · {npc:13219} Jekyll Flandring · {zone:1416} Alterac Mountains · {npc:13218} Grunnda Wolfheart
-	["{area:2839} (level 51+) raises {faction:729}: win, capture towers and graveyards, and hand in the battleground's turn-ins; the Alterac Valley Reputation guide shows the fastest way. {npc:13219} waits at the Horde end of {zone:1416} outside the battleground; {npc:13218} inside {area:2839} sells the same mount."] = "",
+	["{area:2839} (level 51+) raises {faction:729}: win, capture towers and graveyards, and hand in the battleground's turn-ins; the Alterac Valley Reputation guide shows the fastest way. {npc:13219} waits at the Horde end of {zone:1416} outside the battleground; {npc:13218} inside {area:2839} sells the same mount."] = "{area:2839}（51級以上）提升{faction:729}：獲勝、佔領塔和墓地、交戰場任務物品；奧特蘭克山谷聲望指南有最快路線。{npc:13219}在戰場外{zone:1416}的部落一端等候；{area:2839}內的{npc:13218}出售同樣的坐騎。",
 
 	-- Step 2: Horn of the Frostwolf Howler
 	-- {skill:762} Riding
-	["The Forever client lists it at 200g and level 60. It runs at full speed, so riding it needs Journeyman {skill:762}; any Horde race can ride it."] = "",
+	["The Forever client lists it at 200g and level 60. It runs at full speed, so riding it needs Journeyman {skill:762}; any Horde race can ride it."] = "Forever客戶端標價200金、60級。它以全速奔跑，因此騎乘需要中級{skill:762}；任何部落種族都可騎乘。",
 	-- {npc:13219} Jekyll Flandring
 	["{npc:13219}, 200g"] = "{npc:13219}，200金",
 

@@ -9,7 +9,7 @@ return {
 	-- Step 2: Valley of Fangs
 	-- {npc:2817} Rigglefuzz
 	-- plural, as words: Blue Pearls = {item:4611} Blue Pearl
-	["{npc:2817}: Blue Pearls from Stranglethorn"] = "",
+	["{npc:2817}: Blue Pearls from Stranglethorn"] = "{npc:2817}：來自荊棘谷的藍色珍珠",
 	-- {npc:2817} Rigglefuzz
 	["{npc:2817}'s next quest pays no experience: skip it."] = "{npc:2817}的下一個任務不給經驗值：跳過它。",
 
@@ -30,15 +30,15 @@ return {
 
 	-- Step 7: Into Loch Modan
 	-- {zone:1432} Loch Modan
-	["Into {zone:1432}"] = "",
+	["Into {zone:1432}"] = "進入{zone:1432}",
 
 	-- Step 8: Ironband's Excavation Site
 	-- {zone:1432} Loch Modan
-	["Ride north through the pass into {zone:1432} and east along the south shore to Ironband's camp."] = "",
+	["Ride north through the pass into {zone:1432} and east along the south shore to Ironband's camp."] = "向北騎穿過山口進入{zone:1432}，再沿南岸向東到鐵帶的營地。",
 
 	-- Step 9: Into Badlands
 	-- {zone:1418} Badlands
-	["Into {zone:1418}"] = "",
+	["Into {zone:1418}"] = "進入{zone:1418}",
 
 	-- Step 10: Badlands
 	-- {area:1517} Uldaman
@@ -46,36 +46,36 @@ return {
 
 	-- Step 11: The Uldaman dig
 	-- {area:1517} Uldaman · {zone:1418} Badlands
-	["Back through the pass: the Stonevault troggs dig outside {area:1517} at the {zone:1418}' northern edge. The carved urns and the magenta mushroom clusters sit in their caves and tunnels, outside the dungeon itself."] = "",
+	["Back through the pass: the Stonevault troggs dig outside {area:1517} at the {zone:1418}' northern edge. The carved urns and the magenta mushroom clusters sit in their caves and tunnels, outside the dungeon itself."] = "穿過山口回去：石窟穴居人在{zone:1418}北緣、{area:1517}外面挖洞。雕花甕和紫紅色蘑菇叢就在他們的洞穴和隧道里，在副本外面。",
 	-- {item:8047} Magenta Fungus Cap
-	["{item:8047}; below ground"] = "",
+	["{item:8047}; below ground"] = "{item:8047}：在地下",
 	-- {object:2743} Carved Stone Urn
-	["{object:2743}; below ground"] = "",
+	["{object:2743}; below ground"] = "{object:2743}：在地下",
 
 	-- Step 12: Back to Loch Modan
 	-- {zone:1432} Loch Modan
-	["Back to {zone:1432}"] = "",
+	["Back to {zone:1432}"] = "返回{zone:1432}",
 
 	-- Step 13: Ironband's Excavation Site
 	["Ride back north to Ironband's camp."] = "向北騎回鐵環挖掘場的營地。",
 
 	-- Step 14: Thelsamar
 	-- {area:144} Thelsamar
-	["Ride west along the loch to {area:144}."] = "",
+	["Ride west along the loch to {area:144}."] = "沿湖向西騎到{area:144}。",
 	-- {npc:1470} Ghak Healtouch
-	["{npc:1470}, below ground"] = "",
+	["{npc:1470}, below ground"] = "{npc:1470}：在地下",
 
 	-- Step 15: Fly to Southshore
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "飛往{area:271}",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144}飛行管理員",
 
 	-- Step 16: Southshore
 	-- {npc:3980} Raleigh the Devout
-	["{npc:3980} preaches by the inn."] = "",
+	["{npc:3980} preaches by the inn."] = "{npc:3980}在旅店旁佈道。",
 	-- {npc:3980} Raleigh the Devout
-	["{npc:3980}, upstairs"] = "",
+	["{npc:3980}, upstairs"] = "{npc:3980}，樓上",
 	-- {area:796} Scarlet Monastery
 	["Raleigh's next errand is in the {area:796}: skip it."] = "虔誠的萊雷恩的下一個差事在{area:796}：跳過它。",
 
@@ -83,9 +83,9 @@ return {
 	-- {area:271} Southshore · {zone:1425} The Hinterlands · {area:348} Aerie Peak · {npc:5635} Falstad Wildhammer · {quest:1450} Gryphon Master Talonaxe · {npc:7884} Fraggar Thundermantle
 	["Ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."] = "沿道路從{area:271}往東北騎進{zone:1425}；{area:348}就在邊界後方。{npc:5635}在頂層主持，{quest:1450}照料獅鷲棲所，{npc:7884}站在旅店旁。",
 	-- {quest:1450} Gryphon Master Talonaxe
-	["{quest:1450}, inside"] = "",
+	["{quest:1450}, inside"] = "{quest:1450}，室內",
 	-- {npc:7884} Fraggar Thundermantle
-	["{npc:7884}, inside"] = "",
+	["{npc:7884}, inside"] = "{npc:7884}，室內",
 	-- {npc:7744} Innkeeper Thulfram
 	["{npc:7744}; below ground"] = "{npc:7744}；在地下",
 
@@ -100,39 +100,39 @@ return {
 
 	-- Step 21: Aerie Peak
 	-- {npc:5636} Gryphon Master Talonaxe
-	["{npc:5636}, beside the flight master at the top; inside"] = "",
+	["{npc:5636}, beside the flight master at the top; inside"] = "{npc:5636}，在頂層的飛行管理員旁；室內",
 	-- {zone:1425} The Hinterlands
 	["Talonaxe's next task waits for a later {zone:1425} guide."] = "沙拉克·鷹斧的下一個任務留到之後的{zone:1425}指南。",
 
 	-- Step 22: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "飛往{area:150}",
 	-- {area:348} Aerie Peak
-	["{area:348} flight master"] = "",
+	["{area:348} flight master"] = "{area:348}飛行管理員",
 
 	-- Step 24: Theramore
 	["Theramore"] = "塞拉摩島",
 	-- {npc:2616} Privateer Groy
 	["{npc:2616} stands on the docks where the boat lands."] = "{npc:2616}站在船靠岸的碼頭上。",
 	-- {npc:4944} Captain Garran Vimes
-	["{npc:4944}, on the top floor"] = "",
+	["{npc:4944}, on the top floor"] = "{npc:4944}，頂樓",
 	-- {npc:4968} Lady Jaina Proudmoore
-	["{npc:4968}, on the top floor"] = "",
+	["{npc:4968}, on the top floor"] = "{npc:4968}，頂樓",
 	-- {npc:4794} Morgan Stern
-	["{npc:4794}, inside"] = "",
+	["{npc:4794}, inside"] = "{npc:4794}，室內",
 
 	-- Step 25: Cortello's Riddle
 	-- {area:498} Bloodfen Burrow
-	["Inside {area:498}"] = "",
+	["Inside {area:498}"] = "在{area:498}內部",
 
 	-- Step 26: Theramore flight master
-	["Theramore flight master"] = "",
+	["Theramore flight master"] = "塞拉摩飛行管理員",
 
 	-- Step 28: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed
 	["Warlock: {quest:3631}"] = "術士：{quest:3631}",
 	-- {zone:1413} Barrens · {area:392} Ratchet · {npc:6251} Strahad Farsan
-	["From Theramore, ride north into the {zone:1413} to {area:392}, or fly if you know its flight path. {npc:6251} teaches in the house by the bank."] = "",
+	["From Theramore, ride north into the {zone:1413} to {area:392}, or fly if you know its flight path. {npc:6251} teaches in the house by the bank."] = "從塞拉摩向北騎進{zone:1413}，前往{area:392}；如果知道飛行路線也可以直接飛。{npc:6251}在銀行旁的房子裡教學。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Blue Pearls from Stranglethorn"] = "來自荊棘谷的藍珍珠",

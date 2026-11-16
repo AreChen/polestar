@@ -8,11 +8,11 @@
 return {
 	-- Step 1: Into Winterspring
 	-- {zone:1452} Winterspring
-	["Into {zone:1452}"] = "",
+	["Into {zone:1452}"] = "進入{zone:1452}",
 
 	-- Step 2: Salfa
 	-- {npc:11556} Salfa · {zone:1452} Winterspring · {area:1769} Timbermaw Hold
-	["{npc:11556} stands right at the {zone:1452} exit of {area:1769}'s tunnel, where you come out."] = "",
+	["{npc:11556} stands right at the {zone:1452} exit of {area:1769}'s tunnel, where you come out."] = "{npc:11556}就站在{area:1769}隧道的{zone:1452}出口處，也就是你出來的地方。",
 
 	-- Step 4: Everlook's inn
 	-- {area:2255} Everlook
@@ -22,17 +22,17 @@ return {
 
 	-- Step 5: Everlook
 	-- {npc:11629} Jessica Redpath · {area:2262} Darrowshire
-	["{npc:11629}: keep it for {area:2262}; inside"] = "",
+	["{npc:11629}: keep it for {area:2262}; inside"] = "{npc:11629}：留著給{area:2262}；室內",
 	-- {npc:10431} Gregor Greystone
-	["{npc:10431}: keep both for the Plaguelands; inside"] = "",
+	["{npc:10431}: keep both for the Plaguelands; inside"] = "{npc:10431}：兩個都留著給瘟疫之地；室內",
 	-- {npc:11754} Meggi Peppinrocker · {area:2255} Everlook
-	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "",
+	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "{npc:11754}在{area:2255}附近走動：看地圖上的圓圈內",
 	-- {item:12383} Moontouched Feather
-	["{item:12383}, 110 yd north"] = "",
+	["{item:12383}, 110 yd north"] = "{item:12383}，往北110碼",
 
 	-- Step 7: Ice Thistle Hills: kill these as you meet them
 	-- {area:2247} Ice Thistle Hills
-	["{area:2247}: kill these as you meet them"] = "",
+	["{area:2247}: kill these as you meet them"] = "{area:2247}：遇到就殺",
 	-- {area:2244} Winterfall Village · {area:2255} Everlook
 	-- plural, as words: Chillwind Chimaeras = {npc:7448} Chillwind Chimaera
 	["Ice Thistle yetis live in the hills south of {area:2244}, Chillwind Chimaeras in the valley toward {area:2255}."] = "冰薊雪人住在{area:2244}南邊的山丘上，冰風奇美拉在往{area:2255}方向的山谷裡。",
@@ -50,23 +50,23 @@ return {
 
 	-- Step 10: Frostfire Hot Springs: kill these as you meet them
 	-- {area:2246} Frostfire Hot Springs
-	["{area:2246}: kill these as you meet them"] = "",
+	["{area:2246}: kill these as you meet them"] = "{area:2246}：遇到就殺",
 	-- {npc:11556} Salfa · {npc:9298} Donova Snowden · {item:12771} Empty Firewater Flask · {quest:8471} Winterfall Ritual Totem · {item:14047} Runecloth · {zone:1452} Winterspring · {area:1584} Blackrock Depths
-	["The western Winterfall camp sits in the hills between {npc:11556} and {npc:9298}. Any furbolg here can drop an {item:12771} (about one in ten: it comes within the kills these quests need) and a {quest:8471} (about one in thirty: it comes within the top-ups): right-click whichever drops. Keep the {item:14047} the furbolgs drop for Meilosh.\nThe rest of {zone:1452}'s work is level 55-58: stay on this camp until level 54, so your first kills also count for {npc:9298} and {npc:11556}. Or, with a group, run the {area:1584} dungeon instead."] = "",
+	["The western Winterfall camp sits in the hills between {npc:11556} and {npc:9298}. Any furbolg here can drop an {item:12771} (about one in ten: it comes within the kills these quests need) and a {quest:8471} (about one in thirty: it comes within the top-ups): right-click whichever drops. Keep the {item:14047} the furbolgs drop for Meilosh.\nThe rest of {zone:1452}'s work is level 55-58: stay on this camp until level 54, so your first kills also count for {npc:9298} and {npc:11556}. Or, with a group, run the {area:1584} dungeon instead."] = "西邊的冬泉營地坐落在{npc:11556}和{npc:9298}之間的丘陵裡。這裡的任何熊怪都可能掉{item:12771}（約十分之一：這些任務要求的擊殺量裡自然就有了）和{quest:8471}（約三十分之一：補齊等級的路上就會拿到）：掉哪個就右鍵點哪個。熊怪掉的{item:14047}留著給梅羅什。\n{zone:1452}其餘的內容是55-58級：就在這個營地待到54級，這樣最初的擊殺也能算進{npc:9298}和{npc:11556}的任務。或者組隊去刷{area:1584}副本。",
 	-- {npc:7442} Winterfall Pathfinder
-	["grind on {npc:7442}"] = "",
+	["grind on {npc:7442}"] = "刷{npc:7442}",
 
 	-- Step 11: Donova Snowden
 	-- {zone:1448} Felwood
 	["The Deadwood cauldron in {zone:1448}: keep it"] = "{zone:1448}的死木大鍋：保留此任務",
 
 	-- Step 12: Level 55.05
-	["Level 55.05"] = "",
+	["Level 55.05"] = "55.05級",
 	-- {area:2255} Everlook · {area:2246} Frostfire Hot Springs · {area:1769} Timbermaw Hold · {quest:8471} Winterfall Ritual Totem · {area:1584} Blackrock Depths · {area:1583} Blackrock Spire
-	["Top up here to level 55.05 before the hand-ins at {area:2255}: they take you to level 56. Grind the Winterfall furbolgs camped by {area:2246} (Pathfinders, Totemics, Den Watchers): killing them raises your Timbermaw reputation, which the quests here and the walk through {area:1769} need, one of them drops the {quest:8471}, and they fill your bags with the thirty Runecloth Meilosh asks for. Or, with a group, run the {area:1584} dungeon or the {area:1583} dungeon (Lower) instead."] = "",
+	["Top up here to level 55.05 before the hand-ins at {area:2255}: they take you to level 56. Grind the Winterfall furbolgs camped by {area:2246} (Pathfinders, Totemics, Den Watchers): killing them raises your Timbermaw reputation, which the quests here and the walk through {area:1769} need, one of them drops the {quest:8471}, and they fill your bags with the thirty Runecloth Meilosh asks for. Or, with a group, run the {area:1584} dungeon or the {area:1583} dungeon (Lower) instead."] = "在{area:2255}交任務之前，在這裡補到55.05級：那些任務會把你帶到56級。刷{area:2246}旁紮營的冬泉熊怪（尋路者、圖騰師、巢穴守望者）：殺它們能提高木喉聲望，這是這裡的任務和穿過{area:1769}需要的；其中有一隻掉{quest:8471}；它們還會把你的包塞滿梅羅什要的三十塊符文布。或者組隊去刷{area:1584}副本或{area:1583}副本（下層）。",
 
 	-- Step 13: Winterfall Ritual Totem
-	["Any Winterfall furbolg can drop the totem, about one kill in thirty: if the top-up did not bring one, keep killing them here until it drops, then right-click it."] = "",
+	["Any Winterfall furbolg can drop the totem, about one kill in thirty: if the top-up did not bring one, keep killing them here until it drops, then right-click it."] = "任何冬泉熊怪都可能掉圖騰，大約三十隻裡有一個：如果補齊等級時沒出，就在這裡繼續殺到掉為止，然後右鍵點它。",
 	-- {area:1769} Timbermaw Hold
 	["For Kernda in {area:1769}: keep it"] = "給{area:1769}的克爾達：保留此任務",
 
@@ -78,7 +78,7 @@ return {
 	-- plural, as words: Pristine Yeti Horns = {item:12367} Pristine Yeti Horn
 	["Pristine Yeti Horns"] = "完美的雪人角",
 	-- plural, as words: Ice Thistle Matriarchs = {npc:7459} Ice Thistle Matriarch
-	["Back to the hills: only the Ice Thistle Matriarchs and Patriarchs carry the horns."] = "",
+	["Back to the hills: only the Ice Thistle Matriarchs and Patriarchs carry the horns."] = "回到丘陵：只有冰薊母熊和公熊帶著角。",
 
 	-- Step 17: Everlook
 	-- {npc:10978} Legacki
@@ -103,7 +103,7 @@ return {
 	-- Step 20: Fly to Theramore
 	["Fly to Theramore"] = "飛往塞拉摩",
 	-- {area:2255} Everlook
-	["{area:2255} flight master"] = "",
+	["{area:2255} flight master"] = "{area:2255}飛行管理員",
 
 	-- Step 21: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -111,25 +111,25 @@ return {
 
 	-- Step 22: Fly to Chillwind Camp
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150}飛行管理員",
 
 	-- Step 23: Chillwind Camp
 	["Pureheart, Dumah, Valorfist and MacDonnell stand around the middle of the camp, by the flight master."] = "純心、杜瑪、瓦洛菲斯特和麥克唐奈站在營地中央附近，飛行管理員旁邊。",
 	-- {npc:11616} Nathaniel Dumah · {area:2627} Terrordale
 	["{npc:11616}: the termites come later, in {area:2627}"] = "{npc:11616}：白蟻稍後在{area:2627}處理",
 	-- {npc:10838} Commander Ashlam Valorfist
-	["{npc:10838}: the watchtowers are in Andorhal, keep it"] = "",
+	["{npc:10838}: the watchtowers are in Andorhal, keep it"] = "{npc:10838}：哨塔在安多哈爾，留著",
 	-- {npc:11053} High Priestess MacDonnell · {area:200} Dalson's Tears
-	["{npc:11053}: the cauldron is at {area:200}, keep it"] = "",
+	["{npc:11053}: the cauldron is at {area:200}, keep it"] = "{npc:11053}：大鍋在{area:200}，留著",
 
 	-- Step 24: Mulgris Deepriver
 	-- {npc:10739} Mulgris Deepriver · {area:202} Writhing Haunt · {zone:1423} Eastern Plaguelands
-	["{npc:10739} stands by the farm at the {area:202}, on the road east to the {zone:1423}."] = "",
-	["Inside"] = "",
+	["{npc:10739} stands by the farm at the {area:202}, on the road east to the {zone:1423}."] = "{npc:10739}站在{area:202}的農場旁，沿路向東前往{zone:1423}時會經過。",
+	["Inside"] = "在裡面",
 
 	-- Step 25: Into Eastern Plaguelands
 	-- {zone:1423} Eastern Plaguelands
-	["Into {zone:1423}"] = "",
+	["Into {zone:1423}"] = "進入{zone:1423}",
 
 	-- Step 27: Pamela Redpath
 	-- {zone:1423} Eastern Plaguelands · {area:2262} Darrowshire · {npc:10926} Pamela Redpath
@@ -141,9 +141,9 @@ return {
 	-- {area:2262} Darrowshire
 	["The three pieces of the doll lie in the ruined houses of {area:2262}; picking one up can call out ghosts. Combine them into the doll."] = "洋娃娃的三個部分在{area:2262}的廢屋裡；撿起其中一個可能會引出鬼魂。把它們組合成洋娃娃。",
 	-- {item:12886} Pamela's Doll's Head
-	["{item:12886}; inside"] = "",
+	["{item:12886}; inside"] = "{item:12886}；室內",
 	-- {item:12888} Pamela's Doll's Right Side
-	["{item:12888}; inside"] = "",
+	["{item:12888}; inside"] = "{item:12888}；室內",
 
 	-- Step 29: Pamela Redpath
 	-- {quest:5152} Auntie Marlene · {zone:1422} Western Plaguelands
@@ -152,12 +152,12 @@ return {
 	-- Step 30: Light's Hope Chapel
 	["Follow the road east across the zone to the chapel."] = "沿著道路向東穿過本區前往禮拜堂。",
 	-- {npc:11038} Caretaker Alen
-	["{npc:11038}: Zaeldarr is a level 54 elite"] = "",
+	["{npc:11038}: Zaeldarr is a level 54 elite"] = "{npc:11038}：扎爾達是54級精英",
 
 	-- Step 31: Corin's Crossing
 	-- {area:2264} Corin's Crossing · {npc:10411} Eye of Naxxramas
 	-- plural, as words: Darrowshire Spirits = {npc:11064} Darrowshire Spirit · Rockwing Gargoyles = {npc:10408} Rockwing Gargoyle
-	["The Scourge around {area:2264}, west of the chapel, drop both kinds of Scourgestone; Darrowshire Spirits rise from them: talk to each one to free it.\nCareful: {npc:10411} goes invisible when out of combat and calls Rockwing Gargoyles once a fight starts. Only 3 exist and they respawn every 15 min."] = "",
+	["The Scourge around {area:2264}, west of the chapel, drop both kinds of Scourgestone; Darrowshire Spirits rise from them: talk to each one to free it.\nCareful: {npc:10411} goes invisible when out of combat and calls Rockwing Gargoyles once a fight starts. Only 3 exist and they respawn every 15 min."] = "禮拜堂以西{area:2264}周圍的天災怪會掉兩種天災石；達隆郡的幽靈會從它們身上升起：和每一個對話來解放它。\n注意：{npc:10411}脫離戰鬥後會隱形，一開打就會呼叫石翼石像鬼。只有3只，每15分鐘重新整理一次。",
 	-- plural, as words: Darrowshire Spirits = {npc:11064} Darrowshire Spirit
 	["Free Darrowshire Spirits: talk to them"] = "解放達隆郡居民的靈魂：與他們交談",
 
@@ -165,7 +165,7 @@ return {
 	-- {area:2261} The Undercroft
 	["Zaeldarr is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone."] = "塞達爾是精英：建議組隊。他在本區西南部的地穴{area:2261}最底層等著。",
 	-- {item:15785} Zaeldarr's Head
-	["{item:15785}; below ground"] = "",
+	["{item:15785}; below ground"] = "{item:15785}；地下",
 
 	-- Step 33: Light's Hope Chapel
 	-- {area:3197} Chillwind Camp

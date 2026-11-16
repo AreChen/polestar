@@ -13,7 +13,7 @@ return {
 
 	-- Step 1: Halpa
 	-- {npc:8401} Halpa · {zone:1456} Thunder Bluff
-	["{npc:8401} sells three whistles in {zone:1456} (50s each, 1g 50s for all three); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "",
+	["{npc:8401} sells three whistles in {zone:1456} (50s each, 1g 50s for all three); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:8401}在{zone:1456}出售三種口哨（每個50銀，三個共1金50銀）；其中兩種地松鼠是 Forever 新增的。每個寵物物品使用後都會教會對應的小夥伴；目標完成後仍保持勾選。",
 	-- {item:10394} Prairie Dog Whistle
 	["{item:10394}, 50s"] = "{item:10394}，50銀",
 	["50s"] = "50銀",

@@ -14,14 +14,14 @@ return {
 	-- {object:556670} WANTED (no name in this language: may be words)
 	["The {object:556670} poster by the inn"] = "旅店旁的{object:556670}海報",
 	-- {npc:2229} Krusk
-	["{npc:2229}, inside"] = "",
+	["{npc:2229}, inside"] = "{npc:2229}，在裡面",
 
 	-- Step 2: Serge Hinott
 	-- {quest:2479} Hinott's Assistance · {npc:2391} Serge Hinott · {area:272} Tarren Mill
-	["After returning Mission: Possible But Not Probable to Shenthul, bring {quest:2479} to {npc:2391} in {area:272}. Stay beside him until the brewing objective completes, then hand in the follow-up to learn Poisons. Finish it even if the Zanzil poison has already been removed; removing the debuff alone does not teach the skill."] = "",
+	["After returning Mission: Possible But Not Probable to Shenthul, bring {quest:2479} to {npc:2391} in {area:272}. Stay beside him until the brewing objective completes, then hand in the follow-up to learn Poisons. Finish it even if the Zanzil poison has already been removed; removing the debuff alone does not teach the skill."] = "向申蘇爾交付“不可能完成的任務”後，帶著“{quest:2479}”來{area:272}找{npc:2391}。留在他身邊，等製藥目標完成後再交後續任務，學會毒藥。即使贊吉爾之觸已經被解除，也要完成這一步；單純解掉負面效果不會學會毒藥。",
 	-- {npc:2391} Serge Hinott
 	["{npc:2391}: Poisons"] = "{npc:2391}：毒藥",
-	["Poison chain unfinished? Resume your current stage in the Class guide Poisons (Horde); completed quests do not need restarting. Arrange a group for Gallywix, finish the Hinott follow-up, then return to this leveling guide."] = "",
+	["Poison chain unfinished? Resume your current stage in the Class guide Poisons (Horde); completed quests do not need restarting. Arrange a group for Gallywix, finish the Hinott follow-up, then return to this leveling guide."] = "毒藥任務線尚未完成的話，可從職業指南“毒藥（部落）”中的當前階段繼續，無需重做已交的任務。找隊伍處理加里維克斯並完成希諾特的後續，再回當前練級指南。",
 
 	-- Step 3: Bears, creepers and lions
 	["Bears, creepers and lions"] = "熊、食苔蛛和山地獅",
@@ -34,15 +34,15 @@ return {
 	["The farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere. {npc:2451} tends the field south of the farms."] = "{area:287}鎮東邊的農場。{npc:232}在北邊農舍旁的田地工作，{npc:2403}在更東南邊的那塊；希爾斯布萊德雇農和希爾斯布萊德農夫到處都是。{npc:2451}照料農場南邊的田地。",
 
 	-- Step 5: Mountain Lion Blood
-	["Careful: When one lion is attacked, nearby lions come to its aid, and the Vicious Black Bears sharing those fields can also join the fight."] = "",
+	["Careful: When one lion is attacked, nearby lions come to its aid, and the Vicious Black Bears sharing those fields can also join the fight."] = "小心：攻擊一頭獅子會引來附近的獅子助陣，同處那片田地的兇惡黑熊也可能參戰。",
 
 	-- Step 6: Tarren Mill
 	-- {npc:2216} Apothecary Lydon
-	["{npc:2216}, inside"] = "",
+	["{npc:2216}, inside"] = "{npc:2216}，在裡面",
 	-- {npc:2230} Umpi
-	["{npc:2230}, next to Lydon; inside"] = "",
+	["{npc:2230}, next to Lydon; inside"] = "{npc:2230}，在萊頓旁邊；在裡面",
 	-- {quest:567} Dangerous!
-	["The {quest:567} poster: Kalaba with the peasants, Wilkes at the smithy; the clerk and the miner on the visit at about 30; inside"] = "",
+	["The {quest:567} poster: Kalaba with the peasants, Wilkes at the smithy; the clerk and the miner on the visit at about 30; inside"] = "{quest:567}的海報：卡拉巴和農民們在一起，威爾克斯在鐵匠鋪；書記員和礦工留到大約30級那次再來；在裡面",
 
 	-- Step 7: Stanley
 	-- {npc:2274} Stanley · {npc:232} Farmer Ray · {area:286} Hillsbrad Fields
@@ -50,27 +50,27 @@ return {
 
 	-- Step 8: Hillsbrad Fields: kill these as you meet them
 	-- {area:286} Hillsbrad Fields
-	["{area:286}: kill these as you meet them"] = "",
+	["{area:286}: kill these as you meet them"] = "{area:286}：遇到了就殺",
 	-- {area:287} Hillsbrad
-	["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.\nCareful: A fleeing peasant that reaches the town hall can bring back many adds, including {area:287} footmen; snares, roots or similar effects keep them from escaping."] = "",
+	["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.\nCareful: A fleeing peasant that reaches the town hall can bring back many adds, including {area:287} footmen; snares, roots or similar effects keep them from escaping."] = "農民們在農舍南面的田裡勞作。每個{area:287}人類都掉落頭骨，農民的掉率最高。\n小心：逃跑的農民一旦跑進市政廳，會帶回大量援兵，包括{area:287}步兵；用減速、定身或類似效果阻止他們逃脫。",
 	-- {item:3692} Hillsbrad Human Skull
 	["{item:3692}: the Peasants in the fields"] = "{item:3692}：田裡的希爾斯布萊德農民",
 	-- {npc:2451} Farmer Kalaba · {area:286} Hillsbrad Fields
-	["{npc:2451} walks around {area:286}: look inside the circle on the map"] = "",
+	["{npc:2451} walks around {area:286}: look inside the circle on the map"] = "{npc:2451}在{area:286}一帶走動：檢視地圖上的圓圈範圍",
 
 	-- Step 9: Tarren Mill
 	-- {npc:2215} High Executor Darthalia · {npc:270438} Deathstalker Masoj
 	["{npc:2215}: orders for {npc:270438}, on the way to Durnholde"] = "{npc:2215}：給{npc:270438}的命令，在前往敦霍爾德城堡的路上",
 	-- {npc:2216} Apothecary Lydon · {item:3502} Mudsnout Blossoms
-	["{npc:2216}, inside: the {item:3502} grow south-west of Durnholde, on the walk there"] = "",
+	["{npc:2216}, inside: the {item:3502} grow south-west of Durnholde, on the walk there"] = "{npc:2216}，在裡面：{item:3502}長在敦霍爾德西南方，就在去那裡的路上",
 
 	-- Step 10: Durnholde Keep: kill these as you meet them
 	-- {area:275} Durnholde Keep
-	["{area:275}: kill these as you meet them"] = "",
+	["{area:275}: kill these as you meet them"] = "{area:275}：遇到了就殺",
 	-- {npc:2238} Tog'thar · {area:275} Durnholde Keep · {npc:2427} Jailor Eston · {item:3467} Dull Iron Key · {npc:2428} Jailor Marlgen · {item:3499} Burnished Gold Key · {area:272} Tarren Mill
 	["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings. Their locks need keys: {npc:2427} carries the {item:3467} and {npc:2428} the {item:3499}, both in the keep. Kill them, then open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way."] = "德盧爾和{npc:2238}被鎖在{area:275}庭院的建築裡。鎖需要鑰匙：{npc:2427}帶著{item:3467}，{npc:2428}帶著{item:3499}，兩人都在城堡裡。殺死他們，然後打開兩把鎖。\n從{area:272}向東南進入通往{area:275}途中的丘陵。辛迪加盜賊和辛迪加衛士佔據沿途的營地。",
 	-- {npc:2261} Syndicate Watchman
-	["{npc:2261} walks around here: look inside the circle on the map"] = "",
+	["{npc:2261} walks around here: look inside the circle on the map"] = "{npc:2261}在這附近走動：檢視地圖上的圓圈範圍",
 	["Drull's ball and chain"] = "德盧爾的腳鐐",
 	-- {npc:2238} Tog'thar
 	["{npc:2238}'s ball and chain"] = "{npc:2238}的腳鐐",
@@ -79,14 +79,14 @@ return {
 	-- {area:290} Dun Garok
 	["Masoj hides on the hillside above {area:290}, south-west of Durnholde, on the way down to the blossoms."] = "馬索吉躲在敦霍爾德城堡西南邊、{area:290}上方的山坡上，就在下山前往花叢的路上。",
 	-- {npc:270438} Deathstalker Masoj · {quest:98094} Scout Support
-	["{npc:270438}, once {quest:98094} is in"] = "",
+	["{npc:270438}, once {quest:98094} is in"] = "{npc:270438}，接到{quest:98094}後",
 
 	-- Step 12: Mudsnout Blossoms
 	-- {item:3502} Mudsnout Blossoms
 	["Just south of Masoj, the {item:3502} grow on the hillsides above the river."] = "在馬索吉南邊不遠，{item:3502}生長在河流上方的山坡上。",
 
 	-- Step 13: The southern peak
-	["The southern peak"] = "",
+	["The southern peak"] = "南邊的山峰",
 	-- {area:290} Dun Garok
 	["Masoj wants an Apothecary Vial placed on three peaks. The southern one is the hilltop above {area:290}, south-east of the blossoms: use a vial at the top."] = "馬索吉要你在三座山峰上各放一瓶藥劑師瓶子。南邊那座是{area:290}上方、花叢東南邊的山頂：在山頂使用一瓶。",
 
@@ -94,43 +94,43 @@ return {
 	["The smithy"] = "鐵匠鋪",
 	-- {area:287} Hillsbrad · {npc:2404} Blacksmith Verringtan · {object:1736} Shipment of Iron · {npc:2449} Citizen Wilkes
 	["The smithy stands in the middle of {area:287} town. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks the street north of it."] = "鐵匠鋪位於{area:287}鎮中央。{npc:2404}和他的學徒在熔爐邊工作；{object:1736}堆在旁邊。{npc:2449}在鐵匠鋪北邊的街上走動。",
-	["Inside"] = "",
+	["Inside"] = "在裡面",
 
 	-- Step 15: The western peak
-	["The western peak"] = "",
+	["The western peak"] = "西邊的山峰",
 	-- {area:287} Hillsbrad
-	["From {area:287} town climb the mountain to the north, right up to its top on the Alterac border: the western vial goes there, not on the lower slope."] = "",
+	["From {area:287} town climb the mountain to the north, right up to its top on the Alterac border: the western vial goes there, not on the lower slope."] = "從{area:287}鎮向北爬山，一直爬到奧特蘭克邊界上的山頂：西邊那瓶要放那裡，不是下面半山腰。",
 
 	-- Step 16: Back to Tarren Mill
 	-- {area:272} Tarren Mill
 	["Back to {area:272}"] = "返回{area:272}",
 	-- {area:272} Tarren Mill
-	["East along the foothills, then down into {area:272}."] = "",
+	["East along the foothills, then down into {area:272}."] = "沿丘陵向東，然後向下進入{area:272}。",
 
 	-- Step 17: Tarren Mill
 	-- {npc:2055} Master Apothecary Faranell · {zone:1458} Undercity
 	["{npc:2055}, in the {zone:1458}"] = "{npc:2055}，在{zone:1458}",
 
 	-- Step 18: The northern peak
-	["The northern peak"] = "",
+	["The northern peak"] = "北邊的山峰",
 	-- {area:272} Tarren Mill
-	["The northern peak rises south-east of {area:272}, on the way down towards Durnholde."] = "",
+	["The northern peak rises south-east of {area:272}, on the way down towards Durnholde."] = "北邊那座山峰聳立在{area:272}東南方，在往下前往敦霍爾德的路上。",
 
 	-- Step 19: Deathstalker Masoj
 	-- {area:290} Dun Garok
-	["Back down to Masoj on the hillside above {area:290}."] = "",
+	["Back down to Masoj on the hillside above {area:290}."] = "往下回到{area:290}上方山坡上的馬索伊那裡。",
 
 	-- Step 20: The Sepulcher
 	-- {area:272} Tarren Mill · {area:228} The Sepulcher · {npc:2121} Shadow Priest Allister
-	["Walk back up to {area:272} and fly to the {area:228}: {npc:2121} stands by the crypt entrance."] = "",
+	["Walk back up to {area:272} and fly to the {area:228}: {npc:2121} stands by the crypt entrance."] = "往回走到{area:272}，再飛往{area:228}：{npc:2121}站在地穴入口旁。",
 	-- {area:272} Tarren Mill
-	["{area:272} flight master"] = "",
+	["{area:272} flight master"] = "{area:272}飛行管理員",
 
 	-- Step 21: Fly to the Undercity
 	-- {area:1497} Undercity
 	["Fly to the {area:1497}"] = "飛往{area:1497}",
 	-- {npc:2226} Karos Razok · {area:1497} Undercity
-	["Fly on from {npc:2226}, the bat handler just east of the crypt, to the {area:1497}."] = "",
+	["Fly on from {npc:2226}, the bat handler just east of the crypt, to the {area:1497}."] = "從地穴正東的蝙蝠管理員{npc:2226}那裡繼續飛往{area:1497}。",
 
 	-- Step 22: Aelthalyste
 	-- {npc:4606} Aelthalyste · {object:36070} War Quarter
@@ -144,38 +144,38 @@ return {
 
 	-- Step 24: Archibald
 	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Warrior fastest."] = "趁在這裡：向{npc:11870}學習{spell:202}（{object:36070}，10銀）；雙手武器讓戰士練級最快。",
 
 	-- Step 25: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); two-handers level a Warrior fastest."] = "趁在這裡：向{npc:11870}學習長柄武器（{object:36070}，1金）；雙手武器讓戰士練級最快。",
 
 	-- Step 26: Archibald
 	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Paladin fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Paladin fastest."] = "趁在這裡：向{npc:11870}學習{spell:202}（{object:36070}，10銀）；雙手武器讓聖騎士練級最快。",
 
 	-- Step 27: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "趁在這裡：向{npc:11870}學習長柄武器（{object:36070}，1金）；獵人的近戰武器主要提供屬性，雙手武器的屬性最多。",
 
 	-- Step 28: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn Swords from {npc:11870} ({object:36070}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "",
+	["While you're here: learn Swords from {npc:11870} ({object:36070}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "趁在這裡：向{npc:11870}學習劍類武器（{object:36070}，10銀）；主手持劍讓盜賊練級更平穩。",
 
 	-- Step 29: Trial of the Sea Lion
 	-- {spell:18960} Teleport: Moonglade · {area:2362} Shrine of Remulos · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven
-	["Cast {spell:18960}. Join the two pendant halves at the {area:2362}, on the north-west shore of the lake, before you see {npc:11802} in {area:2361}. {npc:11802} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "",
+	["Cast {spell:18960}. Join the two pendant halves at the {area:2362}, on the north-west shore of the lake, before you see {npc:11802} in {area:2361}. {npc:11802} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "施放{spell:18960}。去見{area:2361}的{npc:11802}之前，先在湖西北岸的{area:2362}把兩半墜飾合起來。{npc:11802}在他那棟樓的樓上：從裡面上樓，箭頭分不清樓層。",
 	-- {item:15885} Pendant of the Sea Lion · {area:2362} Shrine of Remulos
 	["{item:15885}: use a half at the {area:2362}"] = "{item:15885}：在{area:2362}使用一半墜飾",
 
 	-- Step 30: Aquatic Form
 	-- {quest:31} Aquatic Form · {npc:11802} Dendrite Starblaze · {npc:11798} Bunthen Plainswind · {area:2361} Nighthaven · {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise
-	["Take {quest:31} from {npc:11802}, who stands upstairs in his building. Then {npc:11798} in {area:2361} flies druids to {area:1638}: {npc:3033} is on {area:1639}."] = "",
+	["Take {quest:31} from {npc:11802}, who stands upstairs in his building. Then {npc:11798} in {area:2361} flies druids to {area:1638}: {npc:3033} is on {area:1639}."] = "從樓上的{npc:11802}處接{quest:31}。然後{area:2361}的{npc:11798}會把德魯伊飛到{area:1638}：{npc:3033}在{area:1639}。",
 	-- {npc:11798} Bunthen Plainswind · {area:2361} Nighthaven
 	["{npc:11798} in {area:2361} flies druids there"] = "{area:2361}的{npc:11798}會載德魯伊飛到那裡",
 
 	-- Step 31: Back to the Crossroads
-	["Back to the Crossroads"] = "",
+	["Back to the Crossroads"] = "返回十字路口",
 	-- {npc:3033} Turak Runetotem · {npc:3024} Tah Winterhoof · {npc:4721} Zangen Stonehoof
 	["Train with {npc:3033}. Before you fly on, {npc:3024} and {npc:4721}, a short walk east of the wind rider master, give two quests worked on the next guides' walks; then fly on to the Crossroads, where the next guide starts."] = "在{npc:3033}那裡訓練。繼續飛行前，風騎士管理員東邊不遠處的{npc:3024}和{npc:4721}會給你兩個任務，在接下來幾份指南的路上完成；然後飛往十字路口，下一份指南從那裡開始。",
 	-- {npc:3024} Tah Winterhoof · {quest:97538} Pigments for Paints · {area:464} Mirkfallon Lake
@@ -190,10 +190,10 @@ return {
 
 	-- Step 33: Orgrimmar
 	-- {zone:1454} Orgrimmar
-	["The middle of {zone:1454}"] = "",
+	["The middle of {zone:1454}"] = "{zone:1454}中部",
 
 	-- Step 34: Orgrimmar
-	["Train before you fly on: the next guide flies from here to the Crossroads."] = "",
+	["Train before you fly on: the next guide flies from here to the Crossroads."] = "繼續飛行之前先學技能：下一個指南從這裡飛往十字路口。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks."] = "德盧爾和{npc:2238}被鎖在{area:275}庭院的建築裡；打開兩把鎖。",

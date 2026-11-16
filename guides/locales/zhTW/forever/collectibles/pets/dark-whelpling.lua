@@ -10,7 +10,7 @@ return {
 	["Black whelps"] = "黑色雛龍",
 	-- {area:511} Wyrmbog · {zone:1445} Dustwallow Marsh · {zone:1418} Badlands
 	-- plural, as words: Searing Whelps = {npc:4324} Searing Whelp · Scalding Whelps = {npc:2725} Scalding Whelp
-	["The Searing Whelps of the {area:511} in southern {zone:1445} (level 42-43) and the Scalding Whelps of eastern {zone:1418} (level 41-43) drop it about once in 900 kills. The waypoint is the {area:511}, where the whelps stand thickest; the {zone:1418} whelps are the same grind. The whelpling can be traded, so the Auction House may be quicker."] = "",
+	["The Searing Whelps of the {area:511} in southern {zone:1445} (level 42-43) and the Scalding Whelps of eastern {zone:1418} (level 41-43) drop it about once in 900 kills. The waypoint is the {area:511}, where the whelps stand thickest; the {zone:1418} whelps are the same grind. The whelpling can be traded, so the Auction House may be quicker."] = "{zone:1445}南部{area:511}的灼熱雛龍（42-43級）和{zone:1418}東部的灼熱的雛龍（41-43級）大約每900次擊殺掉落一次。路標是{area:511}，那裡雛龍最密集；{zone:1418}的雛龍也是同樣的刷法。這隻雛龍寵物可以交易，所以拍賣行可能更快。",
 	-- {area:511} Wyrmbog
 	["The {area:511}"] = "{area:511}",
 

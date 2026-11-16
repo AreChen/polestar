@@ -30,7 +30,7 @@ return {
 
 	-- Step 5: Heavy Linen Bandage (40-50)
 	-- {item:2581} Heavy Linen Bandage · {skill:129} First Aid
-	["{item:2581} is orange from 40 (yellow at 50, green at 75, grey at 100): about 10 crafts to 50. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 40 for 1s; the arrow picks the nearest."] = "",
+	["{item:2581} is orange from 40 (yellow at 50, green at 75, grey at 100): about 10 crafts to 50. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 40 for 1s; the arrow picks the nearest."] = "{item:2581}從40開始為橙色（50變黃，75變綠，100變灰）：約製作10次到50。繃帶不需要火：隨處都能製作。你所在陣營的任何{skill:129}訓練師在技能40時教授，花費1銀；箭頭會指向最近的一位。",
 
 	-- Step 6: Journeyman First Aid
 	-- {skill:129} First Aid
@@ -40,7 +40,7 @@ return {
 
 	-- Step 8: Heavy Linen Bandage (50-80)
 	-- {item:2581} Heavy Linen Bandage · {item:858} Lesser Healing Potion · {item:2450} Briarthorn · {item:2678} Mild Spices · {item:3371} Empty Vial
-	["{item:2581} is yellow from 50 (yellow at 50, green at 75, grey at 100): about 46 crafts to 80. Bandages need no fire: craft them anywhere. Herbalists: {item:858} (from 55, 1s 50c; {item:2450}, two {item:2678} and an {item:3371}) is orange to 85."] = "",
+	["{item:2581} is yellow from 50 (yellow at 50, green at 75, grey at 100): about 46 crafts to 80. Bandages need no fire: craft them anywhere. Herbalists: {item:858} (from 55, 1s 50c; {item:2450}, two {item:2678} and an {item:3371}) is orange to 85."] = "{item:2581}從50開始為黃色（50變黃，75變綠，100變灰）：約製作46次到80。繃帶不需要火：隨處都能製作。草藥師：{item:858}（55起，1銀50銅；{item:2450}、兩份{item:2678}和一個{item:3371}）在85前為橙色。",
 
 	-- Step 9: Wool Bandage: cloth
 	-- {spell:3277} Wool Bandage
@@ -50,7 +50,7 @@ return {
 
 	-- Step 10: Wool Bandage (80-115)
 	-- {spell:3277} Wool Bandage · {skill:129} First Aid · {item:6452} Anti-Venom · {item:1475} Small Venom Sac · {spell:9810} Touch of Zanzil
-	["{spell:3277} is yellow from 80 (yellow at 80, green at 115, grey at 150): about 49 crafts to 115. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 80 for 2s 50c; the arrow picks the nearest. {item:6452} ({item:1475}, from spiders) is taught at 80 too: Rogues need it for {spell:9810}, and it sells."] = "",
+	["{spell:3277} is yellow from 80 (yellow at 80, green at 115, grey at 150): about 49 crafts to 115. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 80 for 2s 50c; the arrow picks the nearest. {item:6452} ({item:1475}, from spiders) is taught at 80 too: Rogues need it for {spell:9810}, and it sells."] = "{spell:3277}從80起為黃色（80黃、115綠、150灰）：到115約需49次製作。繃帶不需要火：隨處可做。本方陣營的任何{skill:129}訓練師從技能80起教它，收費2銀50銅；箭頭會選最近的一位。{item:6452}（{item:1475}，從蜘蛛身上取得）也在80點時教：盜賊需要它來配合{spell:9810}，而且它賣得出去。",
 
 	-- Step 11: Heavy Wool Bandage: cloth
 	-- {spell:3278} Heavy Wool Bandage
@@ -58,19 +58,19 @@ return {
 
 	-- Step 12: Heavy Wool Bandage (115-125)
 	-- {spell:3278} Heavy Wool Bandage · {skill:129} First Aid · {item:929} Healing Potion · {item:2453} Bruiseweed · {item:2692} Hot Spices · {item:3372} Leaded Vial
-	["{spell:3278} is yellow from 115 (yellow at 115, green at 150, grey at 185): about 11 crafts to 125. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 115 for 10s; the arrow picks the nearest. Herbalists: {item:929} (from 110, 8s; {item:2453}, {item:2692} and a {item:3372}) is orange to 135."] = "",
+	["{spell:3278} is yellow from 115 (yellow at 115, green at 150, grey at 185): about 11 crafts to 125. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 115 for 10s; the arrow picks the nearest. Herbalists: {item:929} (from 110, 8s; {item:2453}, {item:2692} and a {item:3372}) is orange to 135."] = "{spell:3278}從115開始為黃色（115變黃，150變綠，185變灰）：約製作11次到125。繃帶不需要火：隨處都能製作。你所在陣營的任何{skill:129}訓練師在技能115時教授，花費10銀；箭頭會指向最近的一位。草藥師：{item:929}（110起，8銀；{item:2453}、{item:2692}和一個{item:3372}）在135前為橙色。",
 
 	-- Step 13: Expert First Aid
 	-- {skill:129} First Aid
 	["Expert {skill:129}"] = "高級{skill:129}",
 	-- {skill:129} First Aid · {item:16084} Expert First Aid - Under Wraps · {item:8544} Mageweave Bandage
-	["Expert {skill:129} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16084} (1g); the arrow picks its nearest seller for your faction. Buy it and read it. The same vendor sells the Heavy Silk and {item:8544} manuals (22s and 50s): buy both now, you read them at 180 and 210."] = "",
+	["Expert {skill:129} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16084} (1g); the arrow picks its nearest seller for your faction. Buy it and read it. The same vendor sells the Heavy Silk and {item:8544} manuals (22s and 50s): buy both now, you read them at 180 and 210."] = "高階{skill:129}將上限提高到225；需要技能125和角色等級20：這是一本書，{item:16084}（1金）；箭頭會指向你所在陣營最近的賣家。購買並閱讀。同一商人還出售厚絲綢和{item:8544}的手冊（22銀和50銀）：現在兩本都買下，在180和210時閱讀。",
 	-- {item:16084} Expert First Aid - Under Wraps · {skill:129} First Aid
 	["Buy and read {item:16084} (Expert {skill:129})"] = "購買並閱讀{item:16084}（高級{skill:129}）",
 
 	-- Step 15: Heavy Wool Bandage (125-150)
 	-- {spell:3278} Heavy Wool Bandage
-	["{spell:3278} is yellow from 125 (yellow at 115, green at 150, grey at 185): about 38 crafts to 150. Bandages need no fire: craft them anywhere."] = "",
+	["{spell:3278} is yellow from 125 (yellow at 115, green at 150, grey at 185): about 38 crafts to 150. Bandages need no fire: craft them anywhere."] = "{spell:3278}從125開始為黃色（115變黃，150變綠，185變灰）：約製作38次到150。繃帶不需要火：隨處都能製作。",
 
 	-- Step 16: Silk Bandage: cloth
 	-- {item:6450} Silk Bandage
@@ -80,7 +80,7 @@ return {
 
 	-- Step 17: Silk Bandage (150-180)
 	-- {item:6450} Silk Bandage · {skill:129} First Aid
-	["{item:6450} is yellow from 150 (yellow at 150, green at 180, grey at 210): about 42 crafts to 180. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 150 for 50s; the arrow picks the nearest."] = "",
+	["{item:6450} is yellow from 150 (yellow at 150, green at 180, grey at 210): about 42 crafts to 180. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 150 for 50s; the arrow picks the nearest."] = "{item:6450}從150開始為黃色（150變黃，180變綠，210變灰）：約製作42次到180。繃帶不需要火：隨處都能製作。你所在陣營的任何{skill:129}訓練師在技能150時教授，花費50銀；箭頭會指向最近的一位。",
 
 	-- Step 18: Heavy Silk Bandage: cloth
 	-- {item:6451} Heavy Silk Bandage
@@ -88,7 +88,7 @@ return {
 
 	-- Step 19: Heavy Silk Bandage (180-210)
 	-- {item:6451} Heavy Silk Bandage
-	["{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere."] = "",
+	["{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere."] = "{item:6451}從180開始為黃色（180變黃，210變綠，240變灰）：約製作42次到210。繃帶不需要火：隨處都能製作。",
 
 	-- Step 20: Mageweave Bandage: cloth
 	-- {item:8544} Mageweave Bandage
@@ -98,7 +98,7 @@ return {
 
 	-- Step 21: Mageweave Bandage (210-225)
 	-- {item:8544} Mageweave Bandage
-	["{item:8544} is yellow from 210 (yellow at 210, green at 240, grey at 270): about 18 crafts to 225. Bandages need no fire: craft them anywhere."] = "",
+	["{item:8544} is yellow from 210 (yellow at 210, green at 240, grey at 270): about 18 crafts to 225. Bandages need no fire: craft them anywhere."] = "{item:8544}從210開始為黃色（210變黃，240變綠，270變灰）：約製作18次到225。繃帶不需要火：隨處都能製作。",
 
 	-- Step 22: Trauma
 	["Trauma"] = "創傷",
@@ -107,36 +107,36 @@ return {
 
 	-- Step 23: Trauma
 	-- {skill:129} First Aid · {quest:6622} Triage · {zone:1454} Orgrimmar · {area:321} Hammerfall · {item:14047} Runecloth
-	["Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "",
+	["Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "大師級{skill:129}來自{quest:6622}任務。需要技能225和角色35級；{zone:1454}的{skill:129}訓練師會派你去找{area:321}的醫生。現在就帶上魔紋布（約74匹）和{item:14047}（約65匹）用於225-300：繃帶不需要火，所以你可以就在醫生旁邊做225-300，他會教大師級繃帶。",
 
 	-- Step 24: Triage
 	-- {quest:6624} Triage
 	-- plural, as words: Triage Bandages = {item:16991} Triage Bandage
-	["{quest:6624}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "",
+	["{quest:6624}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "{quest:6624}：醫生會給你急救繃帶；用這些，不要用你自己的。裡面躺著十五名傷兵：在他們死亡前，先包紮危重傷員，再包紮重傷員，最後是傷員（按Ctrl+V顯示生命條）。救滿十五人後立即交還任務：其他人會繼續死亡，死亡過多即使顯示已完成也會失敗。如果失敗，放棄任務並重新接受。",
 	-- {skill:129} First Aid
 	["Artisan {skill:129}"] = "專家級{skill:129}",
 
 	-- Step 25: Triage
 	-- {quest:6622} Triage
 	-- plural, as words: Triage Bandages = {item:16991} Triage Bandage
-	["{quest:6622}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie on the floor inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "",
+	["{quest:6622}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie on the floor inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "{quest:6622}：醫生會給你急救繃帶；用這些，不要用你自己的。裡面地上躺著十五名傷兵：在他們死亡前，先包紮危重傷員，再包紮重傷員，最後是傷員（按Ctrl+V顯示生命條）。救滿十五人後立即交還任務：其他人會繼續死亡，死亡過多即使顯示已完成也會失敗。如果失敗，放棄任務並重新接受。",
 
 	-- Step 27: Mageweave Bandage (225-240)
 	-- {item:8544} Mageweave Bandage
 	-- plural, as words: Mageweave Bandages = {item:8544} Mageweave Bandage
-	["{item:8544} is yellow from 225 (yellow at 210, green at 240, grey at 270): about 24 crafts to 240. Bandages need no fire: craft them anywhere. {item:8544} turns green at 240: switch to Heavy Mageweave there, which costs less cloth than green Mageweave Bandages to 260."] = "",
+	["{item:8544} is yellow from 225 (yellow at 210, green at 240, grey at 270): about 24 crafts to 240. Bandages need no fire: craft them anywhere. {item:8544} turns green at 240: switch to Heavy Mageweave there, which costs less cloth than green Mageweave Bandages to 260."] = "{item:8544}從225開始為黃色（210變黃，240變綠，270變灰）：約製作24次到240。繃帶不需要火：隨處都能製作。{item:8544}在240變綠：屆時改做厚魔紋繃帶，到260比做綠色的魔紋繃帶更省布。",
 
 	-- Step 28: Heavy Mageweave Bandage
 	-- {spell:10841} Heavy Mageweave Bandage · {quest:6622} Triage · {npc:12939} Doctor Gustaf VanHowzen · {npc:12920} Doctor Gregory Victor · {area:321} Hammerfall
-	["{spell:10841} (skill 240) is an Artisan recipe: only the {quest:6622} doctor teaches it ({npc:12939} in Theramore, {npc:12920} in {area:321})."] = "",
+	["{spell:10841} (skill 240) is an Artisan recipe: only the {quest:6622} doctor teaches it ({npc:12939} in Theramore, {npc:12920} in {area:321})."] = "{spell:10841}（技能240）是大師級配方：只有{quest:6622}的醫生會教（塞拉摩的{npc:12939}、{area:321}的{npc:12920}）。",
 
 	-- Step 29: Heavy Mageweave Bandage: cloth
 	-- {item:8545} Heavy Mageweave Bandage
-	["{item:8545}: cloth"] = "",
+	["{item:8545}: cloth"] = "{item:8545}：布料",
 
 	-- Step 30: Heavy Mageweave Bandage (240-260)
 	-- {item:8545} Heavy Mageweave Bandage
-	["{item:8545} is yellow from 240 (yellow at 240, green at 270, grey at 300): about 25 crafts to 260. Bandages need no fire: craft them anywhere."] = "",
+	["{item:8545} is yellow from 240 (yellow at 240, green at 270, grey at 300): about 25 crafts to 260. Bandages need no fire: craft them anywhere."] = "{item:8545}從240開始為黃色（240變黃，270變綠，300變灰）：約製作25次到260。繃帶不需要火：隨處都能製作。",
 
 	-- Step 31: Runecloth Bandage
 	-- {spell:18629} Runecloth Bandage · {quest:6622} Triage · {npc:12939} Doctor Gustaf VanHowzen · {npc:12920} Doctor Gregory Victor · {area:321} Hammerfall
@@ -150,7 +150,7 @@ return {
 
 	-- Step 33: Runecloth Bandage (260-300)
 	-- {item:14529} Runecloth Bandage · {item:14047} Runecloth · {item:14530} Heavy Runecloth Bandage
-	["{item:14529} is yellow from 260 (yellow at 260, green at 290, grey at 320): about 65 crafts to 300. Bandages need no fire: craft them anywhere. {item:14529} turns green at 290, yet to 300 it takes about the same {item:14047} as switching to {item:14530} (the doctor teaches it at 290): one recipe is enough."] = "",
+	["{item:14529} is yellow from 260 (yellow at 260, green at 290, grey at 320): about 65 crafts to 300. Bandages need no fire: craft them anywhere. {item:14529} turns green at 290, yet to 300 it takes about the same {item:14047} as switching to {item:14530} (the doctor teaches it at 290): one recipe is enough."] = "{item:14529}從260開始為黃色（260變黃，290變綠，320變灰）：約製作65次到300。繃帶不需要火：隨處都能製作。{item:14529}在290變綠，但到300所需的{item:14047}與改做{item:14530}（醫生在290時教授）差不多：一個配方就夠了。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Any {skill:129} trainer of your faction teaches Apprentice {skill:129} (character level 5); the arrow picks the nearest."] = "你陣營的任何{skill:129}訓練師都能教初級{skill:129}（角色等級5）；箭頭會指向最近的一位。",

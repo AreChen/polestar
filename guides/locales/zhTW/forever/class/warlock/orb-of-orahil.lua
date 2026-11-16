@@ -28,12 +28,12 @@ return {
 
 	-- Step 5: Menara Voidrender
 	-- {npc:6266} Menara Voidrender · {npc:6251} Strahad Farsan · {area:392} Ratchet
-	["{npc:6266} and her two acolytes stand in {npc:6251}'s tower on the hill above {area:392}."] = "",
+	["{npc:6266} and her two acolytes stand in {npc:6251}'s tower on the hill above {area:392}."] = "{npc:6266}和她的兩名侍從站在{area:392}上方山丘上{npc:6251}的塔裡。",
 
 	-- Step 6: Choose an acolyte
 	["Choose an acolyte"] = "選擇一名侍僧",
 	-- {npc:6254} Acolyte Wytula · {item:15106} Staff of Dar'Orahil · {npc:6252} Acolyte Magaz · {item:15105} Staff of Noh'Orahil
-	["Pick one acolyte: you can take only one of their quests. {npc:6254}'s felhound path ends with the Orb or {item:15106}, the shadow versions; {npc:6252}'s infernal path with the Orb or {item:15105}, much the same items on the fire side. Most warlocks lean on shadow, but compare the four in their tooltips first. The guide follows the one you take. Keep the ruby or the emerald: it is handed back."] = "",
+	["Pick one acolyte: you can take only one of their quests. {npc:6254}'s felhound path ends with the Orb or {item:15106}, the shadow versions; {npc:6252}'s infernal path with the Orb or {item:15105}, much the same items on the fire side. Most warlocks lean on shadow, but compare the four in their tooltips first. The guide follows the one you take. Keep the ruby or the emerald: it is handed back."] = "只選一名侍從：你只能接其中一人的任務。{npc:6254}的地獄犬路線最終給寶珠或{item:15106}，即暗影版本；{npc:6252}的地獄火路線最終給寶珠或{item:15105}，火系版本物品大同小異。多數術士偏向暗影，但先對比這四件物品的提示資訊。攻略會跟隨你選擇的那條。保留紅寶石或綠寶石：它們會歸還。",
 	-- {npc:6254} Acolyte Wytula · {item:12647} Felhas Ruby
 	["{npc:6254}: she gives you the {item:12647}"] = "{npc:6254}：她會給你{item:12647}",
 	-- {npc:6252} Acolyte Magaz · {item:12646} Infus Emerald
@@ -42,19 +42,19 @@ return {
 	-- Step 7: Mannoroc Coven
 	-- {area:602} Mannoroc Coven · {zone:1443} Desolace · {area:2408} Shadowprey Village · {item:7291} Infernal Orb · {spell:1120} Drain Soul
 	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner · Mana Eaters = {npc:4678} Mana Eater · Mage Hunters = {npc:4681} Mage Hunter · Ley Hunters = {npc:4685} Ley Hunter · Lesser Infernals = {npc:4676} Lesser Infernal
-	["{area:602} fills south-central {zone:1443}, east of {area:2408}. The Burning Blade Summoners (level 38-39, warlocks with imps) carry the {item:7291} every time. For the spirit, bring your demon to low health with your damage over time, then channel the ruby or the emerald on it and keep channelling while it dies, as with {spell:1120}: the gem does no damage of its own. The ruby works on the coven's felhounds: the two Mana Eaters (37-38) in the north, and the Mage Hunters (38) and Ley Hunters (39) further south. The emerald works on the Lesser Infernals (36-37, sixteen of them, fire-resistant)."] = "",
+	["{area:602} fills south-central {zone:1443}, east of {area:2408}. The Burning Blade Summoners (level 38-39, warlocks with imps) carry the {item:7291} every time. For the spirit, bring your demon to low health with your damage over time, then channel the ruby or the emerald on it and keep channelling while it dies, as with {spell:1120}: the gem does no damage of its own. The ruby works on the coven's felhounds: the two Mana Eaters (37-38) in the north, and the Mage Hunters (38) and Ley Hunters (39) further south. The emerald works on the Lesser Infernals (36-37, sixteen of them, fire-resistant)."] = "{area:602}佔據{zone:1443}中南部，在{area:2408}以東。燃燒之刃召喚者（38到39級，帶小鬼的術士）每次都帶著{item:7291}。要取靈魂，先用持續傷害把你的惡魔打到低血量，然後對它引導紅寶石或綠寶石，並在它死亡期間持續引導，方式類似{spell:1120}：寶石本身不造成傷害。紅寶石對燃燒之刃的地獄犬有效：北部的兩隻法力吞噬者（37到38級），以及更南邊的法師獵手（38級）和靈能獵手（39級）。綠寶石對次級地獄火有效（36到37級，共十六隻，抗火）。",
 	-- {item:7291} Infernal Orb
 	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner
 	["{item:7291}, from the Burning Blade Summoners"] = "{item:7291}，來自火刃召喚師",
 	-- {item:12648} Imprisoned Felhound Spirit · {npc:4678} Mana Eater · {npc:4681} Mage Hunter · {npc:4685} Ley Hunter
-	["{item:12648}, from a {npc:4678}, {npc:4681} or {npc:4685}"] = "",
+	["{item:12648}, from a {npc:4678}, {npc:4681} or {npc:4685}"] = "{item:12648}，來自{npc:4678}、{npc:4681}或{npc:4685}",
 	-- {item:12649} Imprisoned Infernal Spirit · {npc:4676} Lesser Infernal
 	["{item:12649}, from a {npc:4676}"] = "{item:12649}，來自{npc:4676}",
 
 	-- Step 8: The demon's spirit
 	["The demon's spirit"] = "惡魔的靈魂",
 	-- {npc:6266} Menara Voidrender · {area:392} Ratchet
-	["Back to {npc:6266} in the tower above {area:392} with the spirit and the gem first: her orb follows from it."] = "",
+	["Back to {npc:6266} in the tower above {area:392} with the spirit and the gem first: her orb follows from it."] = "先帶著靈魂和寶石回到{area:392}上方塔樓裡的{npc:6266}處：她的寶珠由此而來。",
 
 	-- Step 9: Tabetha
 	-- {npc:6546} Tabetha · {zone:1445} Dustwallow Marsh · {zone:1413} Barrens · {npc:6549} Demon of the Orb · {spell:710} Banish
@@ -64,15 +64,15 @@ return {
 	-- {item:15108} Orb of Dar'Orahil
 	["The {item:15108}"] = "{item:15108}",
 	-- {npc:6266} Menara Voidrender · {area:392} Ratchet · {item:15108} Orb of Dar'Orahil
-	["Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, accept her last quest and wait beside her while she completes the {item:15108} (do not attack her: the quest log calls it a kill), then speak to her again and pick the off-hand orb or the staff."] = "",
+	["Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, accept her last quest and wait beside her while she completes the {item:15108} (do not attack her: the quest log calls it a kill), then speak to her again and pick the off-hand orb or the staff."] = "帶著淨化過的寶珠回到{area:392}上方塔樓裡的{npc:6266}處。在地獄犬路線中，接下她最後一個任務，在她完成{item:15108}時守在她身旁（不要攻擊她：任務記錄稱之為擊殺），然後再次與她交談，選擇副手寶珠或法杖。",
 	-- {npc:6266} Menara Voidrender
-	["Wait beside {npc:6266} while she makes the orb"] = "",
+	["Wait beside {npc:6266} while she makes the orb"] = "在{npc:6266}製作寶珠時守在她身旁",
 
 	-- Step 11: The Orb of Noh'Orahil
 	-- {item:15107} Orb of Noh'Orahil
 	["The {item:15107}"] = "{item:15107}",
 	-- {npc:6266} Menara Voidrender · {item:15107} Orb of Noh'Orahil
-	["On the infernal path, accept her last quest and wait beside {npc:6266} while she completes the {item:15107}, then speak to her again and pick the off-hand orb or the staff."] = "",
+	["On the infernal path, accept her last quest and wait beside {npc:6266} while she completes the {item:15107}, then speak to her again and pick the off-hand orb or the staff."] = "在地獄火路線中，接下她最後一個任務，在{npc:6266}完成{item:15107}時守在她身旁，然後再次與她交談，選擇副手寶珠或法杖。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, wait while she completes the {item:15108}, then speak to her again."] = "帶著淨化過的寶珠回到{area:392}上方塔裡的{npc:6266}那裡。走地獄犬路線時，等她完成{item:15108}，然後再和她說話。",

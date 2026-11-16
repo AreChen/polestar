@@ -8,9 +8,9 @@
 return {
 	-- Step 1: Taskmaster Fizzule
 	-- {area:382} Sludge Fen · {item:8051} Flare Gun
-	["On the way north from Seereth's camp, keep east of the road to the Venture Co. tower north of the {area:382}. Before you go near Fizzule, use {item:8051} to fire two flares, then target him and /salute: he attacks anyone who comes in without signalling first."] = "",
+	["On the way north from Seereth's camp, keep east of the road to the Venture Co. tower north of the {area:382}. Before you go near Fizzule, use {item:8051} to fire two flares, then target him and /salute: he attacks anyone who comes in without signalling first."] = "從塞雷思的營地往北走時，貼著道路東側前往{area:382}以北的風險投資公司塔。靠近菲祖爾之前，先用{item:8051}放出兩支訊號彈，然後選中他並輸入/salute：沒先發訊號就靠近的人他都會攻擊。",
 	-- {quest:2478} Mission: Possible But Not Probable
-	["{quest:2478} is for level 23 or more: the tower's drones are 25 and Gallywix a 23 elite. Do it when you can, with a group, from the Class guide Poisons (Horde)."] = "",
+	["{quest:2478} is for level 23 or more: the tower's drones are 25 and Gallywix a 23 elite. Do it when you can, with a group, from the Class guide Poisons (Horde)."] = "{quest:2478}適合23級及以上：塔裡的工蜂是25級，加里維克斯是23級精英。有能力時組隊去做，參見職業指南《毒藥（部落）》。",
 
 	-- Step 2: Kadrak
 	-- {zone:1413} Barrens · {npc:8582} Kadrak · {area:1703} Mor'shan Rampart · {zone:1440} Ashenvale
@@ -18,21 +18,21 @@ return {
 
 	-- Step 3: Into Ashenvale
 	-- {zone:1440} Ashenvale
-	["Into {zone:1440}"] = "",
+	["Into {zone:1440}"] = "進入{zone:1440}",
 	-- {area:431} Splintertree Post
-	["The road north to {area:431}"] = "",
+	["The road north to {area:431}"] = "向北通往{area:431}的道路",
 
 	-- Step 4: Splintertree Post
 	-- {area:431} Splintertree Post · {npc:12696} Senani Thunderheart · {area:428} Night Run · {npc:12867} Kuray'bin · {zone:1440} Ashenvale
 	-- plural, as words: Ashenvale Outrunners = {npc:12856} Ashenvale Outrunner
 	["{area:431} is just north up the road. Coming in from the south, the flight master and {npc:12696}'s hunt board at {area:428} come first, then the vendors. {npc:12867} at the lumber camp offers Ashenvale Outrunners: leave it for the next {zone:1440} visit, at 26."] = "沿路往北不遠就是{area:431}。從南邊進來時，先經過飛行管理員和{area:428}的{npc:12696}狩獵告示板，再到商人處。伐木營地的{npc:12867}提供「梣谷先驅者」：留到下次26級來{zone:1440}時再做。",
 	-- {npc:12696} Senani Thunderheart · {zone:1440} Ashenvale
-	["{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {zone:1440} visit, at 26."] = "",
+	["{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {zone:1440} visit, at 26."] = "{npc:12696}的狩獵目標（烏薩苟斯、薩杜布拉、沙普塔隆）留到26級下次來{zone:1440}時再做。",
 
 	-- Step 5: Va'xug Firefure
 	-- {npc:267214} Va'xug Firefure · {area:415} Astranaar
 	-- plural, as words: Shadowhorn Stags = {npc:3817} Shadowhorn Stag · Ashenvale Bears = {npc:3809} Ashenvale Bear
-	["On the way west, {npc:267214} is stuck in a ravine south of the main road, south-east of {area:415}. Shadowhorn Stags and Ashenvale Bears roam the woods all around it."] = "",
+	["On the way west, {npc:267214} is stuck in a ravine south of the main road, south-east of {area:415}. Shadowhorn Stags and Ashenvale Bears roam the woods all around it."] = "向西途中，{npc:267214}卡在主路南側、{area:415}東南的一條溝壑裡。影角雄鹿和灰谷熊在他周圍的樹林裡遊蕩。",
 
 	-- Step 6: A Void Path
 	-- {npc:267214} Va'xug Firefure · {npc:271181} Eye of Kilrogg
@@ -42,15 +42,15 @@ return {
 
 	-- Step 7: Zoram'gar Outpost
 	-- {zone:1440} Ashenvale · {area:415} Astranaar · {area:2897} Zoram'gar Outpost · {area:414} Zoram Strand · {npc:12719} Marukai · {npc:12721} Mitsuwa · {npc:12757} Karang Amakkar · {npc:12863} Warsong Runner
-	["Head west along the main road across {zone:1440}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west: {npc:12719}, {npc:12721} and {npc:12757} stand around it, the {npc:12863} beside the flight master. Its other quests are for the next visit, at 26."] = "",
+	["Head west along the main road across {zone:1440}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west: {npc:12719}, {npc:12721} and {npc:12757} stand around it, the {npc:12863} beside the flight master. Its other quests are for the next visit, at 26."] = "沿主路向西穿過{zone:1440}，經過{area:415}（聯盟領地：沿道路走），抵達海岸。{area:2897}在西北面的{area:414}：{npc:12719}、{npc:12721}和{npc:12757}站在周圍，{npc:12863}在飛行管理員旁。這裡的其他任務留到26級下次來時再做。",
 	-- {npc:12721} Mitsuwa
-	["{npc:12721}: the troll charms are in Thistlefur Hold, east of the outpost"] = "",
+	["{npc:12721}: the troll charms are in Thistlefur Hold, east of the outpost"] = "{npc:12721}：巨魔護符在薊皮堡，就在前哨站以東",
 	-- {npc:12717} Muglash
-	["{npc:12717}: take it last, his escort starts at once"] = "",
+	["{npc:12717}: take it last, his escort starts at once"] = "{npc:12717}：最後再接，護送立即開始",
 
 	-- Step 8: Vorsha the Lasher
 	-- {npc:12717} Muglash · {npc:12719} Marukai
-	["{npc:12717} walks north up the strand to a naga brazier. Put the brazier out, then guard him through the naga waves until Vorsha is dead; the Wrathtail naga drop the heads {npc:12719} wants."] = "",
+	["{npc:12717} walks north up the strand to a naga brazier. Put the brazier out, then guard him through the naga waves until Vorsha is dead; the Wrathtail naga drop the heads {npc:12719} wants."] = "{npc:12717}沿著海灘向北走到一個納迦火盆旁。熄滅火盆，然後在納迦一波波來襲時保護他，直到鞭笞者沃爾沙死去；怒尾納迦會掉落{npc:12719}要的首級。",
 	["Naga brazier"] = "納迦火盆",
 
 	-- Step 9: Naga heads
@@ -58,29 +58,29 @@ return {
 	["Every Wrathtail naga along the strand north of the outpost drops heads."] = "前哨站北邊海岸上的每個怒尾納迦都會掉落頭顱。",
 
 	-- Step 10: Zoram'gar Outpost
-	["Back to the outpost before heading east to Thistlefur."] = "",
+	["Back to the outpost before heading east to Thistlefur."] = "先回到前哨站，再向東前往薊皮。",
 
 	-- Step 11: Thistlefur Village
-	["East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold.\nCareful: A Shaman at 15% health or lower runs off to find help, which can pull extra furbolgs."] = "",
+	["East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold.\nCareful: A Shaman at 15% health or lower runs off to find help, which can pull extra furbolgs."] = "佐拉姆加以東，薊皮熊怪佔據了村莊和據點周圍的山丘。\n注意：生命值降到15%或更低的薩滿會跑去求援，可能帶回更多熊怪。",
 
 	-- Step 12: Thistlefur Hold
 	["Thistlefur Hold"] = "薊皮熊怪的巢穴",
 	-- {npc:12818} Ruul Snowhoof · {area:428} Night Run · {npc:3987} Dal Bloodclaw
 	-- plural, as words: Troll Chests = {object:178144} Troll Chest
-	["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}.\nCareful: Two scripted ambushes occur, each made up of three Thistlefurs (a Shaman, a Pathfinder and an Avenger, Ursa or Den Watcher): the first when you come back to the tunnel's fork inside the cave, the second just beyond the gate where {npc:3987} roams."] = "",
+	["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}.\nCareful: Two scripted ambushes occur, each made up of three Thistlefurs (a Shaman, a Pathfinder and an Avenger, Ursa or Den Watcher): the first when you come back to the tunnel's fork inside the cave, the second just beyond the gate where {npc:3987} roams."] = "據點裡，巨魔箱子散落在隧道沿途。{npc:12818}被關在最深處：救出他並一路護送到外面，然後他會跑回{area:428}。\n注意：會有兩次劇情伏擊，每次由三隻薊皮熊怪組成（一個薩滿、一個探路者和一個復仇者、烏爾薩或巢穴看守）：第一次在洞內回到隧道岔路時，第二次在{npc:3987}遊蕩的大門之外。",
 	["Below ground"] = "地下",
 	-- {npc:12818} Ruul Snowhoof
-	["{npc:12818}, below ground"] = "",
+	["{npc:12818}, below ground"] = "{npc:12818}，地下",
 
 	-- Step 13: Zoram'gar Outpost
 	-- {npc:12757} Karang Amakkar · {zone:1440} Ashenvale
-	["Back west to Zoram'gar. {npc:12757} offers King of the Foulweald now; leave it for the next {zone:1440} visit at 26, when the walk east passes the Foulweald."] = "",
+	["Back west to Zoram'gar. {npc:12757} offers King of the Foulweald now; leave it for the next {zone:1440} visit at 26, when the walk east passes the Foulweald."] = "向西返回佐拉姆加。{npc:12757}現在會提供《汙林熊怪之王》；留到26級下次來{zone:1440}時再做，屆時向東的路線會經過汙林熊怪。",
 
 	-- Step 14: Splintertree Post
 	-- {area:431} Splintertree Post · {npc:12837} Yama Snowhoof
-	["Fly to {area:431}: {npc:12837} waits in the inn for news of Ruul."] = "",
+	["Fly to {area:431}: {npc:12837} waits in the inn for news of Ruul."] = "飛往{area:431}：{npc:12837}在旅店裡等魯爾的訊息。",
 	-- {npc:12837} Yama Snowhoof
-	["{npc:12837}, inside the inn"] = "",
+	["{npc:12837}, inside the inn"] = "{npc:12837}，在旅店裡",
 
 	-- Step 15: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
@@ -88,12 +88,12 @@ return {
 	-- {area:431} Splintertree Post · {area:1637} Orgrimmar
 	["Out of the inn to the {area:431} flight master and fly to {area:1637}."] = "走出旅店，去{area:431}的飛行管理員那裡，飛往{area:1637}。",
 	-- {area:431} Splintertree Post
-	["{area:431} flight master"] = "",
+	["{area:431} flight master"] = "{area:431}飛行管理員",
 
 	-- Step 16: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "德魯伊訓練師",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {zone:1454} Orgrimmar
-	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "",
+	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "{npc:3034}，在{zone:1412}；{zone:1454}沒有德魯伊訓練師",
 
 	-- Step 18: The Binding
 	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:6626} Dogran's Pendant
@@ -101,13 +101,13 @@ return {
 
 	-- Step 19: Shenthul
 	-- {quest:2478} Mission: Possible But Not Probable · {npc:3401} Shenthul · {object:172960} Cleft of Shadow
-	["If you did {quest:2478} with a group, {npc:3401} in the {object:172960} takes it now."] = "",
+	["If you did {quest:2478} with a group, {npc:3401} in the {object:172960} takes it now."] = "如果你組隊做了{quest:2478}，現在可以把它交給{object:172960}裡的{npc:3401}。",
 	-- {npc:2391} Serge Hinott · {area:272} Tarren Mill
 	["{npc:2391} in {area:272} teaches Poisons: keep it"] = "{area:272}的{npc:2391}教授毒藥：先留著",
 
 	-- Step 20: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "乘飛艇到{zone:1458}",
 
 	-- Step 21: Brill
 	-- {npc:246152} Shari Stilwell · {area:159} Brill
@@ -115,17 +115,17 @@ return {
 
 	-- Step 22: Strange Lockbox
 	-- {area:240} Dead Field · {object:177790} Strange Lockbox · {item:15882} Half Pendant of Aquatic Endurance · {area:228} Sepulcher
-	["From the zeppelin towers, run south into Silverpine and west past the {area:240} to the coast: the {object:177790} lies at the bottom of very deep water there, beside an air fissure where you can breathe. Watch your breath on the way down. It holds the {item:15882} for Trial of the Sea Lion. Then on to the {area:228}."] = "",
+	["From the zeppelin towers, run south into Silverpine and west past the {area:240} to the coast: the {object:177790} lies at the bottom of very deep water there, beside an air fissure where you can breathe. Watch your breath on the way down. It holds the {item:15882} for Trial of the Sea Lion. Then on to the {area:228}."] = "從飛艇塔向南跑進銀松森林，向西經過{area:240}到海岸：{object:177790}在那裡的極深水底，旁邊有一道能呼吸的氣縫。下潛時留意呼吸。裡面裝著海獅試煉要的{item:15882}。然後前往{area:228}。",
 	-- {item:15882} Half Pendant of Aquatic Endurance · {object:177790} Strange Lockbox
-	["{item:15882}, from the {object:177790}"] = "",
+	["{item:15882}, from the {object:177790}"] = "{item:15882}，來自{object:177790}",
 
 	-- Step 23: Sepulcher
 	-- {area:228} Sepulcher · {object:177790} Strange Lockbox · {npc:2121} Shadow Priest Allister · {npc:1937} Apothecary Renferrel
 	["Down the road through Silverpine to the {area:228}: from the zeppelin towers, south through Tirisfal; from the {object:177790}, south-east from the coast to the road. {npc:2121} and {npc:1937} stand by the crypt entrance."] = "沿著道路穿過銀松森林前往{area:228}：從飛艇塔出發的話，往南穿過提里斯法；從{object:177790}出發的話，從海岸往東南走到道路上。{npc:2121}和{npc:1937}站在墓穴入口旁。",
 	-- {npc:1937} Apothecary Renferrel · {area:272} Tarren Mill
-	["{npc:1937}: Lydon in {area:272}, next guide"] = "",
+	["{npc:1937}: Lydon in {area:272}, next guide"] = "{npc:1937}：交給{area:272}的萊頓，見下一個指南",
 	-- {npc:2121} Shadow Priest Allister · {quest:516} Beren's Peril · {area:233} Ambermill
-	["{npc:2121}: {quest:516}, south-east of {area:233}"] = "",
+	["{npc:2121}: {quest:516}, south-east of {area:233}"] = "{npc:2121}：{quest:516}，在{area:233}東南",
 
 	-- Step 24: Deathguard Podrig
 	-- {npc:6389} Deathguard Podrig · {item:16210} Gordon's Crate · {zone:1458} Undercity
@@ -133,33 +133,33 @@ return {
 
 	-- Step 25: Silverpine Forest: kill these as you meet them
 	-- {zone:1421} Silverpine Forest
-	["{zone:1421}: kill these as you meet them"] = "",
+	["{zone:1421}: kill these as you meet them"] = "{zone:1421}：遇到就殺",
 	-- {area:233} Ambermill · {quest:516} Beren's Peril
 	-- plural, as words: Dalaran Watchers = {npc:1888} Dalaran Watcher · Ravenclaw Drudgers = {npc:1974} Ravenclaw Drudger
-	["South down the road past Pyrewood: Dalaran Watchers and Wizards patrol the roads around {area:233}, and south-west of the town the Ravenclaw Drudgers and Guardians haunt the ruins of {quest:516} in the south-east of the forest."] = "",
+	["South down the road past Pyrewood: Dalaran Watchers and Wizards patrol the roads around {area:233}, and south-west of the town the Ravenclaw Drudgers and Guardians haunt the ruins of {quest:516} in the south-east of the forest."] = "沿路向南經過焚木村：達拉然守望者和法師在{area:233}周圍的道路上巡邏，城鎮西南的鴉爪苦工和鴉爪守衛出沒在森林東南{quest:516}的廢墟里。",
 
 	-- Step 26: Beren's Peril
 	-- {quest:516} Beren's Peril · {npc:1973} Ravenclaw Guardian · {item:271343} Note Scrap · {object:645153} Offering Stone (no name in this language: may be words)
-	["The Ravenclaw undead haunt the ruins of {quest:516}, east of the road in the south-east of the forest; a {npc:1973} drops the {item:271343} that leads to the {object:645153}.\nAn elite spirit (20) often stands beside the {object:645153}: pull the Ravenclaws away from the stone before you fight them."] = "",
+	["The Ravenclaw undead haunt the ruins of {quest:516}, east of the road in the south-east of the forest; a {npc:1973} drops the {item:271343} that leads to the {object:645153}.\nAn elite spirit (20) often stands beside the {object:645153}: pull the Ravenclaws away from the stone before you fight them."] = "渡鴉爪亡靈在森林東南、道路以東的{quest:516}廢墟出沒；一隻{npc:1973}會掉{item:271343}，它能引向{object:645153}。\n一個精英幽靈（20級）常站在{object:645153}旁：和渡鴉爪開打之前先把它們從石頭旁拉開。",
 	-- {item:271343} Note Scrap · {npc:1973} Ravenclaw Guardian
 	["{item:271343}, from a {npc:1973}"] = "{item:271343}，來自{npc:1973}",
 	-- {object:645153} Offering Stone (no name in this language: may be words) · {quest:95883} The Tortured Soul · {item:271343} Note Scrap
-	["the {object:645153} offers {quest:95883} once the {item:271343} is in; below ground"] = "",
+	["the {object:645153} offers {quest:95883} once the {item:271343} is in; below ground"] = "拿到{item:271343}後，{object:645153}會提供{quest:95883}；在地下",
 	-- {item:271350} Tortured Soul
 	-- plural, as words: Tortured Souls = {item:271350} Tortured Soul
-	["{item:271350}, from the Tortured Souls among the ruins; below ground"] = "",
+	["{item:271350}, from the Tortured Souls among the ruins; below ground"] = "{item:271350}，來自廢墟間的受折磨的靈魂；在地下",
 
 	-- Step 27: The Offering of Blood
 	-- {item:210713} Tortured Soul · {object:645153} Offering Stone (no name in this language: may be words) · {quest:95883} The Tortured Soul
-	["The quest hands you a {item:210713}: use it beside the {object:645153} to offer your blood, then kill the elite spirit that answers.\n{quest:95883} is elite: grouping up is advised."] = "",
+	["The quest hands you a {item:210713}: use it beside the {object:645153} to offer your blood, then kill the elite spirit that answers.\n{quest:95883} is elite: grouping up is advised."] = "任務會給你一個{item:210713}：在{object:645153}旁使用它獻上你的血，然後殺掉應召而來的精英幽靈。\n{quest:95883}是精英：建議組隊。",
 	-- {item:210713} Tortured Soul · {object:645153} Offering Stone (no name in this language: may be words)
-	["{item:210713}, beside the {object:645153}: summons the elite spirit"] = "",
+	["{item:210713}, beside the {object:645153}: summons the elite spirit"] = "{item:210713}，在{object:645153}旁：召喚精英幽靈",
 
 	-- Step 28: Into Hillsbrad
 	-- {area:287} Hillsbrad
-	["Into {area:287}"] = "",
+	["Into {area:287}"] = "進入{area:287}",
 	-- {area:285} Southpoint Tower
-	["The road east to {area:285}"] = "",
+	["The road east to {area:285}"] = "向東通往{area:285}的道路",
 
 	-- Step 29: Southpoint Tower
 	-- {area:287} Hillsbrad · {npc:2214} Deathstalker Lesh · {area:285} Southpoint Tower

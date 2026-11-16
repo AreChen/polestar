@@ -7,7 +7,7 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Tirisfal Glades
-	["The zeppelin towers"] = "",
+	["The zeppelin towers"] = "飛艇塔",
 
 	-- Step 2: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -21,11 +21,11 @@ return {
 	-- {object:172961} Valley of Spirits
 	["In the {object:172961}."] = "在{object:172961}。",
 	-- {item:14047} Runecloth
-	["sixty {item:14047}"] = "",
+	["sixty {item:14047}"] = "六十塊{item:14047}",
 
 	-- Step 6: Fly to Splintertree Post
 	-- {area:431} Splintertree Post
-	["Fly to {area:431}"] = "",
+	["Fly to {area:431}"] = "飛往{area:431}",
 
 	-- Step 7: Felwood
 	-- {area:2479} Emerald Sanctuary
@@ -35,13 +35,13 @@ return {
 	-- {area:431} Splintertree Post · {zone:1440} Ashenvale · {zone:1448} Felwood · {area:2479} Emerald Sanctuary
 	["Fly to {area:431} and ride north-west along the road out of {zone:1440} into {zone:1448}. The {area:2479} is the druids' camp just past the border."] = "飛往{area:431}，沿著道路向西北離開{zone:1440}進入{zone:1448}。{area:2479}就是過了邊界不遠的德魯伊營地。",
 	-- {npc:9116} Eridan Bluewind
-	["{npc:9116}, inside"] = "",
+	["{npc:9116}, inside"] = "{npc:9116}，在裡面",
 	-- {npc:9116} Eridan Bluewind · {item:11173} Irontree Heart · {zone:1448} Felwood
 	["{npc:9116}'s Silver Heart needs an {item:11173} from northern {zone:1448} and a ride back here. Skip it."] = "{npc:9116}的「銀爪鐵心」需要{zone:1448}北部的{item:11173}，還要騎回這裡。跳過。",
 
 	-- Step 9: Dousing the Flames of Protection
 	-- {area:1763} Jaedenar
-	["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "",
+	["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "向西北騎到{area:1763}。四個火盆立在暗影議會的建築之間；對每個火盆使用淨化之水。\n小心：洞裡到處是53-55級的暗影議會怪物，常常成群聯動，很多會眩暈。建議2-3人組隊。",
 	["Below ground"] = "地下",
 
 	-- Step 10: Greta Mosshoof
@@ -55,7 +55,7 @@ return {
 
 	-- Step 12: A Final Blow
 	-- {npc:9861} Moora · {npc:9860} Salia · {npc:9517} Shadow Lord Fel'dan · {area:1770} Shadow Hold · {area:1763} Jaedenar
-	["{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "",
+	["{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "{npc:9861}、{npc:9860}和{npc:9517}守在{area:1770}深處，也就是{area:1763}北面的洞穴。邊走邊清隧道。\n小心：三個首領是一起戰鬥的。先殺掉附近的怪，免得拉來更多敵人。",
 	-- {quest:5887} Salve via Hunting
 	-- plural, as words: Corrupted Soul Shards = {item:11515} Corrupted Soul Shard
 	["Corrupted Soul Shards from the cultists, {quest:5887}"] = "從教徒身上取得腐化的靈魂碎片，{quest:5887}",
@@ -69,13 +69,13 @@ return {
 
 	-- Step 15: Toxic Horrors
 	-- {zone:1448} Felwood · {area:1767} Irontree Woods · {quest:5086} Toxic Horrors
-	["Ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees, and most of them drop a droplet."] = "",
+	["Ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees, and most of them drop a droplet."] = "沿{zone:1448}的路向北騎到{area:1767}；{quest:5086}在樹間滲流，大多數都會掉一滴。",
 
 	-- Step 17: Umber
 	-- {zone:1450} Moonglade · {npc:11939} Umber · {area:2361} Nighthaven
 	["Through the Timbermaw tunnel to {zone:1450}. {npc:11939} reads in a house in {area:2361}."] = "穿過木喉隧道前往{zone:1450}。{npc:11939}在{area:2361}的一間房子裡看書。",
 	-- {npc:11939} Umber · {area:2361} Nighthaven
-	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "",
+	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "{npc:11939}在{area:2361}附近走動：看地圖上的圓圈裡",
 
 	-- Step 19: Class trainer
 	["Class trainer"] = "職業訓練師",
@@ -91,7 +91,7 @@ return {
 
 	-- Step 24: Winterfall Runners
 	-- {area:1769} Timbermaw Hold · {area:2244} Winterfall Village · {npc:9298} Donova Snowden · {spell:5384} Feign Death
-	["The runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "",
+	["The runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "信使三五成群地沿路從{area:1769}往{area:2244}走；在{npc:9298}附近的路邊等著，路過就殺。每人帶一個板條箱。\n注意：交任務會刷出三到四個56-57級的冬泉伏擊者攻擊你；騎馬、潛行或者用{spell:5384}都能甩掉，之後他們會聚在湖邊，方便你接下一個任務。",
 
 	-- Step 26: Beads for Salfa
 	-- {npc:11556} Salfa
@@ -100,25 +100,25 @@ return {
 
 	-- Step 28: Meilosh
 	-- {quest:6031} Runecloth · {area:1769} Timbermaw Hold · {npc:11557} Meilosh
-	["With 30 {quest:6031} in your bags: follow the road north to {area:1769}; {npc:11557} trades just inside the entrance."] = "",
+	["With 30 {quest:6031} in your bags: follow the road north to {area:1769}; {npc:11557} trades just inside the entrance."] = "包裡有30個{quest:6031}：沿路向北到{area:1769}；{npc:11557}就在入口裡側交易。",
 
 	-- Step 29: Kernda
 	-- {area:1762} Felpaw Village · {npc:11558} Kernda · {area:1769} Timbermaw Hold · {zone:1448} Felwood
-	["The Deadwood totem from {area:1762}, if {npc:11558} didn't take it then: she waits at the tunnel mouth of {area:1769} and speaks to you from Neutral with the Timbermaw, which the Deadwood furbolgs of {zone:1448} brought you to."] = "",
+	["The Deadwood totem from {area:1762}, if {npc:11558} didn't take it then: she waits at the tunnel mouth of {area:1769} and speaks to you from Neutral with the Timbermaw, which the Deadwood furbolgs of {zone:1448} brought you to."] = "{area:1762}的死木圖騰，如果當時{npc:11558}沒收：她在{area:1769}的隧道口等著，只要木喉聲望達到中立就會跟你說話——這個聲望是你在{zone:1448}打死木熊怪刷出來的。",
 	-- {npc:11558} Kernda
-	["{npc:11558} walks around here: look inside the circle on the map"] = "",
+	["{npc:11558} walks around here: look inside the circle on the map"] = "{npc:11558}在附近巡邏，請在地圖示示的圓圈內尋找",
 
 	-- Step 31: Darkwhisper Gorge
 	-- {area:2249} Frostwhisper Gorge · {area:2256} Darkwhisper Gorge
 	["Ride east, then south down {area:2249}. The Frostmaul giants there are elite level 59: keep to the middle and keep moving. The strange source is at the mouth of {area:2256}, at the south end."] = "向東騎，然後沿著{area:2249}向南走。那裡的霜槌巨人是59級精英：走在中間並持續移動。奇怪的來源在南端的{area:2256}入口。",
 
 	-- Step 32: Level 59.9
-	["Level 59.9"] = "",
+	["Level 59.9"] = "59.9級",
 	-- {zone:1452} Winterspring · {area:2249} Frostwhisper Gorge · {area:1769} Timbermaw Hold · {area:2057} Scholomance · {area:2279} Stratholme
 	-- plural, as words: Rabid Shardtooths = {npc:7446} Rabid Shardtooth
-	["Top up here to level 59.9 before the hand-ins at {zone:1452}: they take you to level 60. The Rabid Shardtooths (59) of {area:2249}, just north of the strange source, give far more experience than the furbolgs by {area:1769}. Or, with a group, run the {area:2057} dungeon or the {area:2279} dungeon instead."] = "",
+	["Top up here to level 59.9 before the hand-ins at {zone:1452}: they take you to level 60. The Rabid Shardtooths (59) of {area:2249}, just north of the strange source, give far more experience than the furbolgs by {area:1769}. Or, with a group, run the {area:2057} dungeon or the {area:2279} dungeon instead."] = "在{zone:1452}交任務之前，在這裡補到59.9級：那些任務會把你帶到60級。{area:2249}的狂怒碎牙（59級）就在奇異源頭以北，經驗比{area:1769}邊的熊怪高得多。或者組隊去刷{area:2057}副本或{area:2279}副本。",
 	-- {npc:7446} Rabid Shardtooth
-	["grind on {npc:7446}"] = "",
+	["grind on {npc:7446}"] = "刷{npc:7446}",
 
 	-- Step 33: Donova Snowden
 	-- {area:2246} Frostfire Hot Springs
@@ -128,7 +128,7 @@ return {
 
 	-- Step 34: Are We There, Yeti?
 	-- {npc:10978} Legacki · {npc:10980} Umi's Mechanical Yeti
-	["Scare {npc:10978} with {npc:10980}"] = "",
+	["Scare {npc:10978} with {npc:10980}"] = "用{npc:10980}嚇唬{npc:10978}",
 
 	-- Step 35: Everlook
 	-- {area:2255} Everlook

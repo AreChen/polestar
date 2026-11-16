@@ -12,7 +12,7 @@ return {
 
 	-- Step 1: Donni Anthania
 	-- {npc:6367} Donni Anthania · {area:87} Goldshire
-	["{npc:6367} has a farmhouse north of {area:87}. Each cat carrier costs 40s, 1g 60s for all four. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "",
+	["{npc:6367} has a farmhouse north of {area:87}. Each cat carrier costs 40s, 1g 60s for all four. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:6367}在{area:87}以北有一間農舍。每個貓咪籠40銀，四個全買1金60銀。每個寵物物品在使用時會教會對應的夥伴；之後目標仍保持勾選。",
 	-- {item:8485} Cat Carrier (Bombay)
 	["{item:8485}, 40s"] = "{item:8485}，40銀",
 	-- {item:8486} Cat Carrier (Cornish Rex)

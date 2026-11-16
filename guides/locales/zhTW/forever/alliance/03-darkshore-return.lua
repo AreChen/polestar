@@ -8,16 +8,16 @@
 return {
 	-- Step 1: Auberdine
 	-- {npc:3649} Thundris Windweaver · {npc:3702} Alanndarian Nightsong · {npc:2913} Archaeologist Hollee · {npc:3693} Terenthis · {npc:3694} Sentinel Selarin
-	["From the dock, up to the north end of the village first ({npc:3649}, {npc:3702} by the moonwell, {npc:2913}), then down the main street: the WANTED poster outside the inn, {npc:3693} at its east end, where the road leaves south. {npc:3694} stands beside {npc:3693} by the flight master; if she isn't there, she has been killed and respawns shortly: wait a moment."] = "",
+	["From the dock, up to the north end of the village first ({npc:3649}, {npc:3702} by the moonwell, {npc:2913}), then down the main street: the WANTED poster outside the inn, {npc:3693} at its east end, where the road leaves south. {npc:3694} stands beside {npc:3693} by the flight master; if she isn't there, she has been killed and respawns shortly: wait a moment."] = "從碼頭出發，先到村子北端（{npc:3649}、月井旁的{npc:3702}、{npc:2913}），再沿主街往下：旅店外的通緝佈告，主街東端的{npc:3693}就在道路向南離開的地方。{npc:3694}站在飛行管理員旁、{npc:3693}身邊；如果她不在，說明她剛被殺，很快就會重新整理：稍等一會兒。",
 	-- {npc:3649} Thundris Windweaver · {npc:1646} Baros Alexston
-	["{npc:3649}, north end of the village: {npc:1646}'s reply"] = "",
+	["{npc:3649}, north end of the village: {npc:1646}'s reply"] = "{npc:3649}，村子北端：交{npc:1646}的回信",
 	["The WANTED poster"] = "通緝海報",
 	-- {npc:3694} Sentinel Selarin · {npc:3693} Terenthis · {npc:3691} Raene Wolfrunner · {area:415} Astranaar
-	["{npc:3694}, beside {npc:3693}: for {npc:3691} in {area:415}, in the next guide"] = "",
+	["{npc:3694}, beside {npc:3693}: for {npc:3691} in {area:415}, in the next guide"] = "{npc:3694}，在{npc:3693}身旁：交給{area:415}的{npc:3691}，見下一篇指南",
 
 	-- Step 3: Onu
 	-- {quest:948} Onu · {npc:270269} Arbal · {npc:11218} Kerlonian Evershade
-	["{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "",
+	["{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "{quest:948}是樹林中的上古者；{npc:270269}和{npc:11218}睡在他身旁。",
 
 	-- Step 4: Lunar Fungus and Earthroot
 	-- {item:15851} Lunar Fungus · {item:2449} Earthroot
@@ -28,7 +28,7 @@ return {
 
 	-- Step 5: The Grove of the Ancients
 	-- {quest:952} Grove of the Ancients
-	["The {quest:952}"] = "",
+	["The {quest:952}"] = "{quest:952}",
 	-- {quest:1003} Buzzbox 525
 	-- plural, as words: Grizzled Thistle Bears = {npc:2165} Grizzled Thistle Bear
 	["Grizzled Thistle Bears roam the hills around the Grove; {quest:1003} stands west of it among them."] = "灰斑薊熊在林地周圍的丘陵遊蕩；{quest:1003}就在林地西邊的熊群之中。",
@@ -50,25 +50,25 @@ return {
 	-- {object:12666} Twilight Tome
 	["The {object:12666}"] = "{object:12666}",
 	-- {object:12666} Twilight Tome · {quest:949} The Twilight Camp
-	["The {object:12666}, once it has {quest:949}"] = "",
+	["The {object:12666}, once it has {quest:949}"] = "{object:12666}，在它有了{quest:949}之後",
 	-- {item:279279} Peerless Eye
 	-- plural, as words: Twilight Disciples = {npc:2338} Twilight Disciple
 	["{item:279279}: Twilight Disciples and Thugs"] = "{item:279279}：暮光信徒和暮光暴徒",
 
 	-- Step 7: Prospector Remtravel
 	-- {area:450} Remtravel's Excavation · {npc:10323} Murkdeep
-	["{area:450} lies on the coast south of {npc:10323}'s beach. Protect the prospector while he searches for the fossil.\nCareful: Ambushers appear as he passes certain spots: a scout comes out from under the board ramp, and more scouts come out when he checks the tent."] = "",
+	["{area:450} lies on the coast south of {npc:10323}'s beach. Protect the prospector while he searches for the fossil.\nCareful: Ambushers appear as he passes certain spots: a scout comes out from under the board ramp, and more scouts come out when he checks the tent."] = "{area:450}位於{npc:10323}海灘以南的海岸上。在勘探者尋找化石時保護他。\n注意：他經過某些地點時會出現伏擊者：經過木板坡道下方時會鑽出一名斥候，他檢查帳篷時還會鑽出更多斥候。",
 
 	-- Step 8: Murkdeep's beach
 	-- {npc:10323} Murkdeep
 	["{npc:10323}'s beach"] = "{npc:10323}的海灘",
 	-- {npc:10323} Murkdeep · {area:450} Remtravel's Excavation
-	["{npc:10323} camps on the beach west of the glaive: kill the murlocs at the camp fire; he comes in the third wave with his hound. Four beached remains lie on the beaches west and south-west of {area:450}: take them on the way north to his camp."] = "",
+	["{npc:10323} camps on the beach west of the glaive: kill the murlocs at the camp fire; he comes in the third wave with his hound. Four beached remains lie on the beaches west and south-west of {area:450}: take them on the way north to his camp."] = "{npc:10323}在主宰之劍西邊的海灘上紮營：擊殺營火旁的魚人；他會在第三波帶著獵犬出現。{area:450}西邊和西南邊的海灘上有四具擱淺的遺骸：向北去他營地時順路取走。",
 
 	-- Step 11: The shore west of the Grove
-	["The shore west of the Grove"] = "",
+	["The shore west of the Grove"] = "古樹之林以西的岸邊",
 	-- {area:442} Auberdine · {quest:4728} Beached Sea Creature
-	["On the way north to {area:442}, the last {quest:4728} lies on the shore west of the Grove."] = "",
+	["On the way north to {area:442}, the last {quest:4728} lies on the shore west of the Grove."] = "在向北去{area:442}的路上，最後一個{quest:4728}在古樹之林以西的岸邊。",
 
 	-- Step 12: Auberdine
 	["Follow the road north."] = "沿道路向北。",
@@ -78,7 +78,7 @@ return {
 	["She gives you the {item:15826}"] = "她會給你{item:15826}",
 
 	-- Step 13: On the way
-	["On the way"] = "",
+	["On the way"] = "順路",
 
 	-- Step 14: The naga
 	["The naga"] = "納迦",
@@ -92,7 +92,7 @@ return {
 	-- {npc:6667} Gelkak Gyromast
 	-- plural, as words: Giant Foreststriders = {npc:2323} Giant Foreststrider · Raging Reef Crawlers = {npc:2236} Raging Reef Crawler
 	["{npc:6667} hides on the little island off the ruins. The key pieces drop from Giant Foreststriders (top), Greymist murlocs (middle) and Raging Reef Crawlers (bottom)."] = "{npc:6667}躲在廢墟外的小島上。鑰匙碎片由兇猛的森林陸行鳥（上段）、灰霧魚人（中段）和狂暴暗礁蟹（下段）掉落。",
-	["Underwater"] = "",
+	["Underwater"] = "水下",
 
 	-- Step 16: Strange Lockbox
 	-- {item:15883} Half Pendant of Aquatic Agility · {object:177792} Strange Lockbox
@@ -100,7 +100,7 @@ return {
 
 	-- Step 17: Mist's Edge: kill these as you meet them
 	-- {area:452} Mist's Edge
-	["{area:452}: kill these as you meet them"] = "",
+	["{area:452}: kill these as you meet them"] = "{area:452}：遇到就殺",
 
 	-- Step 18: Back south
 	["Back south"] = "往南回去",
@@ -109,18 +109,18 @@ return {
 
 	-- Step 19: Volcor
 	-- {npc:3692} Volcor · {area:449} Master's Glaive · {npc:3693} Terenthis · {area:442} Auberdine
-	["{npc:3692} hides in the hills east of the {area:449}. Help him back to the road; he fights on his way out. {npc:3693} takes the escort in {area:442} on the next visit there."] = "",
+	["{npc:3692} hides in the hills east of the {area:449}. Help him back to the road; he fights on his way out. {npc:3693} takes the escort in {area:442} on the next visit there."] = "{npc:3692}躲在{area:449}東邊的山丘上。幫他回到道路上；他會一路戰鬥出去。{npc:3693}會在下次去{area:442}時接下護送任務。",
 	-- {npc:3692} Volcor · {area:455} Blackwood Den
-	["{npc:3692}, inside {area:455}"] = "",
-	["His walk ends at the road, where Grimclaw waits"] = "",
+	["{npc:3692}, inside {area:455}"] = "{npc:3692}，{area:455}內",
+	["His walk ends at the road, where Grimclaw waits"] = "他的巡視在道路處結束，怒爪在那裡等候",
 	-- {npc:12298} Sickly Deer · {item:15826} Curative Animal Salve · {zone:1439} Darkshore
 	["{npc:12298}: use the {item:15826} on them; they roam all of {zone:1439}"] = "{npc:12298}：對牠們使用{item:15826}；牠們遍布整個{zone:1439}",
 	-- {npc:12298} Sickly Deer
-	["Cure {npc:12298}"] = "",
+	["Cure {npc:12298}"] = "治療{npc:12298}",
 
 	-- Step 21: Auberdine flight master
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442}飛行管理員",
 
 	-- Step 22: The Great Cat Spirit
 	-- {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4217} Mathrengyl Bearwalker · {area:1658} Cenarion Enclave
@@ -128,15 +128,15 @@ return {
 
 	-- Step 25: Moonglade
 	-- {spell:18960} Teleport: Moonglade
-	["Cast {spell:18960}"] = "",
+	["Cast {spell:18960}"] = "施放{spell:18960}",
 
 	-- Step 26: Dendrite Starblaze
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven
-	["Cast {spell:18960}. {npc:11802} stands upstairs in his building in {area:2361}: go up inside, the arrow cannot tell the floors apart. Learn the flight path there if you do not have it."] = "",
+	["Cast {spell:18960}. {npc:11802} stands upstairs in his building in {area:2361}: go up inside, the arrow cannot tell the floors apart. Learn the flight path there if you do not have it."] = "施放{spell:18960}。{npc:11802}站在{area:2361}他所在建築的樓上：從裡面上樓，箭頭分不清樓層。如果還沒有那裡的飛行點，順便開了。",
 
 	-- Step 27: Dendrite Starblaze
 	-- {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven
-	["{npc:11802} stands upstairs in his building in {area:2361}: go up inside, the arrow cannot tell the floors apart."] = "",
+	["{npc:11802} stands upstairs in his building in {area:2361}: go up inside, the arrow cannot tell the floors apart."] = "{npc:11802}站在{area:2361}他那棟樓的樓上：從裡面上樓，箭頭分不清樓層。",
 	-- {npc:11802} Dendrite Starblaze
 	["{npc:11802}: the welcome from Sheldras"] = "{npc:11802}：沙德拉斯·月樹的歡迎",
 
@@ -149,11 +149,11 @@ return {
 	-- {npc:11802} Dendrite Starblaze
 	["Back to {npc:11802}"] = "返回{npc:11802}處",
 	-- {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {npc:11800} Silva Fil'naveth · {area:702} Rut'theran Village
-	["Back to {npc:11802} in {area:2361}, then {npc:11800} there flies Druids straight to {area:702}. {npc:11802} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "",
+	["Back to {npc:11802} in {area:2361}, then {npc:11800} there flies Druids straight to {area:702}. {npc:11802} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "回到{area:2361}的{npc:11802}處，再找那裡的{npc:11800}，他能直接把德魯伊送到{area:702}。{npc:11802}在他那棟樓的樓上：從裡面上樓，箭頭分不清樓層。",
 
 	-- Step 32: To Darnassus
 	-- {npc:4217} Mathrengyl Bearwalker · {area:442} Auberdine · {zone:1440} Ashenvale
-	["Take the portal up to {npc:4217}, then fly back to {area:442} for the road south to {zone:1440}."] = "",
+	["Take the portal up to {npc:4217}, then fly back to {area:442} for the road south to {zone:1440}."] = "乘傳送門上去找{npc:4217}，然後飛回{area:442}，走南邊的道路前往{zone:1440}。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Moonstalker Sires prowl the woods around the glaive. The {object:10076} and the {object:12666} sit at the bottom of the crater; {npc:3584} stands on its north side."] = "月夜雄虎在月刃周圍的樹林中徘徊。{object:10076}和{object:12666}在坑底；{npc:3584}站在北側。",

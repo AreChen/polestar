@@ -9,17 +9,17 @@ return {
 	-- Step 1: The Altar of Zul
 	-- {area:355} Altar of Zul · {zone:1425} The Hinterlands · {npc:8636} Morta'gya the Keeper · {npc:7996} Qiaga the Keeper
 	-- plural, as words: Vilebranch Soothsayers = {npc:4467} Vilebranch Soothsayer
-	["Ride south-east to the {area:355}, the stepped Vilebranch temple in the south of the {zone:1425}, and climb to the top. Qiaga and {npc:8636} (elite, 50) stand up there: touch the top and come straight back down.\nCareful: Elite trolls guard the top platform, including {npc:7996} and {npc:8636}, along with several Vilebranch Soothsayers. The soothsayers cast spells and are linked to the rest of the group."] = "",
+	["Ride south-east to the {area:355}, the stepped Vilebranch temple in the south of the {zone:1425}, and climb to the top. Qiaga and {npc:8636} (elite, 50) stand up there: touch the top and come straight back down.\nCareful: Elite trolls guard the top platform, including {npc:7996} and {npc:8636}, along with several Vilebranch Soothsayers. The soothsayers cast spells and are linked to the rest of the group."] = "向東南騎到{area:355}，即{zone:1425}南部層層疊疊的邪枝神廟，一路爬頂層。琪亞加和{npc:8636}（精英，50級）駐守在那裡：摸到頂部就立刻折返。\n注意：精英巨魔守衛頂層平臺，包括{npc:7996}和{npc:8636}，還有幾名邪枝預言者。預言者會施法，並與同組其他成員聯動。",
 
 	-- Step 2: Skulk Rock
 	-- {area:351} Skulk Rock · {zone:1425} The Hinterlands
 	-- plural, as words: Green Sludges = {npc:2655} Green Sludge · Jade Oozes = {npc:2656} Jade Ooze
-	["Ride north to {area:351} in the middle of the {zone:1425}. Green Sludges and Jade Oozes crawl all around it.\nCareful: Panthers move around the area in stealth."] = "",
+	["Ride north to {area:351} in the middle of the {zone:1425}. Green Sludges and Jade Oozes crawl all around it.\nCareful: Panthers move around the area in stealth."] = "向北騎到{zone:1425}中部的{area:351}。綠色淤泥怪和碧玉軟泥怪在四周爬行。\n注意：豹子會潛行在區域裡遊蕩。",
 
 	-- Step 3: Aerie Peak
-	["Inside"] = "",
+	["Inside"] = "在裡面",
 	-- {npc:5636} Gryphon Master Talonaxe
-	["{npc:5636}, inside"] = "",
+	["{npc:5636}, inside"] = "{npc:5636}，室內",
 	-- {quest:2990} Thadius Grimshade · {area:1438} Nethergarde Keep
 	["for {quest:2990} at {area:1438}, later"] = "之後給{area:1438}的{quest:2990}",
 
@@ -27,42 +27,42 @@ return {
 	-- {area:1537} Ironforge
 	["Fly to {area:1537}"] = "飛往{area:1537}",
 	-- {area:348} Aerie Peak
-	["{area:348} flight master"] = "",
+	["{area:348} flight master"] = "{area:348}飛行管理員",
 
 	-- Step 5: Class trainer
 	["Class trainer"] = "職業訓練師",
 
 	-- Step 6: Tram to Stormwind
 	-- {zone:1453} Stormwind
-	["Tram to {zone:1453}"] = "",
+	["Tram to {zone:1453}"] = "乘地鐵到{zone:1453}",
 
 	-- Step 8: Fly to Lakeshire
 	-- {area:69} Lakeshire
-	["Fly to {area:69}"] = "",
+	["Fly to {area:69}"] = "飛往{area:69}",
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453}飛行管理員",
 
 	-- Step 9: Morgan's Vigil flight master
 	-- {area:2418} Morgan's Vigil
-	["{area:2418} flight master"] = "",
+	["{area:2418} flight master"] = "{area:2418}飛行管理員",
 
 	-- Step 10: Fly to Thelsamar
 	-- {area:144} Thelsamar
-	["Fly to {area:144}"] = "",
+	["Fly to {area:144}"] = "飛往{area:144}",
 
 	-- Step 11: Thelsamar
 	-- {zone:1427} Searing Gorge · {area:144} Thelsamar
-	["Set your hearth here: the {zone:1427} guide starts from {area:144}."] = "",
+	["Set your hearth here: the {zone:1427} guide starts from {area:144}."] = "把爐石設在這裡：{zone:1427}的指南從{area:144}開始。",
 
 	-- Step 12: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "飛往{area:150}",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144}飛行管理員",
 
 	-- Step 15: Rut'theran Village
 	-- {npc:7907} Daryn Lightwind · {npc:7916} Erelas Ambersky
-	["{npc:7907} stands upstairs, above {npc:7916}: go up inside, the arrow cannot tell the floors apart."] = "",
+	["{npc:7907} stands upstairs, above {npc:7916}: go up inside, the arrow cannot tell the floors apart."] = "{npc:7907}在樓上，{npc:7916}的上方：從室內上樓，箭頭無法區分樓層。",
 	-- {npc:7907} Daryn Lightwind · {zone:1446} Tanaris
 	["{npc:7907}'s next errand goes to {zone:1446}: skip it."] = "{npc:7907}的下一個差事要去{zone:1446}：跳過它。",
 	-- {npc:7916} Erelas Ambersky · {zone:1428} Burning Steppes
@@ -90,13 +90,13 @@ return {
 
 	-- Step 25: Fly to Auberdine
 	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "",
+	["Fly to {area:442}"] = "飛往{area:442}",
 	-- {area:702} Rut'theran Village
-	["{area:702} flight master"] = "",
+	["{area:702} flight master"] = "{area:702}飛行管理員",
 
 	-- Step 26: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
-	["Boat to {area:17203}"] = "",
+	["Boat to {area:17203}"] = "坐船到{area:17203}",
 
 	-- Step 27: Fly to Darkshire
 	-- {area:42} Darkshire
@@ -105,7 +105,7 @@ return {
 	-- Step 30: The bloodmages
 	["The bloodmages"] = "血法師",
 	-- {zone:1419} Blasted Lands · {area:1438} Nethergarde Keep
-	["The bloodmages' camp is the first stop beside the road into the {zone:1419}, north-west of {area:1438}."] = "",
+	["The bloodmages' camp is the first stop beside the road into the {zone:1419}, north-west of {area:1438}."] = "進入{zone:1419}後，第一個停靠點就是路旁的血法師營地，位於{area:1438}西北側。",
 
 	-- Step 31: Nethergarde Keep
 	-- {item:6091} Crate of Power Stones · {area:42} Darkshire
@@ -115,14 +115,14 @@ return {
 	-- {npc:8022} Thadius Grimshade · {item:9471} Nekrum's Medallion · {area:978} Zul'Farrak
 	["{npc:8022}' next task, {item:9471}, is a {area:978} quest: skip it."] = "{npc:8022}的下一個任務{item:9471}是{area:978}的任務：跳過它。",
 	-- {npc:5385} Watcher Mahar Ba
-	["{npc:5385}, upstairs"] = "",
+	["{npc:5385}, upstairs"] = "{npc:5385}，樓上",
 
 	-- Step 32: Blasted Lands: kill these as you meet them
 	-- {zone:1419} Blasted Lands
-	["{zone:1419}: kill these as you meet them"] = "",
+	["{zone:1419}: kill these as you meet them"] = "{zone:1419}：沿途擊殺以下目標",
 	-- {npc:5982} Black Slayer · {spell:5416} Venom Sting · {npc:8301} Clack the Reaver
 	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang · Scorpok Stingers = {npc:5988} Scorpok Stinger · Ashmane Boars = {npc:5992} Ashmane Boar · Redstone Basilisks = {npc:5990} Redstone Basilisk
-	["Ride west: Starving Snickerfangs roam the dry hills just south of the bloodmages' camp; Scorpok Stingers (level 50) scuttle across the middle of the north. {npc:5982} vultures circle over all of it. Pull one at a time.\nAshmane Boars and Redstone Basilisks share the slopes south-west of the keep. Keep clear of the Helboars further south: they are level 52.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "",
+	["Ride west: Starving Snickerfangs roam the dry hills just south of the bloodmages' camp; Scorpok Stingers (level 50) scuttle across the middle of the north. {npc:5982} vultures circle over all of it. Pull one at a time.\nAshmane Boars and Redstone Basilisks share the slopes south-west of the keep. Keep clear of the Helboars further south: they are level 52.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "向西騎：飢餓的竊齒獸在血法師營地南邊的乾旱丘陵遊蕩；斯科普克刺蠍（50級）在北側中部爬行。{npc:5982}禿鷲在整片區域上空盤旋。一次只拉一隻。\n灰鬃野豬和紅石蜥蜴分佈在堡壘西南的斜坡上。遠離更南邊的地獄野豬：它們是52級。\n注意：斯科普克刺蠍會使用{spell:5416}；{npc:8301}會附帶擊倒。",
 
 	-- Step 33: The bloodmages
 	["The bloodmages' second tier pays for the same parts with a buff item and no experience: skip it."] = "血法師的第二階段用增益物品換取同樣的材料，不給經驗值：跳過它。",
@@ -131,25 +131,25 @@ return {
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "飛往{area:35}",
 	-- {area:1438} Nethergarde Keep
-	["{area:1438} flight master"] = "",
+	["{area:1438} flight master"] = "{area:1438}飛行管理員",
 
 	-- Step 35: Booty Bay
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
+	["\"Sea Wolf\" MacKinley, on the top floor"] = "“海狼”馬克基雷，位於最頂層",
 	-- {npc:2487} Fleet Master Seahorn
 	["{npc:2487}, top floor"] = "{npc:2487}，頂樓",
 
 	-- Step 36: The Bloodsail captains
 	["The Bloodsail captains"] = "血帆船長",
 	-- {area:35} Booty Bay · {npc:2550} Captain Stillwater · {npc:2548} Captain Keelhaul · {npc:2546} Fleet Master Firallon
-	["The three Bloodsail ships lie at anchor off the coast just south of {area:35}: {npc:2550} (45) and {npc:2548} (46) on the nearer decks, {npc:2546} (48) on the flagship, each with a crew of 42-45 pirates. Swim out, clear each deck from the edge and pull one at a time."] = "",
+	["The three Bloodsail ships lie at anchor off the coast just south of {area:35}: {npc:2550} (45) and {npc:2548} (46) on the nearer decks, {npc:2546} (48) on the flagship, each with a crew of 42-45 pirates. Swim out, clear each deck from the edge and pull one at a time."] = "三艘血帆海盜船停在{area:35}正南的近海上：較近的甲板上有{npc:2550}（45級）和{npc:2548}（46級），旗艦上是{npc:2546}（48級），每艘都有42-45級的海盜船員。游過去，從甲板邊緣清起，一次拉一個。",
 
 	-- Step 38: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "這些是精英怪：建議組隊，找人一起做。{quest:8552}需要2人組隊。獨自一人時跳過：路線裡安排了刷怪補回經驗。",
 
 	-- Step 42: Facing Negolash
 	-- {npc:1494} Negolash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1494} (level 52 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1494} (level 52 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "這些是精英怪：建議組隊，找人一起做。{npc:1494}（52級精英）需要2人組隊。獨自一人時跳過：路線裡安排了刷怪補回經驗。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Ashmane Boars and Redstone Basilisks share the slopes south-west of the keep. Keep clear of the Helboars further south: they are level 52."] = "灰鬃野豬和紅石蜥蜴共同分布在要塞西南方的山坡上。遠離更南邊的地獄野豬：牠們是52級。",
